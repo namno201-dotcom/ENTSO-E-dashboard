@@ -10,29 +10,36 @@
     --bg:#F5F7FA; --card:#FFFFFF; --border:#E2E7EE;
     --text:#1A2332; --text2:#6B7A90; --text3:#94A3B8;
     --de:#2563EB; --nl:#EA8C1C; --be:#DC4C3F; --lu:#7C5CBF;
+    --no:#0891B2; --dz:#B45309; --az:#7C3AED;
     --good:#15803D; --bad:#B91C1C;
   }
   *{box-sizing:border-box;}
   body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",Arial,sans-serif;padding:24px;}
   .wrap{max-width:1616px;margin:0 auto;}
   h1{font-size:20px;margin:0 0 4px;}
-  .subtitle{color:var(--text2);font-size:12px;margin:0 0 20px;}
+  .subtitle{color:var(--text2);font-size:12px;margin:0 0 4px;}
+  .updated{color:var(--text3);font-size:11px;margin:0 0 20px;}
   .card{background:var(--card);border:1px solid var(--border);border-radius:10px;
         box-shadow:0 1px 3px rgba(26,35,50,0.06);padding:16px;}
   .row{display:flex;gap:16px;margin-bottom:16px;flex-wrap:wrap;}
+  .section-label{font-size:11px;font-weight:600;color:var(--text3);text-transform:uppercase;
+        letter-spacing:.04em;margin:4px 0 8px;}
   .headline{flex:1 1 100%;padding:16px 20px;}
   .headline .main{font-size:15px;font-weight:600;}
   .headline .note{font-size:11px;color:var(--text2);margin-top:6px;}
-  .kpi{flex:1 1 220px;min-height:120px;}
-  .kpi .name{font-size:12px;font-weight:600;color:var(--text2);margin-bottom:6px;}
-  .kpi .value{font-size:28px;font-weight:700;}
+  .kpi{flex:1 1 200px;min-height:150px;display:flex;flex-direction:column;}
+  .kpi .name{font-size:11px;font-weight:600;color:var(--text2);margin-bottom:6px;}
+  .kpi .value{font-size:26px;font-weight:700;}
   .kpi .delta{font-size:12px;font-weight:600;margin-top:2px;}
-  .kpi .caption{font-size:10px;color:var(--text3);margin-top:8px;}
+  .kpi .caption{font-size:10px;color:var(--text3);margin-top:4px;}
+  .kpi .spark{margin-top:8px;height:32px;}
   .good{color:var(--good);}
   .bad{color:var(--bad);}
-  .chart-card{flex:1 1 480px;min-height:340px;}
-  .chart-card h3{font-size:13px;margin:0 0 12px;}
-  canvas{max-height:280px;}
+  .chart-card{flex:1 1 480px;min-height:360px;}
+  .chart-card h3{font-size:13px;margin:0 0 2px;}
+  .chart-card .insight{font-size:11px;color:var(--text2);margin:0 0 10px;}
+  .chart-card canvas{max-height:270px;}
+  .full canvas{max-height:280px;}
   .footer{font-size:10px;color:var(--text3);text-align:center;margin-top:20px;}
   .loading{color:var(--text3);font-size:12px;}
 </style>
@@ -40,7 +47,8 @@
 <body>
 <div class="wrap">
   <h1>Westbridge Energy Market Dashboard</h1>
-  <p class="subtitle">Germany · Netherlands · Belgium · Luxembourg — electricity demand, generation mix &amp; cross-border flows. Source: ENTSO-E Transparency Platform. Auto-updated by GitHub Actions.</p>
+  <p class="subtitle">Germany · Netherlands · Belgium · Luxembourg electricity, plus Norway / Algeria / Azerbaijan gas import routes into Europe. Sources: ENTSO-E &amp; ENTSOG Transparency Platforms.</p>
+  <p class="updated" id="footer">Loading…</p>
 
   <div class="row">
     <div class="card headline">
@@ -49,42 +57,54 @@
     </div>
   </div>
 
-  <div class="row" id="kpiRow">
-    <div class="card kpi"><div class="name">Germany</div><div class="value loading">…</div></div>
-    <div class="card kpi"><div class="name">Netherlands</div><div class="value loading">…</div></div>
-    <div class="card kpi"><div class="name">Belgium</div><div class="value loading">…</div></div>
-    <div class="card kpi"><div class="name">Luxembourg</div><div class="value loading">…</div></div>
-  </div>
+  <div class="section-label">Electricity demand — latest day vs 30-day average</div>
+  <div class="row" id="kpiRow"></div>
+
+  <div class="section-label">Gas pipeline inflows — latest day vs 30-day average</div>
+  <div class="row" id="gasKpiRow"></div>
 
   <div class="row">
     <div class="card chart-card">
       <h3>Daily average electricity demand (GW)</h3>
+      <p class="insight">Germany anchors regional demand; Netherlands and Belgium track well below it, Luxembourg is negligible in scale.</p>
       <canvas id="loadChart"></canvas>
     </div>
     <div class="card chart-card">
-      <h3>Renewable share of generation (%)</h3>
+      <h3>Renewable share of generation (%, 7-day average)</h3>
+      <p class="insight">Smoothed to remove day-to-day weather noise — watch the trend, not the daily zig-zag.</p>
       <canvas id="renChart"></canvas>
     </div>
   </div>
 
   <div class="row">
     <div class="card chart-card">
-      <h3>Generation mix — DE + NL + BE combined, latest day (GW)</h3>
+      <h3>Generation mix — DE + NL + BE combined, latest day</h3>
+      <p class="insight" id="mixInsight">Top fuel types by share; smaller sources grouped into "Other".</p>
       <canvas id="mixChart"></canvas>
     </div>
     <div class="card chart-card">
-      <h3>Net cross-border position — positive = net export (GW)</h3>
+      <h3>Net cross-border position (GW, 7-day average)</h3>
+      <p class="insight">Positive = the country is a net electricity exporter that day, negative = net importer.</p>
       <canvas id="flowChart"></canvas>
     </div>
   </div>
 
-  <div class="footer" id="footer"></div>
+  <div class="row">
+    <div class="card chart-card full" style="flex-basis:100%;">
+      <h3>Gas import flows by origin (GWh/day, 7-day average)</h3>
+      <p class="insight">Physical flow at major entry points, grouped by supplying country — Norway (UK/FR/BE/DE landfalls), Algeria (Spain via Medgaz, Italy via Transmed), Azerbaijan (Greece via TAP/TANAP).</p>
+      <canvas id="gasChart"></canvas>
+    </div>
+  </div>
+
+  <div class="footer" id="footer2"></div>
 </div>
 
 <script>
-const COLORS = { DE: '#2563EB', NL: '#EA8C1C', BE: '#DC4C3F', LU: '#7C5CBF' };
+const COLORS = { DE: '#2563EB', NL: '#EA8C1C', BE: '#DC4C3F', LU: '#7C5CBF',
+                  Norway: '#0891B2', Algeria: '#B45309', Azerbaijan: '#7C3AED' };
 const NAMES  = { DE: 'Germany', NL: 'Netherlands', BE: 'Belgium', LU: 'Luxembourg' };
-const PALETTE = ['#2563EB','#EA8C1C','#DC4C3F','#7C5CBF','#0891B2','#15803D','#94A3B8','#B45309','#0D9488','#7C3AED','#DB2777','#65A30D'];
+const PALETTE = ['#2563EB','#EA8C1C','#DC4C3F','#7C5CBF','#0891B2','#15803D','#94A3B8'];
 
 async function loadJSON(path){
   const res = await fetch(path, { cache: 'no-store' });
@@ -97,9 +117,31 @@ function fmtDate(iso){
   return d.toLocaleDateString('en-GB', { day:'numeric', month:'short' });
 }
 
-function renderKPIs(summary){
+// Simple trailing N-day rolling average over a (dates, values) series, keeping nulls as gaps.
+function rollingAvg(values, window){
+  const out = [];
+  for(let i=0;i<values.length;i++){
+    const start = Math.max(0, i - window + 1);
+    const slice = values.slice(start, i+1).filter(v => v !== null && v !== undefined && !Number.isNaN(v));
+    out.push(slice.length ? slice.reduce((a,b)=>a+b,0)/slice.length : null);
+  }
+  return out;
+}
+
+function groupBy(arr, keyFn){
+  const m = new Map();
+  for(const row of arr){
+    const k = keyFn(row);
+    if(!m.has(k)) m.set(k, []);
+    m.get(k).push(row);
+  }
+  return m;
+}
+
+function renderKPIs(summary, loadDaily){
   const row = document.getElementById('kpiRow');
   row.innerHTML = '';
+  const byCode = groupBy(loadDaily, r => r.code);
   ['DE','NL','BE','LU'].forEach(code => {
     const k = summary.kpis[code];
     const div = document.createElement('div');
@@ -112,29 +154,82 @@ function renderKPIs(summary){
     const pct = k.pct * 100;
     const cls = pct >= 0 ? 'good' : 'bad';
     const sign = pct >= 0 ? '+' : '';
+    const cid = 'spark_' + code;
     div.innerHTML = `
       <div class="name">${NAMES[code]} — Power demand</div>
       <div class="value ${cls}">${k.latestGW.toFixed(2).replace('.', ',')} GW</div>
       <div class="delta ${cls}">${sign}${pct.toFixed(1)}% vs 30d avg</div>
       <div class="caption">Avg load, ${fmtDate(k.date)}</div>
+      <div class="spark"><canvas id="${cid}"></canvas></div>
     `;
     row.appendChild(div);
+
+    const rows = (byCode.get(code) || []).slice(-30);
+    new Chart(document.getElementById(cid), {
+      type: 'line',
+      data: { labels: rows.map(r=>r.date), datasets: [{
+        data: rows.map(r=>r.avgMW/1000),
+        borderColor: COLORS[code], borderWidth: 1.5, pointRadius: 0, tension: 0.2, fill: false,
+      }]},
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        scales: { x: { display:false }, y: { display:false } },
+        plugins: { legend: { display:false }, tooltip: { enabled:false } },
+        elements: { line: { borderJoinStyle: 'round' } },
+      }
+    });
+  });
+}
+
+function renderGasKPIs(gasDaily){
+  const row = document.getElementById('gasKpiRow');
+  row.innerHTML = '';
+  const byOrigin = groupBy(gasDaily, r => r.origin);
+  ['Norway','Algeria','Azerbaijan'].forEach(origin => {
+    const rows = (byOrigin.get(origin) || []).slice().sort((a,b)=>a.date.localeCompare(b.date));
+    const div = document.createElement('div');
+    div.className = 'card kpi';
+    if(!rows.length){
+      div.innerHTML = `<div class="name">${origin}</div><div class="value">n/a</div>`;
+      row.appendChild(div);
+      return;
+    }
+    const latest = rows[rows.length-1];
+    const last30 = rows.slice(-30);
+    const avg30 = last30.reduce((a,r)=>a+r.gwhPerDay,0) / last30.length;
+    const pct = avg30 ? (latest.gwhPerDay - avg30) / avg30 * 100 : 0;
+    const cls = pct >= 0 ? 'good' : 'bad';
+    const sign = pct >= 0 ? '+' : '';
+    const cid = 'gspark_' + origin;
+    div.innerHTML = `
+      <div class="name">${origin} — Gas inflow</div>
+      <div class="value ${cls}">${latest.gwhPerDay.toFixed(0)} GWh/d</div>
+      <div class="delta ${cls}">${sign}${pct.toFixed(1)}% vs 30d avg</div>
+      <div class="caption">Total entry flow, ${fmtDate(latest.date)}</div>
+      <div class="spark"><canvas id="${cid}"></canvas></div>
+    `;
+    row.appendChild(div);
+
+    const spark = rows.slice(-30);
+    new Chart(document.getElementById(cid), {
+      type: 'line',
+      data: { labels: spark.map(r=>r.date), datasets: [{
+        data: spark.map(r=>r.gwhPerDay),
+        borderColor: COLORS[origin], borderWidth: 1.5, pointRadius: 0, tension: 0.2, fill: false,
+      }]},
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        scales: { x: { display:false }, y: { display:false } },
+        plugins: { legend: { display:false }, tooltip: { enabled:false } },
+      }
+    });
   });
 }
 
 function renderHeadline(summary){
   document.getElementById('headline').textContent = summary.headline || 'No headline available.';
-  document.getElementById('footer').textContent = 'Data generated ' + new Date(summary.generatedAt).toLocaleString('en-GB') + ' UTC';
-}
-
-function groupBy(arr, keyFn){
-  const m = new Map();
-  for(const row of arr){
-    const k = keyFn(row);
-    if(!m.has(k)) m.set(k, []);
-    m.get(k).push(row);
-  }
-  return m;
+  const el1 = document.getElementById('footer');
+  if (el1) el1.textContent = 'Data generated ' + new Date(summary.generatedAt).toLocaleString('en-GB') + ' UTC';
 }
 
 function renderLoadChart(loadDaily){
@@ -171,15 +266,18 @@ function renderRenewableChart(genDaily){
   }
   const codes = [...new Set(genDaily.map(r => r.code))];
   const allDates = [...new Set(genDaily.map(r => r.date))].sort();
-  const datasets = codes.map(code => ({
-    label: NAMES[code],
-    data: allDates.map(d => {
+  const datasets = codes.map(code => {
+    const raw = allDates.map(d => {
       const e = byCodeDate.get(code + '|' + d);
       return e && e.total ? (e.renewable / e.total) * 100 : null;
-    }),
-    borderColor: COLORS[code], backgroundColor: COLORS[code],
-    borderWidth: 2, pointRadius: 0, tension: 0.15, spanGaps: true,
-  }));
+    });
+    return {
+      label: NAMES[code],
+      data: rollingAvg(raw, 7),
+      borderColor: COLORS[code], backgroundColor: COLORS[code],
+      borderWidth: 2, pointRadius: 0, tension: 0.15, spanGaps: true,
+    };
+  });
   new Chart(document.getElementById('renChart'), {
     type: 'line',
     data: { labels: allDates.map(fmtDate), datasets },
@@ -203,11 +301,29 @@ function renderMixChart(genDaily){
     if(row.date !== latestByCode[row.code]) continue;
     totals.set(row.productionType, (totals.get(row.productionType) || 0) + row.avgMW / 1000);
   }
-  const entries = [...totals.entries()].sort((a,b) => b[1]-a[1]);
+  let entries = [...totals.entries()].sort((a,b) => b[1]-a[1]);
+  const grandTotal = entries.reduce((a,e)=>a+e[1],0);
+
+  const TOP_N = 6;
+  if(entries.length > TOP_N){
+    const top = entries.slice(0, TOP_N);
+    const restSum = entries.slice(TOP_N).reduce((a,e)=>a+e[1],0);
+    entries = top.concat([['Other', restSum]]);
+  }
+
+  const labels = entries.map(e => {
+    const pct = grandTotal ? (e[1]/grandTotal*100) : 0;
+    return `${e[0]} (${pct.toFixed(0)}%)`;
+  });
+
+  document.getElementById('mixInsight').textContent =
+    entries.length && grandTotal ? `${entries[0][0]} is the largest source today at ${(entries[0][1]/grandTotal*100).toFixed(0)}% of combined DE+NL+BE generation.` :
+    'Top fuel types by share; smaller sources grouped into "Other".';
+
   new Chart(document.getElementById('mixChart'), {
     type: 'doughnut',
     data: {
-      labels: entries.map(e => e[0]),
+      labels,
       datasets: [{ data: entries.map(e => Math.round(e[1]*100)/100), backgroundColor: PALETTE, borderWidth: 1, borderColor: '#fff' }]
     },
     options: {
@@ -220,27 +336,50 @@ function renderMixChart(genDaily){
 function renderFlowChart(flowDaily){
   const countries = ['DE','NL','BE'];
   const allDates = [...new Set(flowDaily.map(r => r.date))].sort();
-  const net = new Map();
-  for(const c of countries){
+  const datasets = countries.map(c => {
     const perDate = new Map(allDates.map(d => [d, 0]));
     for(const row of flowDaily){
       if(row.from === c) perDate.set(row.date, (perDate.get(row.date) || 0) + row.netMW / 1000);
       if(row.to === c) perDate.set(row.date, (perDate.get(row.date) || 0) - row.netMW / 1000);
     }
-    net.set(c, perDate);
-  }
-  const datasets = countries.map(c => ({
-    label: NAMES[c],
-    data: allDates.map(d => net.get(c).get(d)),
-    borderColor: COLORS[c], backgroundColor: COLORS[c] + '33',
-    borderWidth: 2, pointRadius: 0, tension: 0.15, fill: false,
-  }));
+    const raw = allDates.map(d => perDate.get(d));
+    return {
+      label: NAMES[c],
+      data: rollingAvg(raw, 7),
+      borderColor: COLORS[c], backgroundColor: COLORS[c] + '33',
+      borderWidth: 2, pointRadius: 0, tension: 0.15, fill: false,
+    };
+  });
   new Chart(document.getElementById('flowChart'), {
     type: 'line',
     data: { labels: allDates.map(fmtDate), datasets },
     options: {
       responsive: true, maintainAspectRatio: false,
       scales: { y: { title: { display: true, text: 'GW' } } },
+      plugins: { legend: { position: 'top', labels: { boxWidth: 10, font: { size: 10 } } } },
+    }
+  });
+}
+
+function renderGasChart(gasDaily){
+  const origins = ['Norway','Algeria','Azerbaijan'];
+  const allDates = [...new Set(gasDaily.map(r => r.date))].sort();
+  const datasets = origins.map(origin => {
+    const byDate = new Map(gasDaily.filter(r=>r.origin===origin).map(r => [r.date, r.gwhPerDay]));
+    const raw = allDates.map(d => byDate.has(d) ? byDate.get(d) : null);
+    return {
+      label: origin,
+      data: rollingAvg(raw, 7),
+      borderColor: COLORS[origin], backgroundColor: COLORS[origin],
+      borderWidth: 2, pointRadius: 0, tension: 0.15, spanGaps: true,
+    };
+  });
+  new Chart(document.getElementById('gasChart'), {
+    type: 'line',
+    data: { labels: allDates.map(fmtDate), datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      scales: { y: { title: { display: true, text: 'GWh/day' } } },
       plugins: { legend: { position: 'top', labels: { boxWidth: 10, font: { size: 10 } } } },
     }
   });
@@ -255,13 +394,22 @@ async function main(){
       loadJSON('data/flows_daily.json'),
     ]);
     renderHeadline(summary);
-    renderKPIs(summary);
+    renderKPIs(summary, loadDaily);
     renderLoadChart(loadDaily);
     renderRenewableChart(genDaily);
     renderMixChart(genDaily);
     renderFlowChart(flowDaily);
   }catch(err){
-    document.getElementById('headline').textContent = 'Could not load data — ' + err.message + '. Make sure the GitHub Action has run at least once.';
+    document.getElementById('headline').textContent = 'Could not load electricity data — ' + err.message + '. Make sure the GitHub Action has run at least once.';
+    console.error(err);
+  }
+
+  try{
+    const gasDaily = await loadJSON('data/gas_flows_daily.json');
+    renderGasKPIs(gasDaily);
+    renderGasChart(gasDaily);
+  }catch(err){
+    document.getElementById('gasKpiRow').innerHTML = '<p class="loading">Could not load gas pipeline data — ' + err.message + '</p>';
     console.error(err);
   }
 }
