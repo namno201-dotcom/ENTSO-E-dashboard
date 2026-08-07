@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-08-07T07:56:30.782135+00:00",
+  "headline": "As of 6 August 2026, demand is running 0.4% below the 30-day average.",
+  "kpis": {
+    "DE": {
+      "date": "2026-08-06",
+      "latestGW": 51.47,
+      "avg30dGW": 51.07,
+      "pct": 0.008
+    },
+    "NL": {
+      "date": "2026-08-06",
+      "latestGW": 7.65,
+      "avg30dGW": 8.26,
+      "pct": -0.0743
+    },
+    "BE": {
+      "date": "2026-08-06",
+      "latestGW": 8.58,
+      "avg30dGW": 8.64,
+      "pct": -0.0069
+    },
+    "LU": {
+      "date": "2026-08-06",
+      "latestGW": 0.5,
+      "avg30dGW": 0.52,
+      "pct": -0.0414
+    }
+  },
+  "renewable": {
+    "DE": {
+      "date": "2026-08-06",
+      "totalGW": 49.89,
+      "renewableGW": 37.32,
+      "renewableShare": 0.7479
+    },
+    "NL": {
+      "date": "2026-08-07",
+      "totalGW": 4.48,
+      "renewableGW": 0.16,
+      "renewableShare": 0.0354
+    },
+    "BE": {
+      "date": "2026-08-06",
+      "totalGW": 4.55,
+      "renewableGW": 3.1,
+      "renewableShare": 0.6822
+    }
+  },
+  "countryNames": {
+    "DE": "Germany",
+    "NL": "Netherlands",
+    "BE": "Belgium",
+    "LU": "Luxembourg"
+  }
+}
