@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Westbridge Energy Market Dashboard — DE / NL / BE / LU</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#F5F7FA; --card:#FFFFFF; --border:#E2E7EE;
+    --text:#1A2332; --text2:#6B7A90; --text3:#94A3B8;
+    --de:#2563EB; --nl:#EA8C1C; --be:#DC4C3F; --lu:#7C5CBF;
+    --good:#15803D; --bad:#B91C1C;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",Arial,sans-serif;padding:24px;}
+  .wrap{max-width:1616px;margin:0 auto;}
+  h1{font-size:20px;margin:0 0 4px;}
+  .subtitle{color:var(--text2);font-size:12px;margin:0 0 20px;}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:10px;
+        box-shadow:0 1px 3px rgba(26,35,50,0.06);padding:16px;}
+  .row{display:flex;gap:16px;margin-bottom:16px;flex-wrap:wrap;}
+  .headline{flex:1 1 100%;padding:16px 20px;}
+  .headline .main{font-size:15px;font-weight:600;}
+  .headline .note{font-size:11px;color:var(--text2);margin-top:6px;}
+  .kpi{flex:1 1 220px;min-height:120px;}
+  .kpi .name{font-size:12px;font-weight:600;color:var(--text2);margin-bottom:6px;}
+  .kpi .value{font-size:28px;font-weight:700;}
+  .kpi .delta{font-size:12px;font-weight:600;margin-top:2px;}
+  .kpi .caption{font-size:10px;color:var(--text3);margin-top:8px;}
+  .good{color:var(--good);}
+  .bad{color:var(--bad);}
+  .chart-card{flex:1 1 480px;min-height:340px;}
+  .chart-card h3{font-size:13px;margin:0 0 12px;}
+  canvas{max-height:280px;}
+  .footer{font-size:10px;color:var(--text3);text-align:center;margin-top:20px;}
+  .loading{color:var(--text3);font-size:12px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Westbridge Energy Market Dashboard</h1>
+  <p class="subtitle">Germany · Netherlands · Belgium · Luxembourg — electricity demand, generation mix &amp; cross-border flows. Source: ENTSO-E Transparency Platform. Auto-updated by GitHub Actions.</p>
+
+  <div class="row">
+    <div class="card headline">
+      <div class="main" id="headline">Loading latest data…</div>
+      <div class="note">Power demand (GW) = average electricity load. Rising demand typically pushes wholesale power prices higher, which flows into invoice costs — a key signal to watch alongside gas storage and generation mix.</div>
+    </div>
+  </div>
+
+  <div class="row" id="kpiRow">
+    <div class="card kpi"><div class="name">Germany</div><div class="value loading">…</div></div>
+    <div class="card kpi"><div class="name">Netherlands</div><div class="value loading">…</div></div>
+    <div class="card kpi"><div class="name">Belgium</div><div class="value loading">…</div></div>
+    <div class="card kpi"><div class="name">Luxembourg</div><div class="value loading">…</div></div>
+  </div>
+
+  <div class="row">
+    <div class="card chart-card">
+      <h3>Daily average electricity demand (GW)</h3>
+      <canvas id="loadChart"></canvas>
+    </div>
+    <div class="card chart-card">
+      <h3>Renewable share of generation (%)</h3>
+      <canvas id="renChart"></canvas>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="card chart-card">
+      <h3>Generation mix — DE + NL + BE combined, latest day (GW)</h3>
+      <canvas id="mixChart"></canvas>
+    </div>
+    <div class="card chart-card">
+      <h3>Net cross-border position — positive = net export (GW)</h3>
+      <canvas id="flowChart"></canvas>
+    </div>
+  </div>
+
+  <div class="footer" id="footer"></div>
+</div>
+
+<script>
+const COLORS = { DE: '#2563EB', NL: '#EA8C1C', BE: '#DC4C3F', LU: '#7C5CBF' };
+const NAMES  = { DE: 'Germany', NL: 'Netherlands', BE: 'Belgium', LU: 'Luxembourg' };
+const PALETTE = ['#2563EB','#EA8C1C','#DC4C3F','#7C5CBF','#0891B2','#15803D','#94A3B8','#B45309','#0D9488','#7C3AED','#DB2777','#65A30D'];
+
+async function loadJSON(path){
+  const res = await fetch(path, { cache: 'no-store' });
+  if(!res.ok) throw new Error('Failed to load ' + path);
+  return res.json();
+}
+
+function fmtDate(iso){
+  const d = new Date(iso + 'T00:00:00Z');
+  return d.toLocaleDateString('en-GB', { day:'numeric', month:'short' });
+}
+
+function renderKPIs(summary){
+  const row = document.getElementById('kpiRow');
+  row.innerHTML = '';
+  ['DE','NL','BE','LU'].forEach(code => {
+    const k = summary.kpis[code];
+    const div = document.createElement('div');
+    div.className = 'card kpi';
+    if(!k){
+      div.innerHTML = `<div class="name">${NAMES[code]}</div><div class="value">n/a</div>`;
+      row.appendChild(div);
+      return;
+    }
+    const pct = k.pct * 100;
+    const cls = pct >= 0 ? 'good' : 'bad';
+    const sign = pct >= 0 ? '+' : '';
+    div.innerHTML = `
+      <div class="name">${NAMES[code]} — Power demand</div>
+      <div class="value ${cls}">${k.latestGW.toFixed(2).replace('.', ',')} GW</div>
+      <div class="delta ${cls}">${sign}${pct.toFixed(1)}% vs 30d avg</div>
+      <div class="caption">Avg load, ${fmtDate(k.date)}</div>
+    `;
+    row.appendChild(div);
+  });
+}
+
+function renderHeadline(summary){
+  document.getElementById('headline').textContent = summary.headline || 'No headline available.';
+  document.getElementById('footer').textContent = 'Data generated ' + new Date(summary.generatedAt).toLocaleString('en-GB') + ' UTC';
+}
+
+function groupBy(arr, keyFn){
+  const m = new Map();
+  for(const row of arr){
+    const k = keyFn(row);
+    if(!m.has(k)) m.set(k, []);
+    m.get(k).push(row);
+  }
+  return m;
+}
+
+function renderLoadChart(loadDaily){
+  const byCode = groupBy(loadDaily, r => r.code);
+  const allDates = [...new Set(loadDaily.map(r => r.date))].sort();
+  const datasets = [...byCode.entries()].map(([code, rows]) => {
+    const byDate = new Map(rows.map(r => [r.date, r.avgMW / 1000]));
+    return {
+      label: NAMES[code],
+      data: allDates.map(d => byDate.has(d) ? byDate.get(d) : null),
+      borderColor: COLORS[code], backgroundColor: COLORS[code],
+      borderWidth: 2, pointRadius: 0, tension: 0.15, spanGaps: true,
+    };
+  });
+  new Chart(document.getElementById('loadChart'), {
+    type: 'line',
+    data: { labels: allDates.map(fmtDate), datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      scales: { y: { title: { display: true, text: 'GW' } } },
+      plugins: { legend: { position: 'top', labels: { boxWidth: 10, font: { size: 10 } } } },
+    }
+  });
+}
+
+function renderRenewableChart(genDaily){
+  const byCodeDate = new Map();
+  for(const row of genDaily){
+    const key = row.code + '|' + row.date;
+    if(!byCodeDate.has(key)) byCodeDate.set(key, { total: 0, renewable: 0 });
+    const e = byCodeDate.get(key);
+    e.total += row.avgMW;
+    if(row.isRenewable) e.renewable += row.avgMW;
+  }
+  const codes = [...new Set(genDaily.map(r => r.code))];
+  const allDates = [...new Set(genDaily.map(r => r.date))].sort();
+  const datasets = codes.map(code => ({
+    label: NAMES[code],
+    data: allDates.map(d => {
+      const e = byCodeDate.get(code + '|' + d);
+      return e && e.total ? (e.renewable / e.total) * 100 : null;
+    }),
+    borderColor: COLORS[code], backgroundColor: COLORS[code],
+    borderWidth: 2, pointRadius: 0, tension: 0.15, spanGaps: true,
+  }));
+  new Chart(document.getElementById('renChart'), {
+    type: 'line',
+    data: { labels: allDates.map(fmtDate), datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      scales: { y: { title: { display: true, text: '%' }, min: 0, max: 100 } },
+      plugins: { legend: { position: 'top', labels: { boxWidth: 10, font: { size: 10 } } } },
+    }
+  });
+}
+
+function renderMixChart(genDaily){
+  const codes = [...new Set(genDaily.map(r => r.code))];
+  let latestByCode = {};
+  codes.forEach(code => {
+    const dates = genDaily.filter(r => r.code === code).map(r => r.date);
+    latestByCode[code] = dates.length ? dates.sort().slice(-1)[0] : null;
+  });
+  const totals = new Map();
+  for(const row of genDaily){
+    if(row.date !== latestByCode[row.code]) continue;
+    totals.set(row.productionType, (totals.get(row.productionType) || 0) + row.avgMW / 1000);
+  }
+  const entries = [...totals.entries()].sort((a,b) => b[1]-a[1]);
+  new Chart(document.getElementById('mixChart'), {
+    type: 'doughnut',
+    data: {
+      labels: entries.map(e => e[0]),
+      datasets: [{ data: entries.map(e => Math.round(e[1]*100)/100), backgroundColor: PALETTE, borderWidth: 1, borderColor: '#fff' }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false, cutout: '60%',
+      plugins: { legend: { position: 'right', labels: { boxWidth: 10, font: { size: 10 } } } },
+    }
+  });
+}
+
+function renderFlowChart(flowDaily){
+  const countries = ['DE','NL','BE'];
+  const allDates = [...new Set(flowDaily.map(r => r.date))].sort();
+  const net = new Map();
+  for(const c of countries){
+    const perDate = new Map(allDates.map(d => [d, 0]));
+    for(const row of flowDaily){
+      if(row.from === c) perDate.set(row.date, (perDate.get(row.date) || 0) + row.netMW / 1000);
+      if(row.to === c) perDate.set(row.date, (perDate.get(row.date) || 0) - row.netMW / 1000);
+    }
+    net.set(c, perDate);
+  }
+  const datasets = countries.map(c => ({
+    label: NAMES[c],
+    data: allDates.map(d => net.get(c).get(d)),
+    borderColor: COLORS[c], backgroundColor: COLORS[c] + '33',
+    borderWidth: 2, pointRadius: 0, tension: 0.15, fill: false,
+  }));
+  new Chart(document.getElementById('flowChart'), {
+    type: 'line',
+    data: { labels: allDates.map(fmtDate), datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      scales: { y: { title: { display: true, text: 'GW' } } },
+      plugins: { legend: { position: 'top', labels: { boxWidth: 10, font: { size: 10 } } } },
+    }
+  });
+}
+
+async function main(){
+  try{
+    const [summary, loadDaily, genDaily, flowDaily] = await Promise.all([
+      loadJSON('data/summary.json'),
+      loadJSON('data/load_daily.json'),
+      loadJSON('data/generation_daily.json'),
+      loadJSON('data/flows_daily.json'),
+    ]);
+    renderHeadline(summary);
+    renderKPIs(summary);
+    renderLoadChart(loadDaily);
+    renderRenewableChart(genDaily);
+    renderMixChart(genDaily);
+    renderFlowChart(flowDaily);
+  }catch(err){
+    document.getElementById('headline').textContent = 'Could not load data — ' + err.message + '. Make sure the GitHub Action has run at least once.';
+    console.error(err);
+  }
+}
+main();
+</script>
+</body>
+</html>
