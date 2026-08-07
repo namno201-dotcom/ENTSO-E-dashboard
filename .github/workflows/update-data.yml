@@ -28,6 +28,9 @@ jobs:
           ENTSOE_TOKEN: ${{ secrets.ENTSOE_TOKEN }}
         run: python scripts/fetch_entsoe.py
 
+      - name: Fetch ENTSOG gas pipeline data
+        run: python scripts/fetch_entsog.py
+
       - name: Commit and push updated data
         run: |
           git config user.name "github-actions[bot]"
