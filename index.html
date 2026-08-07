@@ -33,6 +33,7 @@
   .kpi .delta{font-size:12px;font-weight:600;margin-top:2px;}
   .kpi .caption{font-size:10px;color:var(--text3);margin-top:4px;}
   .kpi .spark{margin-top:8px;height:32px;}
+  .kpi .spark-range{display:flex;justify-content:space-between;font-size:9px;color:var(--text3);margin-top:2px;}
   .good{color:var(--good);}
   .bad{color:var(--bad);}
   .chart-card{flex:1 1 480px;min-height:360px;}
@@ -168,22 +169,32 @@ function renderKPIs(summary, loadDaily){
     const cls = pct >= 0 ? 'good' : 'bad';
     const sign = pct >= 0 ? '+' : '';
     const cid = 'spark_' + code;
+    const rows = (byCode.get(code) || []).slice(-30);
+    const vals = rows.map(r=>r.avgMW/1000);
+    const minV = vals.length ? Math.min(...vals) : 0;
+    const maxV = vals.length ? Math.max(...vals) : 0;
     div.innerHTML = `
       <div class="name">${NAMES[code]} — Power demand</div>
       <div class="value ${cls}">${k.latestGW.toFixed(2).replace('.', ',')} GW</div>
-      <div class="delta ${cls}">${sign}${pct.toFixed(1)}% vs 30d avg</div>
-      <div class="caption">Avg load, ${fmtDate(k.date)} · last 30 days trend below</div>
+      <div class="delta ${cls}">${sign}${pct.toFixed(1)}% vs 30d avg (${k.thirtyDayAvgGW ? k.thirtyDayAvgGW.toFixed(1) : (vals.reduce((a,b)=>a+b,0)/(vals.length||1)).toFixed(1)} GW)</div>
       <div class="spark"><canvas id="${cid}"></canvas></div>
+      <div class="spark-range"><span>${rows.length?fmtDate(rows[0].date):''}</span><span>low ${minV.toFixed(1)} · high ${maxV.toFixed(1)} GW</span><span>${rows.length?fmtDate(rows[rows.length-1].date):''}</span></div>
     `;
     row.appendChild(div);
 
-    const rows = (byCode.get(code) || []).slice(-30);
+    const avgLine = new Array(rows.length).fill(vals.reduce((a,b)=>a+b,0)/(vals.length||1));
     new Chart(document.getElementById(cid), {
       type: 'line',
-      data: { labels: rows.map(r=>r.date), datasets: [{
-        data: rows.map(r=>r.avgMW/1000),
-        borderColor: COLORS[code], borderWidth: 1.5, pointRadius: 0, tension: 0.2, fill: false,
-      }]},
+      data: { labels: rows.map(r=>r.date), datasets: [
+        {
+          data: vals,
+          borderColor: COLORS[code], borderWidth: 1.5, pointRadius: 0, tension: 0.2, fill: false,
+        },
+        {
+          data: avgLine,
+          borderColor: '#94A3B8', borderWidth: 1, borderDash: [3,3], pointRadius: 0, tension: 0, fill: false,
+        },
+      ]},
       options: {
         responsive: true, maintainAspectRatio: false,
         scales: { x: { display:false }, y: { display:false } },
@@ -214,22 +225,32 @@ function renderGasKPIs(gasDaily){
     const cls = pct >= 0 ? 'good' : 'bad';
     const sign = pct >= 0 ? '+' : '';
     const cid = 'gspark_' + origin;
+    const spark = rows.slice(-30);
+    const gvals = spark.map(r=>r.gwhPerDay);
+    const gMin = gvals.length ? Math.min(...gvals) : 0;
+    const gMax = gvals.length ? Math.max(...gvals) : 0;
     div.innerHTML = `
       <div class="name">${origin} — Gas inflow</div>
       <div class="value ${cls}">${latest.gwhPerDay.toFixed(0)} GWh/d</div>
-      <div class="delta ${cls}">${sign}${pct.toFixed(1)}% vs 30d avg</div>
-      <div class="caption">Total entry flow, ${fmtDate(latest.date)} · last 30 days trend below</div>
+      <div class="delta ${cls}">${sign}${pct.toFixed(1)}% vs 30d avg (${avg30.toFixed(0)} GWh/d)</div>
       <div class="spark"><canvas id="${cid}"></canvas></div>
+      <div class="spark-range"><span>${spark.length?fmtDate(spark[0].date):''}</span><span>low ${gMin.toFixed(0)} · high ${gMax.toFixed(0)}</span><span>${spark.length?fmtDate(spark[spark.length-1].date):''}</span></div>
     `;
     row.appendChild(div);
 
-    const spark = rows.slice(-30);
+    const gAvgLine = new Array(spark.length).fill(avg30);
     new Chart(document.getElementById(cid), {
       type: 'line',
-      data: { labels: spark.map(r=>r.date), datasets: [{
-        data: spark.map(r=>r.gwhPerDay),
-        borderColor: COLORS[origin], borderWidth: 1.5, pointRadius: 0, tension: 0.2, fill: false,
-      }]},
+      data: { labels: spark.map(r=>r.date), datasets: [
+        {
+          data: gvals,
+          borderColor: COLORS[origin], borderWidth: 1.5, pointRadius: 0, tension: 0.2, fill: false,
+        },
+        {
+          data: gAvgLine,
+          borderColor: '#94A3B8', borderWidth: 1, borderDash: [3,3], pointRadius: 0, tension: 0, fill: false,
+        },
+      ]},
       options: {
         responsive: true, maintainAspectRatio: false,
         scales: { x: { display:false }, y: { display:false } },
