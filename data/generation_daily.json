@@ -83,7 +83,7 @@
     "code": "BE",
     "date": "2026-01-01",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 74.49
   },
@@ -171,7 +171,7 @@
     "code": "BE",
     "date": "2026-01-02",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 111.09
   },
@@ -259,7 +259,7 @@
     "code": "BE",
     "date": "2026-01-03",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 77.05
   },
@@ -347,7 +347,7 @@
     "code": "BE",
     "date": "2026-01-04",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 78.59
   },
@@ -435,7 +435,7 @@
     "code": "BE",
     "date": "2026-01-05",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 98.63
   },
@@ -523,7 +523,7 @@
     "code": "BE",
     "date": "2026-01-06",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 95.39
   },
@@ -611,7 +611,7 @@
     "code": "BE",
     "date": "2026-01-07",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 54.36
   },
@@ -699,7 +699,7 @@
     "code": "BE",
     "date": "2026-01-08",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 89.81
   },
@@ -787,7 +787,7 @@
     "code": "BE",
     "date": "2026-01-09",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 96.5
   },
@@ -875,7 +875,7 @@
     "code": "BE",
     "date": "2026-01-10",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 80.07
   },
@@ -963,7 +963,7 @@
     "code": "BE",
     "date": "2026-01-11",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 59.21
   },
@@ -1051,7 +1051,7 @@
     "code": "BE",
     "date": "2026-01-12",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 86.28
   },
@@ -1139,7 +1139,7 @@
     "code": "BE",
     "date": "2026-01-13",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 70.29
   },
@@ -1227,7 +1227,7 @@
     "code": "BE",
     "date": "2026-01-14",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 73.21
   },
@@ -1315,7 +1315,7 @@
     "code": "BE",
     "date": "2026-01-15",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 53.28
   },
@@ -1403,7 +1403,7 @@
     "code": "BE",
     "date": "2026-01-16",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 72.24
   },
@@ -1491,7 +1491,7 @@
     "code": "BE",
     "date": "2026-01-17",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 57.89
   },
@@ -1579,7 +1579,7 @@
     "code": "BE",
     "date": "2026-01-18",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 53.15
   },
@@ -1667,7 +1667,7 @@
     "code": "BE",
     "date": "2026-01-19",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 90.11
   },
@@ -1755,7 +1755,7 @@
     "code": "BE",
     "date": "2026-01-20",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 89.76
   },
@@ -1843,7 +1843,7 @@
     "code": "BE",
     "date": "2026-01-21",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 91.36
   },
@@ -1931,7 +1931,7 @@
     "code": "BE",
     "date": "2026-01-22",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 82.98
   },
@@ -2019,7 +2019,7 @@
     "code": "BE",
     "date": "2026-01-23",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 78.79
   },
@@ -2107,7 +2107,7 @@
     "code": "BE",
     "date": "2026-01-24",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 87.62
   },
@@ -2195,7 +2195,7 @@
     "code": "BE",
     "date": "2026-01-25",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 77.25
   },
@@ -2283,7 +2283,7 @@
     "code": "BE",
     "date": "2026-01-26",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 81.36
   },
@@ -2371,7 +2371,7 @@
     "code": "BE",
     "date": "2026-01-27",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 66.39
   },
@@ -2459,7 +2459,7 @@
     "code": "BE",
     "date": "2026-01-28",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 91.98
   },
@@ -2547,7 +2547,7 @@
     "code": "BE",
     "date": "2026-01-29",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 89.41
   },
@@ -2635,7 +2635,7 @@
     "code": "BE",
     "date": "2026-01-30",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 93.3
   },
@@ -2723,7 +2723,7 @@
     "code": "BE",
     "date": "2026-01-31",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 68.63
   },
@@ -2811,7 +2811,7 @@
     "code": "BE",
     "date": "2026-02-01",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 60.06
   },
@@ -2899,7 +2899,7 @@
     "code": "BE",
     "date": "2026-02-02",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 68.49
   },
@@ -2987,7 +2987,7 @@
     "code": "BE",
     "date": "2026-02-03",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 81.54
   },
@@ -3075,7 +3075,7 @@
     "code": "BE",
     "date": "2026-02-04",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 61.54
   },
@@ -3163,7 +3163,7 @@
     "code": "BE",
     "date": "2026-02-05",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 56.52
   },
@@ -3251,7 +3251,7 @@
     "code": "BE",
     "date": "2026-02-06",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 59.48
   },
@@ -3339,7 +3339,7 @@
     "code": "BE",
     "date": "2026-02-07",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 75.55
   },
@@ -3427,7 +3427,7 @@
     "code": "BE",
     "date": "2026-02-08",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 60.55
   },
@@ -3515,7 +3515,7 @@
     "code": "BE",
     "date": "2026-02-09",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 60.33
   },
@@ -3603,7 +3603,7 @@
     "code": "BE",
     "date": "2026-02-10",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 67.33
   },
@@ -3691,7 +3691,7 @@
     "code": "BE",
     "date": "2026-02-11",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 64.72
   },
@@ -3779,7 +3779,7 @@
     "code": "BE",
     "date": "2026-02-12",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 60.97
   },
@@ -3867,7 +3867,7 @@
     "code": "BE",
     "date": "2026-02-13",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 64.55
   },
@@ -3955,7 +3955,7 @@
     "code": "BE",
     "date": "2026-02-14",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 100.66
   },
@@ -4043,7 +4043,7 @@
     "code": "BE",
     "date": "2026-02-15",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 90.31
   },
@@ -4131,7 +4131,7 @@
     "code": "BE",
     "date": "2026-02-16",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 86.73
   },
@@ -4219,7 +4219,7 @@
     "code": "BE",
     "date": "2026-02-17",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 118.16
   },
@@ -4307,7 +4307,7 @@
     "code": "BE",
     "date": "2026-02-18",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 77.34
   },
@@ -4395,7 +4395,7 @@
     "code": "BE",
     "date": "2026-02-19",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 114.93
   },
@@ -4483,7 +4483,7 @@
     "code": "BE",
     "date": "2026-02-20",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 94.49
   },
@@ -4571,7 +4571,7 @@
     "code": "BE",
     "date": "2026-02-21",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 109.41
   },
@@ -4659,7 +4659,7 @@
     "code": "BE",
     "date": "2026-02-22",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 89.02
   },
@@ -4747,7 +4747,7 @@
     "code": "BE",
     "date": "2026-02-23",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 92.53
   },
@@ -4835,7 +4835,7 @@
     "code": "BE",
     "date": "2026-02-24",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 62.34
   },
@@ -4923,7 +4923,7 @@
     "code": "BE",
     "date": "2026-02-25",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 64.59
   },
@@ -5011,7 +5011,7 @@
     "code": "BE",
     "date": "2026-02-26",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 69.57
   },
@@ -5099,7 +5099,7 @@
     "code": "BE",
     "date": "2026-02-27",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 74.13
   },
@@ -5187,7 +5187,7 @@
     "code": "BE",
     "date": "2026-02-28",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 82.48
   },
@@ -5275,7 +5275,7 @@
     "code": "BE",
     "date": "2026-03-01",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 80.98
   },
@@ -5363,7 +5363,7 @@
     "code": "BE",
     "date": "2026-03-02",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 68.79
   },
@@ -5451,7 +5451,7 @@
     "code": "BE",
     "date": "2026-03-03",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 85.19
   },
@@ -5539,7 +5539,7 @@
     "code": "BE",
     "date": "2026-03-04",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 73.19
   },
@@ -5627,7 +5627,7 @@
     "code": "BE",
     "date": "2026-03-05",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 101.9
   },
@@ -5715,7 +5715,7 @@
     "code": "BE",
     "date": "2026-03-06",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 88.2
   },
@@ -5803,7 +5803,7 @@
     "code": "BE",
     "date": "2026-03-07",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 59.39
   },
@@ -5891,7 +5891,7 @@
     "code": "BE",
     "date": "2026-03-08",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 59.58
   },
@@ -5979,7 +5979,7 @@
     "code": "BE",
     "date": "2026-03-09",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 74.74
   },
@@ -6067,7 +6067,7 @@
     "code": "BE",
     "date": "2026-03-10",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 62.78
   },
@@ -6155,7 +6155,7 @@
     "code": "BE",
     "date": "2026-03-11",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 67.05
   },
@@ -6243,7 +6243,7 @@
     "code": "BE",
     "date": "2026-03-12",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 75.66
   },
@@ -6331,7 +6331,7 @@
     "code": "BE",
     "date": "2026-03-13",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 105.55
   },
@@ -6419,7 +6419,7 @@
     "code": "BE",
     "date": "2026-03-14",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 78.1
   },
@@ -6507,7 +6507,7 @@
     "code": "BE",
     "date": "2026-03-15",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 84.46
   },
@@ -6595,7 +6595,7 @@
     "code": "BE",
     "date": "2026-03-16",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 116.43
   },
@@ -6683,7 +6683,7 @@
     "code": "BE",
     "date": "2026-03-17",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 106.68
   },
@@ -6771,7 +6771,7 @@
     "code": "BE",
     "date": "2026-03-18",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 91.22
   },
@@ -6859,7 +6859,7 @@
     "code": "BE",
     "date": "2026-03-19",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 136.23
   },
@@ -6947,7 +6947,7 @@
     "code": "BE",
     "date": "2026-03-20",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 109.46
   },
@@ -7035,7 +7035,7 @@
     "code": "BE",
     "date": "2026-03-21",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 81.67
   },
@@ -7123,7 +7123,7 @@
     "code": "BE",
     "date": "2026-03-22",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 93.28
   },
@@ -7211,7 +7211,7 @@
     "code": "BE",
     "date": "2026-03-23",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 103.62
   },
@@ -7299,7 +7299,7 @@
     "code": "BE",
     "date": "2026-03-24",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 98.07
   },
@@ -7387,7 +7387,7 @@
     "code": "BE",
     "date": "2026-03-25",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 110.2
   },
@@ -7475,7 +7475,7 @@
     "code": "BE",
     "date": "2026-03-26",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 106.2
   },
@@ -7563,7 +7563,7 @@
     "code": "BE",
     "date": "2026-03-27",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 105.03
   },
@@ -7651,7 +7651,7 @@
     "code": "BE",
     "date": "2026-03-28",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 97.08
   },
@@ -7739,7 +7739,7 @@
     "code": "BE",
     "date": "2026-03-29",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 95.11
   },
@@ -7827,7 +7827,7 @@
     "code": "BE",
     "date": "2026-03-30",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 117.34
   },
@@ -7915,7 +7915,7 @@
     "code": "BE",
     "date": "2026-03-31",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 112.71
   },
@@ -8003,7 +8003,7 @@
     "code": "BE",
     "date": "2026-04-01",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 89.3
   },
@@ -8091,7 +8091,7 @@
     "code": "BE",
     "date": "2026-04-02",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 98.11
   },
@@ -8179,7 +8179,7 @@
     "code": "BE",
     "date": "2026-04-03",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 92.57
   },
@@ -8259,7 +8259,7 @@
     "code": "BE",
     "date": "2026-04-04",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 136.47
   },
@@ -8339,7 +8339,7 @@
     "code": "BE",
     "date": "2026-04-05",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 85.47
   },
@@ -8419,7 +8419,7 @@
     "code": "BE",
     "date": "2026-04-06",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 71.52
   },
@@ -8499,7 +8499,7 @@
     "code": "BE",
     "date": "2026-04-07",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 102.28
   },
@@ -8579,7 +8579,7 @@
     "code": "BE",
     "date": "2026-04-08",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 112.56
   },
@@ -8659,7 +8659,7 @@
     "code": "BE",
     "date": "2026-04-09",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 109.47
   },
@@ -8739,7 +8739,7 @@
     "code": "BE",
     "date": "2026-04-10",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 109.29
   },
@@ -8819,7 +8819,7 @@
     "code": "BE",
     "date": "2026-04-11",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 106.08
   },
@@ -8899,7 +8899,7 @@
     "code": "BE",
     "date": "2026-04-12",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 95.89
   },
@@ -8979,7 +8979,7 @@
     "code": "BE",
     "date": "2026-04-13",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 91.02
   },
@@ -9059,7 +9059,7 @@
     "code": "BE",
     "date": "2026-04-14",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 150.34
   },
@@ -9139,7 +9139,7 @@
     "code": "BE",
     "date": "2026-04-15",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 125.23
   },
@@ -9219,7 +9219,7 @@
     "code": "BE",
     "date": "2026-04-16",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 121.4
   },
@@ -9299,7 +9299,7 @@
     "code": "BE",
     "date": "2026-04-17",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 91.96
   },
@@ -9379,7 +9379,7 @@
     "code": "BE",
     "date": "2026-04-18",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 93.92
   },
@@ -9459,7 +9459,7 @@
     "code": "BE",
     "date": "2026-04-19",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 80.15
   },
@@ -9539,7 +9539,7 @@
     "code": "BE",
     "date": "2026-04-20",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 83.92
   },
@@ -9619,7 +9619,7 @@
     "code": "BE",
     "date": "2026-04-21",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 119.5
   },
@@ -9699,7 +9699,7 @@
     "code": "BE",
     "date": "2026-04-22",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 129.51
   },
@@ -9779,7 +9779,7 @@
     "code": "BE",
     "date": "2026-04-23",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 95.18
   },
@@ -9859,7 +9859,7 @@
     "code": "BE",
     "date": "2026-04-24",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 132.42
   },
@@ -9939,7 +9939,7 @@
     "code": "BE",
     "date": "2026-04-25",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 77.06
   },
@@ -10019,7 +10019,7 @@
     "code": "BE",
     "date": "2026-04-26",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 97.98
   },
@@ -10099,7 +10099,7 @@
     "code": "BE",
     "date": "2026-04-27",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 112.15
   },
@@ -10179,7 +10179,7 @@
     "code": "BE",
     "date": "2026-04-28",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 114.65
   },
@@ -10259,7 +10259,7 @@
     "code": "BE",
     "date": "2026-04-29",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 105.05
   },
@@ -10339,7 +10339,7 @@
     "code": "BE",
     "date": "2026-04-30",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 129.77
   },
@@ -10419,7 +10419,7 @@
     "code": "BE",
     "date": "2026-05-01",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 102.19
   },
@@ -10499,7 +10499,7 @@
     "code": "BE",
     "date": "2026-05-02",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 94.98
   },
@@ -10579,7 +10579,7 @@
     "code": "BE",
     "date": "2026-05-03",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 79.18
   },
@@ -10659,7 +10659,7 @@
     "code": "BE",
     "date": "2026-05-04",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 108.75
   },
@@ -10739,7 +10739,7 @@
     "code": "BE",
     "date": "2026-05-05",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 78.96
   },
@@ -10819,7 +10819,7 @@
     "code": "BE",
     "date": "2026-05-06",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 75.78
   },
@@ -10899,7 +10899,7 @@
     "code": "BE",
     "date": "2026-05-07",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 110.27
   },
@@ -10979,7 +10979,7 @@
     "code": "BE",
     "date": "2026-05-08",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 100.34
   },
@@ -11059,7 +11059,7 @@
     "code": "BE",
     "date": "2026-05-09",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 72.96
   },
@@ -11139,7 +11139,7 @@
     "code": "BE",
     "date": "2026-05-10",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 90.16
   },
@@ -11219,7 +11219,7 @@
     "code": "BE",
     "date": "2026-05-11",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 85.22
   },
@@ -11299,7 +11299,7 @@
     "code": "BE",
     "date": "2026-05-12",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 92.39
   },
@@ -11379,7 +11379,7 @@
     "code": "BE",
     "date": "2026-05-13",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 128.3
   },
@@ -11459,7 +11459,7 @@
     "code": "BE",
     "date": "2026-05-14",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 73.07
   },
@@ -11539,7 +11539,7 @@
     "code": "BE",
     "date": "2026-05-15",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 83.31
   },
@@ -11619,7 +11619,7 @@
     "code": "BE",
     "date": "2026-05-16",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 92.52
   },
@@ -11699,7 +11699,7 @@
     "code": "BE",
     "date": "2026-05-17",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 91.07
   },
@@ -11779,7 +11779,7 @@
     "code": "BE",
     "date": "2026-05-18",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 92.62
   },
@@ -11859,7 +11859,7 @@
     "code": "BE",
     "date": "2026-05-19",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 104.45
   },
@@ -11939,7 +11939,7 @@
     "code": "BE",
     "date": "2026-05-20",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 105.32
   },
@@ -12019,7 +12019,7 @@
     "code": "BE",
     "date": "2026-05-21",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 107.63
   },
@@ -12099,7 +12099,7 @@
     "code": "BE",
     "date": "2026-05-22",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 108.49
   },
@@ -12179,7 +12179,7 @@
     "code": "BE",
     "date": "2026-05-23",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 94.49
   },
@@ -12259,7 +12259,7 @@
     "code": "BE",
     "date": "2026-05-24",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 103.64
   },
@@ -12339,7 +12339,7 @@
     "code": "BE",
     "date": "2026-05-25",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 114.43
   },
@@ -12419,7 +12419,7 @@
     "code": "BE",
     "date": "2026-05-26",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 128.59
   },
@@ -12499,7 +12499,7 @@
     "code": "BE",
     "date": "2026-05-27",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 118.23
   },
@@ -12579,7 +12579,7 @@
     "code": "BE",
     "date": "2026-05-28",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 130.67
   },
@@ -12659,7 +12659,7 @@
     "code": "BE",
     "date": "2026-05-29",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 119.96
   },
@@ -12739,7 +12739,7 @@
     "code": "BE",
     "date": "2026-05-30",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 109.09
   },
@@ -12819,7 +12819,7 @@
     "code": "BE",
     "date": "2026-05-31",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 110.5
   },
@@ -12899,7 +12899,7 @@
     "code": "BE",
     "date": "2026-06-01",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 118.05
   },
@@ -12979,7 +12979,7 @@
     "code": "BE",
     "date": "2026-06-02",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 95.97
   },
@@ -13059,7 +13059,7 @@
     "code": "BE",
     "date": "2026-06-03",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 100.8
   },
@@ -13139,7 +13139,7 @@
     "code": "BE",
     "date": "2026-06-04",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 78.02
   },
@@ -13219,7 +13219,7 @@
     "code": "BE",
     "date": "2026-06-05",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 139.54
   },
@@ -13299,7 +13299,7 @@
     "code": "BE",
     "date": "2026-06-06",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 115.81
   },
@@ -13379,7 +13379,7 @@
     "code": "BE",
     "date": "2026-06-07",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 109.21
   },
@@ -13459,7 +13459,7 @@
     "code": "BE",
     "date": "2026-06-08",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 119.43
   },
@@ -13539,7 +13539,7 @@
     "code": "BE",
     "date": "2026-06-09",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 117.67
   },
@@ -13619,7 +13619,7 @@
     "code": "BE",
     "date": "2026-06-10",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 108.93
   },
@@ -13699,7 +13699,7 @@
     "code": "BE",
     "date": "2026-06-11",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 86.28
   },
@@ -13779,7 +13779,7 @@
     "code": "BE",
     "date": "2026-06-12",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 140.88
   },
@@ -13859,7 +13859,7 @@
     "code": "BE",
     "date": "2026-06-13",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 116.44
   },
@@ -13939,7 +13939,7 @@
     "code": "BE",
     "date": "2026-06-14",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 100.58
   },
@@ -14019,7 +14019,7 @@
     "code": "BE",
     "date": "2026-06-15",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 131.93
   },
@@ -14099,7 +14099,7 @@
     "code": "BE",
     "date": "2026-06-16",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 133.71
   },
@@ -14179,7 +14179,7 @@
     "code": "BE",
     "date": "2026-06-17",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 123.88
   },
@@ -14259,7 +14259,7 @@
     "code": "BE",
     "date": "2026-06-18",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 124.19
   },
@@ -14339,7 +14339,7 @@
     "code": "BE",
     "date": "2026-06-19",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 134.47
   },
@@ -14419,7 +14419,7 @@
     "code": "BE",
     "date": "2026-06-20",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 117.82
   },
@@ -14499,7 +14499,7 @@
     "code": "BE",
     "date": "2026-06-21",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 101.46
   },
@@ -14579,7 +14579,7 @@
     "code": "BE",
     "date": "2026-06-22",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 116.01
   },
@@ -14659,7 +14659,7 @@
     "code": "BE",
     "date": "2026-06-23",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 138.21
   },
@@ -14739,7 +14739,7 @@
     "code": "BE",
     "date": "2026-06-24",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 144.6
   },
@@ -14819,7 +14819,7 @@
     "code": "BE",
     "date": "2026-06-25",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 122.26
   },
@@ -14899,7 +14899,7 @@
     "code": "BE",
     "date": "2026-06-26",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 116.06
   },
@@ -14979,7 +14979,7 @@
     "code": "BE",
     "date": "2026-06-27",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 109.67
   },
@@ -15037,7 +15037,7 @@
     "psrType": "B18",
     "productionType": "Wind offshore",
     "isRenewable": true,
-    "avgMW": 804.91
+    "avgMW": 804.92
   },
   {
     "code": "BE",
@@ -15059,7 +15059,7 @@
     "code": "BE",
     "date": "2026-06-28",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 115.03
   },
@@ -15139,7 +15139,7 @@
     "code": "BE",
     "date": "2026-06-29",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 106.3
   },
@@ -15219,7 +15219,7 @@
     "code": "BE",
     "date": "2026-06-30",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 129.96
   },
@@ -15307,7 +15307,7 @@
     "code": "BE",
     "date": "2026-07-01",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 130.33
   },
@@ -15395,7 +15395,7 @@
     "code": "BE",
     "date": "2026-07-02",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 115.76
   },
@@ -15483,7 +15483,7 @@
     "code": "BE",
     "date": "2026-07-03",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 112.61
   },
@@ -15571,7 +15571,7 @@
     "code": "BE",
     "date": "2026-07-04",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 110.93
   },
@@ -15659,7 +15659,7 @@
     "code": "BE",
     "date": "2026-07-05",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 105.71
   },
@@ -15747,7 +15747,7 @@
     "code": "BE",
     "date": "2026-07-06",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 97.61
   },
@@ -15835,7 +15835,7 @@
     "code": "BE",
     "date": "2026-07-07",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 129.11
   },
@@ -15923,7 +15923,7 @@
     "code": "BE",
     "date": "2026-07-08",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 120.87
   },
@@ -16011,7 +16011,7 @@
     "code": "BE",
     "date": "2026-07-09",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 107.4
   },
@@ -16099,7 +16099,7 @@
     "code": "BE",
     "date": "2026-07-10",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 98.78
   },
@@ -16187,7 +16187,7 @@
     "code": "BE",
     "date": "2026-07-11",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 91.71
   },
@@ -16275,7 +16275,7 @@
     "code": "BE",
     "date": "2026-07-12",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 71.86
   },
@@ -16363,7 +16363,7 @@
     "code": "BE",
     "date": "2026-07-13",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 109.97
   },
@@ -16451,7 +16451,7 @@
     "code": "BE",
     "date": "2026-07-14",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 95.06
   },
@@ -16539,7 +16539,7 @@
     "code": "BE",
     "date": "2026-07-15",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 99.24
   },
@@ -16627,7 +16627,7 @@
     "code": "BE",
     "date": "2026-07-16",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 107.55
   },
@@ -16715,7 +16715,7 @@
     "code": "BE",
     "date": "2026-07-17",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 93.56
   },
@@ -16803,7 +16803,7 @@
     "code": "BE",
     "date": "2026-07-18",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 110.41
   },
@@ -16891,7 +16891,7 @@
     "code": "BE",
     "date": "2026-07-19",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 95.79
   },
@@ -16979,7 +16979,7 @@
     "code": "BE",
     "date": "2026-07-20",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 107.54
   },
@@ -17067,7 +17067,7 @@
     "code": "BE",
     "date": "2026-07-21",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 96.07
   },
@@ -17155,7 +17155,7 @@
     "code": "BE",
     "date": "2026-07-22",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 104.6
   },
@@ -17243,7 +17243,7 @@
     "code": "BE",
     "date": "2026-07-23",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 128.2
   },
@@ -17331,7 +17331,7 @@
     "code": "BE",
     "date": "2026-07-24",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 113.63
   },
@@ -17411,7 +17411,7 @@
     "code": "BE",
     "date": "2026-07-25",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 95.24
   },
@@ -17491,7 +17491,7 @@
     "code": "BE",
     "date": "2026-07-26",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 111.23
   },
@@ -17571,7 +17571,7 @@
     "code": "BE",
     "date": "2026-07-27",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 139.04
   },
@@ -17651,7 +17651,7 @@
     "code": "BE",
     "date": "2026-07-28",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 124.86
   },
@@ -17731,7 +17731,7 @@
     "code": "BE",
     "date": "2026-07-29",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 115.34
   },
@@ -17811,7 +17811,7 @@
     "code": "BE",
     "date": "2026-07-30",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 105.65
   },
@@ -17891,7 +17891,7 @@
     "code": "BE",
     "date": "2026-07-31",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 96.12
   },
@@ -17971,7 +17971,7 @@
     "code": "BE",
     "date": "2026-08-01",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 96.0
   },
@@ -18051,7 +18051,7 @@
     "code": "BE",
     "date": "2026-08-02",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 83.06
   },
@@ -18131,7 +18131,7 @@
     "code": "BE",
     "date": "2026-08-03",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 109.73
   },
@@ -18141,7 +18141,7 @@
     "psrType": "B01",
     "productionType": "Biomass",
     "isRenewable": true,
-    "avgMW": 60.3
+    "avgMW": 192.84
   },
   {
     "code": "BE",
@@ -18149,7 +18149,23 @@
     "psrType": "B04",
     "productionType": "Natural gas",
     "isRenewable": false,
-    "avgMW": 1858.53
+    "avgMW": 2257.16
+  },
+  {
+    "code": "BE",
+    "date": "2026-08-04",
+    "psrType": "B06",
+    "productionType": "Fossil oil",
+    "isRenewable": false,
+    "avgMW": 56.23
+  },
+  {
+    "code": "BE",
+    "date": "2026-08-04",
+    "psrType": "B11",
+    "productionType": "Hydro run-of-river",
+    "isRenewable": true,
+    "avgMW": 0.16
   },
   {
     "code": "BE",
@@ -18165,7 +18181,7 @@
     "psrType": "B17",
     "productionType": "Waste",
     "isRenewable": false,
-    "avgMW": 152.68
+    "avgMW": 211.48
   },
   {
     "code": "BE",
@@ -18173,7 +18189,7 @@
     "psrType": "B18",
     "productionType": "Wind offshore",
     "isRenewable": true,
-    "avgMW": 731.1
+    "avgMW": 704.93
   },
   {
     "code": "BE",
@@ -18189,15 +18205,15 @@
     "psrType": "B20",
     "productionType": "Other",
     "isRenewable": false,
-    "avgMW": 336.61
+    "avgMW": 303.1
   },
   {
     "code": "BE",
     "date": "2026-08-04",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
-    "avgMW": 143.13
+    "avgMW": 142.71
   },
   {
     "code": "BE",
@@ -18259,7 +18275,7 @@
     "code": "BE",
     "date": "2026-08-05",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 106.71
   },
@@ -18323,7 +18339,7 @@
     "code": "BE",
     "date": "2026-08-06",
     "psrType": "B25",
-    "productionType": "B25",
+    "productionType": "Energy storage",
     "isRenewable": false,
     "avgMW": 127.25
   },
@@ -44429,7 +44445,7 @@
     "psrType": "B19",
     "productionType": "Wind onshore",
     "isRenewable": true,
-    "avgMW": 12306.56
+    "avgMW": 12306.69
   },
   {
     "code": "DE",
@@ -58125,7 +58141,7 @@
     "psrType": "B01",
     "productionType": "Biomass",
     "isRenewable": true,
-    "avgMW": 6.18
+    "avgMW": 6.65
   },
   {
     "code": "NL",
@@ -58133,7 +58149,7 @@
     "psrType": "B04",
     "productionType": "Natural gas",
     "isRenewable": false,
-    "avgMW": 2810.71
+    "avgMW": 2812.82
   },
   {
     "code": "NL",
@@ -58141,7 +58157,7 @@
     "psrType": "B05",
     "productionType": "Hard coal",
     "isRenewable": false,
-    "avgMW": 1063.46
+    "avgMW": 1063.88
   },
   {
     "code": "NL",
@@ -58157,7 +58173,7 @@
     "psrType": "B16",
     "productionType": "Solar",
     "isRenewable": true,
-    "avgMW": 44.46
+    "avgMW": 45.15
   },
   {
     "code": "NL",
@@ -58165,7 +58181,7 @@
     "psrType": "B17",
     "productionType": "Waste",
     "isRenewable": false,
-    "avgMW": 66.54
+    "avgMW": 70.0
   },
   {
     "code": "NL",
@@ -58173,7 +58189,7 @@
     "psrType": "B18",
     "productionType": "Wind offshore",
     "isRenewable": true,
-    "avgMW": 458.4
+    "avgMW": 458.47
   },
   {
     "code": "NL",
@@ -58181,7 +58197,7 @@
     "psrType": "B19",
     "productionType": "Wind onshore",
     "isRenewable": true,
-    "avgMW": 81.5
+    "avgMW": 83.97
   },
   {
     "code": "NL",
@@ -58189,7 +58205,7 @@
     "psrType": "B20",
     "productionType": "Other",
     "isRenewable": false,
-    "avgMW": 514.17
+    "avgMW": 637.5
   },
   {
     "code": "NL",
@@ -60141,7 +60157,7 @@
     "psrType": "B04",
     "productionType": "Natural gas",
     "isRenewable": false,
-    "avgMW": 3044.02
+    "avgMW": 2940.73
   },
   {
     "code": "NL",
@@ -60149,7 +60165,7 @@
     "psrType": "B05",
     "productionType": "Hard coal",
     "isRenewable": false,
-    "avgMW": 1130.64
+    "avgMW": 1159.95
   },
   {
     "code": "NL",
@@ -60157,7 +60173,7 @@
     "psrType": "B16",
     "productionType": "Solar",
     "isRenewable": true,
-    "avgMW": 4.67
+    "avgMW": 8.96
   },
   {
     "code": "NL",
@@ -60165,7 +60181,7 @@
     "psrType": "B17",
     "productionType": "Waste",
     "isRenewable": false,
-    "avgMW": 23.27
+    "avgMW": 23.22
   },
   {
     "code": "NL",
@@ -60173,7 +60189,7 @@
     "psrType": "B18",
     "productionType": "Wind offshore",
     "isRenewable": true,
-    "avgMW": 121.41
+    "avgMW": 121.24
   },
   {
     "code": "NL",
@@ -60181,7 +60197,7 @@
     "psrType": "B19",
     "productionType": "Wind onshore",
     "isRenewable": true,
-    "avgMW": 32.55
+    "avgMW": 32.66
   },
   {
     "code": "NL",
@@ -60189,6 +60205,6 @@
     "psrType": "B20",
     "productionType": "Other",
     "isRenewable": false,
-    "avgMW": 126.92
+    "avgMW": 126.85
   }
 ]

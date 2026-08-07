@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T07:56:30.782135+00:00",
+  "generatedAt": "2026-08-07T08:55:54.444899+00:00",
   "headline": "As of 6 August 2026, demand is running 0.4% below the 30-day average.",
   "kpis": {
     "DE": {
@@ -11,8 +11,8 @@
     "NL": {
       "date": "2026-08-06",
       "latestGW": 7.65,
-      "avg30dGW": 8.26,
-      "pct": -0.0743
+      "avg30dGW": 8.27,
+      "pct": -0.0749
     },
     "BE": {
       "date": "2026-08-06",
@@ -36,9 +36,9 @@
     },
     "NL": {
       "date": "2026-08-07",
-      "totalGW": 4.48,
+      "totalGW": 4.41,
       "renewableGW": 0.16,
-      "renewableShare": 0.0354
+      "renewableShare": 0.0369
     },
     "BE": {
       "date": "2026-08-06",
