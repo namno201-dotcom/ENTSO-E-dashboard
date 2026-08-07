@@ -64,6 +64,8 @@ PSRTYPE_NAMES = {
     "B12": "Hydro water reservoir", "B13": "Marine", "B14": "Nuclear",
     "B15": "Other renewable", "B16": "Solar", "B17": "Waste",
     "B18": "Wind offshore", "B19": "Wind onshore", "B20": "Other",
+    "B21": "AC link", "B22": "DC link", "B23": "Substation",
+    "B24": "Transformer", "B25": "Energy storage",
 }
 RENEWABLE_PSR = {"B01", "B09", "B11", "B12", "B13", "B15", "B16", "B18", "B19"}
 EXCLUDE_PSR = {"B10"}
