@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Methodology — Westbridge Energy Dashboard</title>
+<style>
+  :root{
+    --bg:#F5F7FA; --card:#FFFFFF; --border:#E2E7EE;
+    --text:#1A2332; --text2:#6B7A90; --text3:#94A3B8; --accent:#2563EB;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",Arial,sans-serif;padding:24px;}
+  .wrap{max-width:840px;margin:0 auto;}
+  a{color:var(--accent);text-decoration:none;font-size:12px;}
+  a:hover{text-decoration:underline;}
+  h1{font-size:20px;margin:16px 0 4px;}
+  h2{font-size:15px;margin:28px 0 8px;border-top:1px solid var(--border);padding-top:20px;}
+  h3{font-size:13px;margin:16px 0 4px;color:var(--text);}
+  .subtitle{color:var(--text2);font-size:12px;margin:0 0 8px;}
+  p{font-size:13px;line-height:1.6;color:var(--text);}
+  code{background:#EEF1F6;padding:1px 5px;border-radius:4px;font-size:12px;}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:10px;
+        box-shadow:0 1px 3px rgba(26,35,50,0.06);padding:20px 24px;}
+  table{width:100%;border-collapse:collapse;font-size:12px;margin:10px 0;}
+  th, td{padding:6px 10px;text-align:left;border-bottom:1px solid var(--border);vertical-align:top;}
+  th{color:var(--text2);font-weight:600;}
+  .note{background:#FFF8E6;border:1px solid #F5D98A;border-radius:6px;padding:10px 14px;font-size:12px;margin:12px 0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a href="index.html">&larr; Back to dashboard</a>
+  <h1>Methodology &amp; data audit notes</h1>
+  <p class="subtitle">How every figure on the dashboard is sourced and calculated. Raw rows behind these calculations are in <a href="data.html">data.html</a>.</p>
+
+  <div class="card">
+
+  <h2>1. Data sources</h2>
+  <table>
+    <tr><th>Data</th><th>Source</th><th>Access</th><th>Refresh</th></tr>
+    <tr><td>Electricity load (demand)</td><td>ENTSO-E Transparency Platform, documentType A65</td><td>REST API (XML), needs free API token</td><td>Twice daily via GitHub Action</td></tr>
+    <tr><td>Electricity generation by fuel type</td><td>ENTSO-E Transparency Platform, documentType A75</td><td>Same API</td><td>Twice daily</td></tr>
+    <tr><td>Cross-border electricity flows</td><td>ENTSO-E Transparency Platform, documentType A11</td><td>Same API</td><td>Twice daily</td></tr>
+    <tr><td>Gas pipeline inflows (Norway / Algeria / Azerbaijan)</td><td>ENTSOG Transparency Platform, indicator "Physical Flow"</td><td>REST API (JSON), no key needed</td><td>Twice daily</td></tr>
+  </table>
+  <p>Both fetches run automatically via a GitHub Action (<code>.github/workflows/update-data.yml</code>) at 05:00 and 17:00 UTC, and write the results to <code>data/*.json</code>. You can also trigger a run manually from the Actions tab at any time.</p>
+
+  <h2>2. Electricity KPI cards (DE / NL / BE / LU)</h2>
+  <h3>Value shown</h3>
+  <p>Each country's card shows its average load (in GW) for the most recent day with complete data — this is a straight average of that day's hourly MW readings from ENTSO-E, converted to GW (÷1000).</p>
+  <h3>"vs 30d avg"</h3>
+  <p>The percentage compares that latest-day value against the plain average of the trailing 30 days: <code>pct = (latest − avg30) / avg30</code>. The GW figure in parentheses next to it is that 30-day average itself, so you can see both the reference number and the deviation.</p>
+  <h3>Sparkline</h3>
+  <p>The colored line is the daily average load for each of the last 30 days, plotted with no smoothing (raw daily values). The grey dashed line is the flat 30-day average from the same window, so you can see at a glance whether the country is currently running above or below its own recent norm. The "low / high" figures underneath are the minimum and maximum daily values in that 30-day window.</p>
+
+  <h2>3. Gas pipeline KPI cards (Norway / Algeria / Azerbaijan)</h2>
+  <p>Same logic as the electricity cards, but in GWh/day instead of GW, and the value for a given day is the <strong>sum across all tracked entry points</strong> for that origin country (see the point list below). ENTSOG reports flow in kWh/day; the dashboard converts to GWh/day by dividing by 1,000,000.</p>
+  <table>
+    <tr><th>Origin</th><th>Entry points summed</th></tr>
+    <tr><td>Norway</td><td>St Fergus (UK), Easington (UK), Dunkerque (FR), Zeebrugge (BE), Emden EPT1 (DE)</td></tr>
+    <tr><td>Algeria</td><td>Almería (ES, via Medgaz), Mazara del Vallo (IT, via Transmed)</td></tr>
+    <tr><td>Azerbaijan</td><td>Kipoi (GR) — the TANAP→TAP handover point on the Greek border, used as a proxy since Azerbaijan has no direct pipeline border with the EU</td></tr>
+  </table>
+  <div class="note">This is a curated list of the main, unambiguous physical entry points — not every commercial sub-point ENTSOG lists — chosen to avoid double-counting the same physical gas flow twice. If your boss wants a different or more complete point list, it's a one-line change in <code>scripts/fetch_entsog.py</code>.</div>
+
+  <h2>4. Demand chart (all 4 countries)</h2>
+  <p>Same daily average load figures as the KPI cards, plotted as one line per country. No smoothing is applied — demand is naturally smooth day to day, so raw values are shown as-is.</p>
+
+  <h2>5. Renewable share chart</h2>
+  <p>For each country and day: <code>renewable share % = (sum of MW from renewable fuel types) / (sum of MW from all fuel types) × 100</code>. Fuel types counted as renewable: solar, wind (onshore &amp; offshore), hydro (all types), geothermal, biomass, and other renewable. This raw daily series is noisy (weather-driven), so the chart applies a <strong>7-day trailing rolling average</strong> — each plotted point is the average of that day and the 6 days before it — to make the underlying trend readable instead of a jagged line.</p>
+
+  <h2>6. Generation mix donut</h2>
+  <p>Uses only the most recent day with complete generation data, summed across DE + NL + BE (Luxembourg has no generation data in ENTSO-E — it's a load-only market). The 6 largest fuel types by MW are shown individually; everything else is grouped into "Other" so the chart stays readable instead of showing all ~14 raw fuel categories. Percentages are of that day's combined total.</p>
+
+  <h2>7. Net cross-border flow chart</h2>
+  <p>For each country and day: <code>net flow = (MW exported to all neighbours) − (MW imported from all neighbours)</code>, using ENTSO-E's physical cross-border flow data. Positive = net exporter that day, negative = net importer. Also smoothed with a 7-day trailing rolling average, same reasoning as the renewable share chart.</p>
+
+  <h2>8. Gas import flows chart</h2>
+  <p>Same origin-level daily totals as the gas KPI cards, plotted as one line per origin country, also smoothed with a 7-day trailing rolling average.</p>
+
+  <h2>9. Known limitations</h2>
+  <p>ENTSO-E occasionally publishes incomplete or delayed data for the most recent 1-2 days; the dashboard always uses the latest day that has a complete set of hourly points, which may be "yesterday" rather than "today" depending on when you check. ENTSOG data has no equivalent gap so far. Timezone: all "daily" buckets are calendar days in Central European Time (Europe/Berlin), not UTC, to match how a Frankfurt-based reader would think about "today's" data.</p>
+
+  </div>
+</div>
+</body>
+</html>

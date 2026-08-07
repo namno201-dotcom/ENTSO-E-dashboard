@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raw Data — Westbridge Energy Dashboard</title>
+<style>
+  :root{
+    --bg:#F5F7FA; --card:#FFFFFF; --border:#E2E7EE;
+    --text:#1A2332; --text2:#6B7A90; --text3:#94A3B8; --accent:#2563EB;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",Arial,sans-serif;padding:24px;}
+  .wrap{max-width:1200px;margin:0 auto;}
+  a{color:var(--accent);text-decoration:none;font-size:12px;}
+  a:hover{text-decoration:underline;}
+  h1{font-size:20px;margin:16px 0 4px;}
+  .subtitle{color:var(--text2);font-size:12px;margin:0 0 20px;}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:10px;
+        box-shadow:0 1px 3px rgba(26,35,50,0.06);padding:16px;margin-bottom:16px;}
+  .controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:12px;}
+  select, input[type=text]{padding:6px 10px;border:1px solid var(--border);border-radius:6px;font-size:12px;}
+  button{padding:6px 12px;border:1px solid var(--accent);background:#fff;color:var(--accent);
+         border-radius:6px;font-size:12px;cursor:pointer;}
+  button:hover{background:var(--accent);color:#fff;}
+  table{width:100%;border-collapse:collapse;font-size:12px;}
+  th, td{padding:6px 10px;text-align:left;border-bottom:1px solid var(--border);}
+  th{cursor:pointer;color:var(--text2);font-weight:600;position:sticky;top:0;background:var(--card);}
+  th:hover{color:var(--accent);}
+  .table-scroll{max-height:520px;overflow:auto;border:1px solid var(--border);border-radius:6px;}
+  .meta{font-size:11px;color:var(--text3);margin-top:8px;}
+  .loading{color:var(--text3);font-size:12px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a href="index.html">&larr; Back to dashboard</a>
+  <h1>Raw data explorer</h1>
+  <p class="subtitle">Every number shown on the dashboard is available here for you (or your boss) to check directly against the source. See <a href="methodology.html">methodology.html</a> for how each dashboard figure is calculated from these rows.</p>
+
+  <div class="card">
+    <div class="controls">
+      <label for="datasetSelect">Dataset:</label>
+      <select id="datasetSelect"></select>
+      <label for="filterInput">Filter (any column contains):</label>
+      <input type="text" id="filterInput" placeholder="e.g. DE, 2026-08">
+      <button id="downloadBtn">Download CSV</button>
+      <span class="meta" id="rowCount"></span>
+    </div>
+    <div class="table-scroll">
+      <table id="dataTable">
+        <thead><tr id="tableHead"></tr></thead>
+        <tbody id="tableBody"><tr><td class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+    <p class="meta" id="sourceNote"></p>
+  </div>
+</div>
+
+<script>
+const DATASETS = {
+  'load_daily.json':          { label: 'Electricity load — daily average (MW), by country',            note: 'Source: ENTSO-E Transparency Platform, documentType A65 (Actual Total Load). Hourly points averaged into one daily figure per country.' },
+  'generation_daily.json':    { label: 'Electricity generation — daily average (MW), by country & fuel', note: 'Source: ENTSO-E Transparency Platform, documentType A75 (Actual Generation per Type). "isRenewable" flags which fuel types count toward the renewable-share chart.' },
+  'flows_daily.json':         { label: 'Cross-border electricity flows — daily average (MW)',            note: 'Source: ENTSO-E Transparency Platform, documentType A11 (Cross-Border Physical Flow). "netMW" is the flow from "from" country to "to" country.' },
+  'gas_flows_daily.json':     { label: 'Gas pipeline inflows — daily total by origin country (GWh/day)', note: 'Source: ENTSOG Transparency Platform, indicator "Physical Flow". Sum of all entry points listed for that origin — see gas_flows_points_daily.json for the point-level detail.' },
+  'gas_flows_points_daily.json': { label: 'Gas pipeline inflows — daily, by individual entry point (GWh/day)', note: 'Source: ENTSOG Transparency Platform. One row per physical entry point per day, before summing by origin country.' },
+  'summary.json':             { label: 'Summary / KPI snapshot (latest values used on the dashboard headline & KPI cards)', note: 'Derived from the datasets above — see methodology.html for the exact calculation.' },
+};
+
+let currentRows = [];
+let currentCols = [];
+let sortCol = null;
+let sortDir = 1;
+
+async function loadDataset(name){
+  document.getElementById('tableBody').innerHTML = '<tr><td class="loading">Loading…</td></tr>';
+  document.getElementById('sourceNote').textContent = DATASETS[name].note;
+  const res = await fetch('data/' + name, { cache: 'no-store' });
+  if(!res.ok){
+    document.getElementById('tableBody').innerHTML = `<tr><td>Could not load data/${name}. Make sure the GitHub Action has run at least once.</td></tr>`;
+    return;
+  }
+  let json = await res.json();
+  // summary.json is an object, not an array -- flatten its KPI map into rows for display
+  if(!Array.isArray(json)){
+    const rows = [];
+    if(json.kpis){
+      for(const [code, k] of Object.entries(json.kpis)){
+        rows.push({ code, ...k });
+      }
+    }
+    rows.push({ code: '(headline)', headline: json.headline, generatedAt: json.generatedAt });
+    json = rows;
+  }
+  currentRows = json;
+  currentCols = json.length ? Object.keys(json[0]) : [];
+  sortCol = null;
+  renderTable();
+}
+
+function renderTable(){
+  const filter = document.getElementById('filterInput').value.trim().toLowerCase();
+  let rows = currentRows;
+  if(filter){
+    rows = rows.filter(r => Object.values(r).some(v => String(v).toLowerCase().includes(filter)));
+  }
+  if(sortCol){
+    rows = rows.slice().sort((a,b) => {
+      const av = a[sortCol], bv = b[sortCol];
+      if(typeof av === 'number' && typeof bv === 'number') return (av - bv) * sortDir;
+      return String(av).localeCompare(String(bv)) * sortDir;
+    });
+  }
+  const head = document.getElementById('tableHead');
+  head.innerHTML = currentCols.map(c => `<th data-col="${c}">${c}${sortCol===c ? (sortDir===1?' ▲':' ▼') : ''}</th>`).join('');
+  head.querySelectorAll('th').forEach(th => {
+    th.onclick = () => {
+      const col = th.dataset.col;
+      if(sortCol === col) sortDir *= -1; else { sortCol = col; sortDir = 1; }
+      renderTable();
+    };
+  });
+  const body = document.getElementById('tableBody');
+  const MAX_ROWS = 2000;
+  const shown = rows.slice(0, MAX_ROWS);
+  body.innerHTML = shown.map(r => '<tr>' + currentCols.map(c => `<td>${r[c] === undefined ? '' : r[c]}</td>`).join('') + '</tr>').join('') || '<tr><td>No rows match.</td></tr>';
+  document.getElementById('rowCount').textContent = `${rows.length} row(s)${rows.length > MAX_ROWS ? ` (showing first ${MAX_ROWS}, download CSV for the full set)` : ''}`;
+}
+
+function toCSV(rows, cols){
+  const esc = v => {
+    const s = v === undefined || v === null ? '' : String(v);
+    return /[",\n]/.test(s) ? '"' + s.replace(/"/g,'""') + '"' : s;
+  };
+  const lines = [cols.map(esc).join(',')];
+  for(const r of rows) lines.push(cols.map(c => esc(r[c])).join(','));
+  return lines.join('\n');
+}
+
+function init(){
+  const sel = document.getElementById('datasetSelect');
+  sel.innerHTML = Object.entries(DATASETS).map(([name, d]) => `<option value="${name}">${d.label}</option>`).join('');
+  sel.onchange = () => loadDataset(sel.value);
+  document.getElementById('filterInput').oninput = renderTable;
+  document.getElementById('downloadBtn').onclick = () => {
+    const name = sel.value;
+    const csv = toCSV(currentRows, currentCols);
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = name.replace('.json', '.csv');
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+  loadDataset(sel.value);
+}
+init();
+</script>
+</body>
+</html>
