@@ -2212,7 +2212,12 @@
   {
     "origin": "Azerbaijan",
     "date": "2026-08-10",
-    "gwhPerDay": 189.222
+    "gwhPerDay": 372.785
+  },
+  {
+    "origin": "Azerbaijan",
+    "date": "2026-08-11",
+    "gwhPerDay": 14.975
   },
   {
     "origin": "Norway",
