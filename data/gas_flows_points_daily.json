@@ -4035,7 +4035,13 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-08-13",
-    "gwhPerDay": 102.612
+    "gwhPerDay": 188.513
+  },
+  {
+    "origin": "Azerbaijan",
+    "label": "Kipoi (GR) - TAP/TANAP",
+    "date": "2026-08-14",
+    "gwhPerDay": 13.88
   },
   {
     "origin": "Norway",
@@ -8068,6 +8074,12 @@
     "label": "Emden EPT1 (DE)",
     "date": "2026-08-12",
     "gwhPerDay": 254.791
+  },
+  {
+    "origin": "Norway",
+    "label": "Emden EPT1 (DE)",
+    "date": "2026-08-13",
+    "gwhPerDay": 326.527
   },
   {
     "origin": "Norway",
