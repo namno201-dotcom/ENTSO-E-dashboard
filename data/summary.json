@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-08-14T06:31:56.110484+00:00",
-  "headline": "As of 13 August 2026, demand is running 1.1% above the 30-day average.",
+  "generatedAt": "2026-08-14T18:02:31.083600+00:00",
+  "headline": "As of 14 August 2026, demand is running 0.8% above the 30-day average.",
   "kpis": {
     "DE": {
       "date": "2026-08-13",
-      "latestGW": 50.53,
-      "avg30dGW": 50.23,
-      "pct": 0.0059
+      "latestGW": 50.41,
+      "avg30dGW": 50.22,
+      "pct": 0.0038
     },
     "NL": {
-      "date": "2026-08-13",
-      "latestGW": 7.59,
-      "avg30dGW": 8.26,
-      "pct": -0.0806
+      "date": "2026-08-14",
+      "latestGW": 7.33,
+      "avg30dGW": 8.17,
+      "pct": -0.1034
     },
     "BE": {
-      "date": "2026-08-13",
-      "latestGW": 9.56,
+      "date": "2026-08-14",
+      "latestGW": 9.61,
       "avg30dGW": 8.48,
-      "pct": 0.127
+      "pct": 0.1328
     },
     "LU": {
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "latestGW": 0.53,
       "avg30dGW": 0.5,
-      "pct": 0.0542
+      "pct": 0.0579
     }
   },
   "renewable": {
     "DE": {
-      "date": "2026-08-13",
-      "totalGW": 52.4,
-      "renewableGW": 35.31,
-      "renewableShare": 0.6739
+      "date": "2026-08-14",
+      "totalGW": 54.21,
+      "renewableGW": 39.36,
+      "renewableShare": 0.7261
     },
     "NL": {
       "date": "2026-08-14",
-      "totalGW": 5.49,
-      "renewableGW": 0.16,
-      "renewableShare": 0.0296
+      "totalGW": 4.25,
+      "renewableGW": 0.19,
+      "renewableShare": 0.0458
     },
     "BE": {
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "totalGW": 5.58,
-      "renewableGW": 3.0,
-      "renewableShare": 0.5377
+      "renewableGW": 3.22,
+      "renewableShare": 0.5766
     }
   },
   "countryNames": {
