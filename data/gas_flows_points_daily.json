@@ -4053,7 +4053,7 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-08-14",
-    "gwhPerDay": 187.199
+    "gwhPerDay": 345.863
   },
   {
     "origin": "Norway",
@@ -5205,7 +5205,7 @@
     "origin": "Norway",
     "label": "Dunkerque (FR)",
     "date": "2026-07-11",
-    "gwhPerDay": 539.551
+    "gwhPerDay": 539.55
   },
   {
     "origin": "Norway",
@@ -5229,7 +5229,7 @@
     "origin": "Norway",
     "label": "Dunkerque (FR)",
     "date": "2026-07-15",
-    "gwhPerDay": 539.084
+    "gwhPerDay": 539.083
   },
   {
     "origin": "Norway",
