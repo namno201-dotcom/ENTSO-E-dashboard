@@ -1130,6 +1130,11 @@
     "gwhPerDay": 863.215
   },
   {
+    "origin": "Algeria",
+    "date": "2026-08-15",
+    "gwhPerDay": 876.313
+  },
+  {
     "origin": "Azerbaijan",
     "date": "2026-01-01",
     "gwhPerDay": 345.834
@@ -2265,6 +2270,11 @@
     "gwhPerDay": 376.482
   },
   {
+    "origin": "Azerbaijan",
+    "date": "2026-08-16",
+    "gwhPerDay": 173.438
+  },
+  {
     "origin": "Norway",
     "date": "2026-01-01",
     "gwhPerDay": 2702.808
@@ -3393,5 +3403,10 @@
     "origin": "Norway",
     "date": "2026-08-14",
     "gwhPerDay": 2342.399
+  },
+  {
+    "origin": "Norway",
+    "date": "2026-08-15",
+    "gwhPerDay": 2303.234
   }
 ]

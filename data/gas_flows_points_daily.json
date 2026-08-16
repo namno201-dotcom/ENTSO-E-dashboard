@@ -1357,6 +1357,12 @@
   },
   {
     "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-15",
+    "gwhPerDay": 320.414
+  },
+  {
+    "origin": "Algeria",
     "label": "Mazara del Vallo (IT) - Transmed",
     "date": "2026-01-01",
     "gwhPerDay": 617.188
@@ -2710,6 +2716,12 @@
     "label": "Mazara del Vallo (IT) - Transmed",
     "date": "2026-08-14",
     "gwhPerDay": 538.738
+  },
+  {
+    "origin": "Algeria",
+    "label": "Mazara del Vallo (IT) - Transmed",
+    "date": "2026-08-15",
+    "gwhPerDay": 555.899
   },
   {
     "origin": "Azerbaijan",
@@ -4074,6 +4086,12 @@
     "gwhPerDay": 376.482
   },
   {
+    "origin": "Azerbaijan",
+    "label": "Kipoi (GR) - TAP/TANAP",
+    "date": "2026-08-16",
+    "gwhPerDay": 173.438
+  },
+  {
     "origin": "Norway",
     "label": "Dunkerque (FR)",
     "date": "2026-01-01",
@@ -5428,6 +5446,12 @@
     "label": "Dunkerque (FR)",
     "date": "2026-08-14",
     "gwhPerDay": 532.204
+  },
+  {
+    "origin": "Norway",
+    "label": "Dunkerque (FR)",
+    "date": "2026-08-15",
+    "gwhPerDay": 531.549
   },
   {
     "origin": "Norway",
@@ -6787,6 +6811,12 @@
   },
   {
     "origin": "Norway",
+    "label": "Easington (UK)",
+    "date": "2026-08-15",
+    "gwhPerDay": 541.171
+  },
+  {
+    "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-01-01",
     "gwhPerDay": 327.146
@@ -8140,6 +8170,12 @@
     "label": "Emden EPT1 (DE)",
     "date": "2026-08-14",
     "gwhPerDay": 318.308
+  },
+  {
+    "origin": "Norway",
+    "label": "Emden EPT1 (DE)",
+    "date": "2026-08-15",
+    "gwhPerDay": 332.854
   },
   {
     "origin": "Norway",
@@ -9499,6 +9535,12 @@
   },
   {
     "origin": "Norway",
+    "label": "St Fergus (UK)",
+    "date": "2026-08-15",
+    "gwhPerDay": 412.044
+  },
+  {
+    "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-01-01",
     "gwhPerDay": 478.481
@@ -10852,5 +10894,11 @@
     "label": "Zeebrugge (BE)",
     "date": "2026-08-14",
     "gwhPerDay": 486.873
+  },
+  {
+    "origin": "Norway",
+    "label": "Zeebrugge (BE)",
+    "date": "2026-08-15",
+    "gwhPerDay": 485.616
   }
 ]
