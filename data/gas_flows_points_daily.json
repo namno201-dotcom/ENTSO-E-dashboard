@@ -1393,6 +1393,12 @@
   },
   {
     "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-21",
+    "gwhPerDay": 327.809
+  },
+  {
+    "origin": "Algeria",
     "label": "Mazara del Vallo (IT) - Transmed",
     "date": "2026-01-01",
     "gwhPerDay": 617.188
@@ -2782,6 +2788,12 @@
     "label": "Mazara del Vallo (IT) - Transmed",
     "date": "2026-08-20",
     "gwhPerDay": 542.563
+  },
+  {
+    "origin": "Algeria",
+    "label": "Mazara del Vallo (IT) - Transmed",
+    "date": "2026-08-21",
+    "gwhPerDay": 533.163
   },
   {
     "origin": "Azerbaijan",
@@ -4185,7 +4197,7 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-08-22",
-    "gwhPerDay": 8.734
+    "gwhPerDay": 102.287
   },
   {
     "origin": "Norway",
@@ -5581,6 +5593,12 @@
   },
   {
     "origin": "Norway",
+    "label": "Dunkerque (FR)",
+    "date": "2026-08-21",
+    "gwhPerDay": 509.292
+  },
+  {
+    "origin": "Norway",
     "label": "Easington (UK)",
     "date": "2026-01-01",
     "gwhPerDay": 849.04
@@ -6970,6 +6988,12 @@
     "label": "Easington (UK)",
     "date": "2026-08-20",
     "gwhPerDay": 807.846
+  },
+  {
+    "origin": "Norway",
+    "label": "Easington (UK)",
+    "date": "2026-08-21",
+    "gwhPerDay": 659.874
   },
   {
     "origin": "Norway",
@@ -8365,6 +8389,12 @@
   },
   {
     "origin": "Norway",
+    "label": "Emden EPT1 (DE)",
+    "date": "2026-08-21",
+    "gwhPerDay": 254.289
+  },
+  {
+    "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-01-01",
     "gwhPerDay": 800.132
@@ -9757,6 +9787,12 @@
   },
   {
     "origin": "Norway",
+    "label": "St Fergus (UK)",
+    "date": "2026-08-21",
+    "gwhPerDay": 432.866
+  },
+  {
+    "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-01-01",
     "gwhPerDay": 478.481
@@ -11146,5 +11182,11 @@
     "label": "Zeebrugge (BE)",
     "date": "2026-08-20",
     "gwhPerDay": 482.883
+  },
+  {
+    "origin": "Norway",
+    "label": "Zeebrugge (BE)",
+    "date": "2026-08-21",
+    "gwhPerDay": 480.584
   }
 ]
