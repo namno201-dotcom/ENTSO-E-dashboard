@@ -1405,6 +1405,12 @@
   },
   {
     "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-23",
+    "gwhPerDay": 309.541
+  },
+  {
+    "origin": "Algeria",
     "label": "Mazara del Vallo (IT) - Transmed",
     "date": "2026-01-01",
     "gwhPerDay": 617.188
@@ -2806,6 +2812,12 @@
     "label": "Mazara del Vallo (IT) - Transmed",
     "date": "2026-08-22",
     "gwhPerDay": 544.447
+  },
+  {
+    "origin": "Algeria",
+    "label": "Mazara del Vallo (IT) - Transmed",
+    "date": "2026-08-23",
+    "gwhPerDay": 546.532
   },
   {
     "origin": "Azerbaijan",
@@ -4221,7 +4233,7 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-08-24",
-    "gwhPerDay": 6.946
+    "gwhPerDay": 95.307
   },
   {
     "origin": "Norway",
@@ -5629,6 +5641,12 @@
   },
   {
     "origin": "Norway",
+    "label": "Dunkerque (FR)",
+    "date": "2026-08-23",
+    "gwhPerDay": 535.036
+  },
+  {
+    "origin": "Norway",
     "label": "Easington (UK)",
     "date": "2026-01-01",
     "gwhPerDay": 849.04
@@ -6759,37 +6777,37 @@
     "origin": "Norway",
     "label": "Easington (UK)",
     "date": "2026-07-08",
-    "gwhPerDay": 584.019
+    "gwhPerDay": 584.856
   },
   {
     "origin": "Norway",
     "label": "Easington (UK)",
     "date": "2026-07-09",
-    "gwhPerDay": 484.961
+    "gwhPerDay": 485.583
   },
   {
     "origin": "Norway",
     "label": "Easington (UK)",
     "date": "2026-07-10",
-    "gwhPerDay": 623.368
+    "gwhPerDay": 624.0
   },
   {
     "origin": "Norway",
     "label": "Easington (UK)",
     "date": "2026-07-11",
-    "gwhPerDay": 635.561
+    "gwhPerDay": 636.271
   },
   {
     "origin": "Norway",
     "label": "Easington (UK)",
     "date": "2026-07-12",
-    "gwhPerDay": 512.359
+    "gwhPerDay": 512.692
   },
   {
     "origin": "Norway",
     "label": "Easington (UK)",
     "date": "2026-07-13",
-    "gwhPerDay": 624.56
+    "gwhPerDay": 625.233
   },
   {
     "origin": "Norway",
@@ -7030,6 +7048,12 @@
     "label": "Easington (UK)",
     "date": "2026-08-22",
     "gwhPerDay": 535.254
+  },
+  {
+    "origin": "Norway",
+    "label": "Easington (UK)",
+    "date": "2026-08-23",
+    "gwhPerDay": 669.792
   },
   {
     "origin": "Norway",
@@ -8437,6 +8461,12 @@
   },
   {
     "origin": "Norway",
+    "label": "Emden EPT1 (DE)",
+    "date": "2026-08-23",
+    "gwhPerDay": 319.659
+  },
+  {
+    "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-01-01",
     "gwhPerDay": 800.132
@@ -9531,19 +9561,19 @@
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-07-02",
-    "gwhPerDay": 509.556
+    "gwhPerDay": 541.853
   },
   {
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-07-03",
-    "gwhPerDay": 541.17
+    "gwhPerDay": 510.475
   },
   {
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-07-04",
-    "gwhPerDay": 565.653
+    "gwhPerDay": 555.219
   },
   {
     "origin": "Norway",
@@ -9561,13 +9591,13 @@
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-07-07",
-    "gwhPerDay": 533.231
+    "gwhPerDay": 533.233
   },
   {
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-07-08",
-    "gwhPerDay": 524.894
+    "gwhPerDay": 524.897
   },
   {
     "origin": "Norway",
@@ -9579,19 +9609,19 @@
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-07-10",
-    "gwhPerDay": 525.217
+    "gwhPerDay": 506.967
   },
   {
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-07-11",
-    "gwhPerDay": 525.813
+    "gwhPerDay": 505.825
   },
   {
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-07-12",
-    "gwhPerDay": 515.653
+    "gwhPerDay": 515.648
   },
   {
     "origin": "Norway",
@@ -9621,13 +9651,13 @@
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-07-17",
-    "gwhPerDay": 529.138
+    "gwhPerDay": 498.696
   },
   {
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-07-18",
-    "gwhPerDay": 535.827
+    "gwhPerDay": 511.839
   },
   {
     "origin": "Norway",
@@ -9645,13 +9675,13 @@
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-07-21",
-    "gwhPerDay": 480.807
+    "gwhPerDay": 480.808
   },
   {
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-07-22",
-    "gwhPerDay": 497.209
+    "gwhPerDay": 497.16
   },
   {
     "origin": "Norway",
@@ -9663,13 +9693,13 @@
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-07-24",
-    "gwhPerDay": 500.896
+    "gwhPerDay": 501.071
   },
   {
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-07-25",
-    "gwhPerDay": 505.682
+    "gwhPerDay": 505.828
   },
   {
     "origin": "Norway",
@@ -9825,19 +9855,25 @@
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-08-20",
-    "gwhPerDay": 428.275
+    "gwhPerDay": 428.273
   },
   {
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-08-21",
-    "gwhPerDay": 432.866
+    "gwhPerDay": 433.32
   },
   {
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-08-22",
-    "gwhPerDay": 456.45
+    "gwhPerDay": 457.079
+  },
+  {
+    "origin": "Norway",
+    "label": "St Fergus (UK)",
+    "date": "2026-08-23",
+    "gwhPerDay": 458.28
   },
   {
     "origin": "Norway",
@@ -11242,5 +11278,11 @@
     "label": "Zeebrugge (BE)",
     "date": "2026-08-22",
     "gwhPerDay": 477.621
+  },
+  {
+    "origin": "Norway",
+    "label": "Zeebrugge (BE)",
+    "date": "2026-08-23",
+    "gwhPerDay": 482.23
   }
 ]

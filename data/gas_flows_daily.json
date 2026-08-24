@@ -1170,6 +1170,11 @@
     "gwhPerDay": 859.895
   },
   {
+    "origin": "Algeria",
+    "date": "2026-08-23",
+    "gwhPerDay": 856.073
+  },
+  {
     "origin": "Azerbaijan",
     "date": "2026-01-01",
     "gwhPerDay": 345.834
@@ -2347,7 +2352,7 @@
   {
     "origin": "Azerbaijan",
     "date": "2026-08-24",
-    "gwhPerDay": 6.946
+    "gwhPerDay": 95.307
   },
   {
     "origin": "Norway",
@@ -3262,17 +3267,17 @@
   {
     "origin": "Norway",
     "date": "2026-07-02",
-    "gwhPerDay": 2391.899
+    "gwhPerDay": 2424.196
   },
   {
     "origin": "Norway",
     "date": "2026-07-03",
-    "gwhPerDay": 2443.234
+    "gwhPerDay": 2412.539
   },
   {
     "origin": "Norway",
     "date": "2026-07-04",
-    "gwhPerDay": 2456.354
+    "gwhPerDay": 2445.92
   },
   {
     "origin": "Norway",
@@ -3287,37 +3292,37 @@
   {
     "origin": "Norway",
     "date": "2026-07-07",
-    "gwhPerDay": 2365.412
+    "gwhPerDay": 2365.414
   },
   {
     "origin": "Norway",
     "date": "2026-07-08",
-    "gwhPerDay": 2340.583
+    "gwhPerDay": 2341.423
   },
   {
     "origin": "Norway",
     "date": "2026-07-09",
-    "gwhPerDay": 2219.236
+    "gwhPerDay": 2219.858
   },
   {
     "origin": "Norway",
     "date": "2026-07-10",
-    "gwhPerDay": 2388.198
+    "gwhPerDay": 2370.58
   },
   {
     "origin": "Norway",
     "date": "2026-07-11",
-    "gwhPerDay": 2399.611
+    "gwhPerDay": 2380.333
   },
   {
     "origin": "Norway",
     "date": "2026-07-12",
-    "gwhPerDay": 2256.813
+    "gwhPerDay": 2257.141
   },
   {
     "origin": "Norway",
     "date": "2026-07-13",
-    "gwhPerDay": 2379.096
+    "gwhPerDay": 2379.769
   },
   {
     "origin": "Norway",
@@ -3337,12 +3342,12 @@
   {
     "origin": "Norway",
     "date": "2026-07-17",
-    "gwhPerDay": 2316.323
+    "gwhPerDay": 2285.881
   },
   {
     "origin": "Norway",
     "date": "2026-07-18",
-    "gwhPerDay": 2341.656
+    "gwhPerDay": 2317.668
   },
   {
     "origin": "Norway",
@@ -3357,12 +3362,12 @@
   {
     "origin": "Norway",
     "date": "2026-07-21",
-    "gwhPerDay": 2383.611
+    "gwhPerDay": 2383.612
   },
   {
     "origin": "Norway",
     "date": "2026-07-22",
-    "gwhPerDay": 2345.081
+    "gwhPerDay": 2345.032
   },
   {
     "origin": "Norway",
@@ -3372,12 +3377,12 @@
   {
     "origin": "Norway",
     "date": "2026-07-24",
-    "gwhPerDay": 2297.794
+    "gwhPerDay": 2297.969
   },
   {
     "origin": "Norway",
     "date": "2026-07-25",
-    "gwhPerDay": 2142.623
+    "gwhPerDay": 2142.769
   },
   {
     "origin": "Norway",
@@ -3507,16 +3512,21 @@
   {
     "origin": "Norway",
     "date": "2026-08-20",
-    "gwhPerDay": 2551.767
+    "gwhPerDay": 2551.765
   },
   {
     "origin": "Norway",
     "date": "2026-08-21",
-    "gwhPerDay": 2336.905
+    "gwhPerDay": 2337.359
   },
   {
     "origin": "Norway",
     "date": "2026-08-22",
-    "gwhPerDay": 2321.013
+    "gwhPerDay": 2321.642
+  },
+  {
+    "origin": "Norway",
+    "date": "2026-08-23",
+    "gwhPerDay": 2464.997
   }
 ]
