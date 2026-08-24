@@ -4215,7 +4215,13 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-08-23",
-    "gwhPerDay": 82.841
+    "gwhPerDay": 164.693
+  },
+  {
+    "origin": "Azerbaijan",
+    "label": "Kipoi (GR) - TAP/TANAP",
+    "date": "2026-08-24",
+    "gwhPerDay": 6.946
   },
   {
     "origin": "Norway",
