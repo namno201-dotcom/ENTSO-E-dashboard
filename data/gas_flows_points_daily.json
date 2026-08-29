@@ -4323,7 +4323,7 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-08-29",
-    "gwhPerDay": 130.04
+    "gwhPerDay": 201.77
   },
   {
     "origin": "Norway",
@@ -7201,6 +7201,12 @@
   },
   {
     "origin": "Norway",
+    "label": "Easington (UK)",
+    "date": "2026-08-28",
+    "gwhPerDay": 575.676
+  },
+  {
+    "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-01-01",
     "gwhPerDay": 327.146
@@ -10072,6 +10078,12 @@
     "label": "St Fergus (UK)",
     "date": "2026-08-27",
     "gwhPerDay": 445.461
+  },
+  {
+    "origin": "Norway",
+    "label": "St Fergus (UK)",
+    "date": "2026-08-28",
+    "gwhPerDay": 423.074
   },
   {
     "origin": "Norway",
