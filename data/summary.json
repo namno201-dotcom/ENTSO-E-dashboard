@@ -1,13 +1,47 @@
 {
-  "generatedAt": "2026-08-29T19:42:54.266394+00:00",
-  "headline": "",
+  "generatedAt": "2026-08-30T10:54:51.984958+00:00",
+  "headline": "As of 31 July 2026, demand is running 5.7% above the 30-day average.",
   "kpis": {
-    "DE": null,
-    "NL": null,
-    "BE": null,
+    "DE": {
+      "date": "2026-06-30",
+      "latestGW": 56.0,
+      "avg30dGW": 51.61,
+      "pct": 0.085
+    },
+    "NL": {
+      "date": "2026-07-31",
+      "latestGW": 12.8,
+      "avg30dGW": 12.82,
+      "pct": -0.001
+    },
+    "BE": {
+      "date": "2026-06-30",
+      "latestGW": 9.09,
+      "avg30dGW": 9.27,
+      "pct": -0.0192
+    },
     "LU": null
   },
-  "renewable": {},
+  "renewable": {
+    "DE": {
+      "date": "2026-02-28",
+      "totalGW": 55.27,
+      "renewableGW": 42.19,
+      "renewableShare": 0.7635
+    },
+    "NL": {
+      "date": "2026-05-31",
+      "totalGW": 6.01,
+      "renewableGW": 0.57,
+      "renewableShare": 0.0942
+    },
+    "BE": {
+      "date": "2026-08-29",
+      "totalGW": 5.6,
+      "renewableGW": 4.63,
+      "renewableShare": 0.8281
+    }
+  },
   "countryNames": {
     "DE": "Germany",
     "NL": "Netherlands",
