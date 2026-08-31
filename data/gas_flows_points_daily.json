@@ -4359,7 +4359,7 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-08-31",
-    "gwhPerDay": 104.02
+    "gwhPerDay": 252.983
   },
   {
     "origin": "Norway",
@@ -5809,6 +5809,12 @@
   },
   {
     "origin": "Norway",
+    "label": "Dunkerque (FR)",
+    "date": "2026-08-30",
+    "gwhPerDay": 536.107
+  },
+  {
+    "origin": "Norway",
     "label": "Easington (UK)",
     "date": "2026-01-01",
     "gwhPerDay": 849.04
@@ -7252,6 +7258,12 @@
     "label": "Easington (UK)",
     "date": "2026-08-29",
     "gwhPerDay": 222.765
+  },
+  {
+    "origin": "Norway",
+    "label": "Easington (UK)",
+    "date": "2026-08-30",
+    "gwhPerDay": 189.909
   },
   {
     "origin": "Norway",
@@ -10143,13 +10155,19 @@
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-08-28",
-    "gwhPerDay": 423.074
+    "gwhPerDay": 418.665
   },
   {
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-08-29",
-    "gwhPerDay": 422.327
+    "gwhPerDay": 422.166
+  },
+  {
+    "origin": "Norway",
+    "label": "St Fergus (UK)",
+    "date": "2026-08-30",
+    "gwhPerDay": 441.979
   },
   {
     "origin": "Norway",
