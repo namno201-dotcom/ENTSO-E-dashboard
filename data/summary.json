@@ -1,13 +1,52 @@
 {
-  "generatedAt": "2026-09-02T11:19:03.539515+00:00",
-  "headline": "",
+  "generatedAt": "2026-09-02T20:35:16.233369+00:00",
+  "headline": "As of 1 September 2026, demand is running 4.8% above the 30-day average.",
   "kpis": {
-    "DE": null,
-    "NL": null,
-    "BE": null,
-    "LU": null
+    "DE": {
+      "date": "2026-08-31",
+      "latestGW": 51.64,
+      "avg30dGW": 48.38,
+      "pct": 0.0673
+    },
+    "NL": {
+      "date": "2026-08-31",
+      "latestGW": 8.33,
+      "avg30dGW": 8.71,
+      "pct": -0.0438
+    },
+    "BE": {
+      "date": "2026-09-01",
+      "latestGW": 9.12,
+      "avg30dGW": 8.86,
+      "pct": 0.0286
+    },
+    "LU": {
+      "date": "2026-08-31",
+      "latestGW": 0.52,
+      "avg30dGW": 0.49,
+      "pct": 0.0724
+    }
   },
-  "renewable": {},
+  "renewable": {
+    "DE": {
+      "date": "2026-09-01",
+      "totalGW": 0.49,
+      "renewableGW": 0.0,
+      "renewableShare": 0.0
+    },
+    "NL": {
+      "date": "2026-09-02",
+      "totalGW": 5.72,
+      "renewableGW": 0.9,
+      "renewableShare": 0.1573
+    },
+    "BE": {
+      "date": "2026-09-01",
+      "totalGW": 5.25,
+      "renewableGW": 3.1,
+      "renewableShare": 0.5911
+    }
+  },
   "countryNames": {
     "DE": "Germany",
     "NL": "Netherlands",
