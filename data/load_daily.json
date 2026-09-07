@@ -1962,34 +1962,34 @@
   {
     "code": "BE",
     "date": "2026-09-03",
-    "avgMW": 9670.01,
-    "peakMW": 11252.78,
-    "minMW": 7548.76,
+    "avgMW": 9671.3,
+    "peakMW": 11253.67,
+    "minMW": 7549.94,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-09-04",
-    "avgMW": 9537.62,
-    "peakMW": 11317.57,
-    "minMW": 7715.46,
+    "avgMW": 9570.52,
+    "peakMW": 11219.57,
+    "minMW": 7825.37,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-09-05",
-    "avgMW": 8249.22,
-    "peakMW": 9474.07,
-    "minMW": 7314.17,
+    "avgMW": 8254.66,
+    "peakMW": 9479.84,
+    "minMW": 7325.99,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-09-06",
-    "avgMW": 8233.14,
+    "avgMW": 8221.74,
     "peakMW": 10065.46,
     "minMW": 6813.76,
-    "readings": 82
+    "readings": 96
   },
   {
     "code": "DE",
@@ -3970,9 +3970,17 @@
   {
     "code": "DE",
     "date": "2026-09-05",
-    "avgMW": 45881.3,
-    "peakMW": 53565.87,
-    "minMW": 39594.1,
+    "avgMW": 45853.23,
+    "peakMW": 53538.87,
+    "minMW": 39569.1,
+    "readings": 96
+  },
+  {
+    "code": "DE",
+    "date": "2026-09-06",
+    "avgMW": 41911.31,
+    "peakMW": 48048.23,
+    "minMW": 35890.81,
     "readings": 96
   },
   {
@@ -5960,6 +5968,14 @@
     "readings": 96
   },
   {
+    "code": "LU",
+    "date": "2026-09-06",
+    "avgMW": 429.65,
+    "peakMW": 485.87,
+    "minMW": 383.68,
+    "readings": 96
+  },
+  {
     "code": "NL",
     "date": "2026-01-01",
     "avgMW": 14047.54,
@@ -7722,16 +7738,16 @@
   {
     "code": "NL",
     "date": "2026-08-09",
-    "avgMW": 11234.89,
-    "peakMW": 13302.7,
+    "avgMW": 11669.13,
+    "peakMW": 13567.94,
     "minMW": 9821.91,
     "readings": 96
   },
   {
     "code": "NL",
     "date": "2026-08-10",
-    "avgMW": 7817.62,
-    "peakMW": 10729.84,
+    "avgMW": 9414.71,
+    "peakMW": 13730.93,
     "minMW": 3692.67,
     "readings": 96
   },
@@ -7946,9 +7962,9 @@
   {
     "code": "NL",
     "date": "2026-09-06",
-    "avgMW": 7075.75,
-    "peakMW": 10274.05,
+    "avgMW": 7523.35,
+    "peakMW": 10377.68,
     "minMW": 2274.8,
-    "readings": 81
+    "readings": 96
   }
 ]
