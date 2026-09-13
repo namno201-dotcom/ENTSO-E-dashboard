@@ -3048,6 +3048,12 @@
     "gwhPerDay": 394.561
   },
   {
+    "origin": "Algeria",
+    "label": "Mazara del Vallo (IT) - Transmed",
+    "date": "2026-09-12",
+    "gwhPerDay": 395.273
+  },
+  {
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-01-01",
@@ -4575,7 +4581,7 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-09-12",
-    "gwhPerDay": 200.998
+    "gwhPerDay": 258.235
   },
   {
     "origin": "Norway",
