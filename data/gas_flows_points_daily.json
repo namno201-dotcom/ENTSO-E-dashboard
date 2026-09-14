@@ -4581,13 +4581,25 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-09-11",
-    "gwhPerDay": 282.316
+    "gwhPerDay": 376.454
   },
   {
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-09-12",
-    "gwhPerDay": 258.235
+    "gwhPerDay": 344.162
+  },
+  {
+    "origin": "Azerbaijan",
+    "label": "Kipoi (GR) - TAP/TANAP",
+    "date": "2026-09-13",
+    "gwhPerDay": 344.108
+  },
+  {
+    "origin": "Azerbaijan",
+    "label": "Kipoi (GR) - TAP/TANAP",
+    "date": "2026-09-14",
+    "gwhPerDay": 71.889
   },
   {
     "origin": "Norway",
@@ -12226,5 +12238,17 @@
     "label": "Zeebrugge (BE)",
     "date": "2026-09-11",
     "gwhPerDay": 477.019
+  },
+  {
+    "origin": "Norway",
+    "label": "Zeebrugge (BE)",
+    "date": "2026-09-12",
+    "gwhPerDay": 470.818
+  },
+  {
+    "origin": "Norway",
+    "label": "Zeebrugge (BE)",
+    "date": "2026-09-13",
+    "gwhPerDay": 471.922
   }
 ]
