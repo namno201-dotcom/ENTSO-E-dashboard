@@ -5883,7 +5883,7 @@
     "origin": "Norway",
     "label": "Dunkerque (FR)",
     "date": "2026-08-04",
-    "gwhPerDay": 542.759
+    "gwhPerDay": 542.756
   },
   {
     "origin": "Norway",
@@ -5973,7 +5973,7 @@
     "origin": "Norway",
     "label": "Dunkerque (FR)",
     "date": "2026-08-19",
-    "gwhPerDay": 488.868
+    "gwhPerDay": 488.867
   },
   {
     "origin": "Norway",
@@ -5997,7 +5997,7 @@
     "origin": "Norway",
     "label": "Dunkerque (FR)",
     "date": "2026-08-23",
-    "gwhPerDay": 535.036
+    "gwhPerDay": 535.035
   },
   {
     "origin": "Norway",
@@ -12220,5 +12220,11 @@
     "label": "Zeebrugge (BE)",
     "date": "2026-09-10",
     "gwhPerDay": 476.671
+  },
+  {
+    "origin": "Norway",
+    "label": "Zeebrugge (BE)",
+    "date": "2026-09-11",
+    "gwhPerDay": 477.019
   }
 ]
