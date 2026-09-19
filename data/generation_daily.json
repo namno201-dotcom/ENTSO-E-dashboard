@@ -15037,7 +15037,7 @@
     "psrType": "B18",
     "productionType": "Wind offshore",
     "isRenewable": true,
-    "avgMW": 804.92
+    "avgMW": 804.91
   },
   {
     "code": "BE",
@@ -21245,7 +21245,7 @@
     "psrType": "B20",
     "productionType": "Other",
     "isRenewable": false,
-    "avgMW": 307.91
+    "avgMW": 320.51
   },
   {
     "code": "BE",
@@ -21581,7 +21581,7 @@
     "psrType": "B01",
     "productionType": "Biomass",
     "isRenewable": true,
-    "avgMW": 60.42
+    "avgMW": 218.49
   },
   {
     "code": "BE",
@@ -21589,7 +21589,7 @@
     "psrType": "B04",
     "productionType": "Natural gas",
     "isRenewable": false,
-    "avgMW": 1683.33
+    "avgMW": 2172.47
   },
   {
     "code": "BE",
@@ -21597,7 +21597,7 @@
     "psrType": "B06",
     "productionType": "Fossil oil",
     "isRenewable": false,
-    "avgMW": 0.0
+    "avgMW": 64.96
   },
   {
     "code": "BE",
@@ -21605,7 +21605,7 @@
     "psrType": "B11",
     "productionType": "Hydro run-of-river",
     "isRenewable": true,
-    "avgMW": 0.72
+    "avgMW": 1.24
   },
   {
     "code": "BE",
@@ -21621,7 +21621,7 @@
     "psrType": "B17",
     "productionType": "Waste",
     "isRenewable": false,
-    "avgMW": 166.03
+    "avgMW": 231.91
   },
   {
     "code": "BE",
@@ -21629,7 +21629,7 @@
     "psrType": "B18",
     "productionType": "Wind offshore",
     "isRenewable": true,
-    "avgMW": 614.07
+    "avgMW": 617.09
   },
   {
     "code": "BE",
@@ -21645,7 +21645,7 @@
     "psrType": "B20",
     "productionType": "Other",
     "isRenewable": false,
-    "avgMW": 182.51
+    "avgMW": 165.76
   },
   {
     "code": "BE",
@@ -21653,7 +21653,7 @@
     "psrType": "B25",
     "productionType": "Energy storage",
     "isRenewable": false,
-    "avgMW": 141.02
+    "avgMW": 147.17
   },
   {
     "code": "BE",
@@ -21670,6 +21670,14 @@
     "productionType": "Natural gas",
     "isRenewable": false,
     "avgMW": 1184.18
+  },
+  {
+    "code": "BE",
+    "date": "2026-09-17",
+    "psrType": "B11",
+    "productionType": "Hydro run-of-river",
+    "isRenewable": true,
+    "avgMW": 0.0
   },
   {
     "code": "BE",
@@ -21701,7 +21709,7 @@
     "psrType": "B19",
     "productionType": "Wind onshore",
     "isRenewable": true,
-    "avgMW": 1146.5
+    "avgMW": 1149.85
   },
   {
     "code": "BE",
@@ -21725,7 +21733,7 @@
     "psrType": "B01",
     "productionType": "Biomass",
     "isRenewable": true,
-    "avgMW": 55.18
+    "avgMW": 55.73
   },
   {
     "code": "BE",
@@ -21733,7 +21741,15 @@
     "psrType": "B04",
     "productionType": "Natural gas",
     "isRenewable": false,
-    "avgMW": 513.75
+    "avgMW": 538.24
+  },
+  {
+    "code": "BE",
+    "date": "2026-09-18",
+    "psrType": "B11",
+    "productionType": "Hydro run-of-river",
+    "isRenewable": true,
+    "avgMW": 0.0
   },
   {
     "code": "BE",
@@ -21741,7 +21757,7 @@
     "psrType": "B16",
     "productionType": "Solar",
     "isRenewable": true,
-    "avgMW": 2237.81
+    "avgMW": 1864.85
   },
   {
     "code": "BE",
@@ -21749,7 +21765,7 @@
     "psrType": "B17",
     "productionType": "Waste",
     "isRenewable": false,
-    "avgMW": 160.15
+    "avgMW": 161.21
   },
   {
     "code": "BE",
@@ -21757,7 +21773,7 @@
     "psrType": "B18",
     "productionType": "Wind offshore",
     "isRenewable": true,
-    "avgMW": 1145.03
+    "avgMW": 1316.34
   },
   {
     "code": "BE",
@@ -21765,7 +21781,7 @@
     "psrType": "B19",
     "productionType": "Wind onshore",
     "isRenewable": true,
-    "avgMW": 669.11
+    "avgMW": 726.21
   },
   {
     "code": "BE",
@@ -21773,7 +21789,7 @@
     "psrType": "B20",
     "productionType": "Other",
     "isRenewable": false,
-    "avgMW": 318.91
+    "avgMW": 318.58
   },
   {
     "code": "BE",
@@ -21781,7 +21797,7 @@
     "psrType": "B25",
     "productionType": "Energy storage",
     "isRenewable": false,
-    "avgMW": 105.55
+    "avgMW": 122.47
   },
   {
     "code": "DE",
@@ -52741,7 +52757,7 @@
     "psrType": "B04",
     "productionType": "Natural gas",
     "isRenewable": false,
-    "avgMW": 3957.69
+    "avgMW": 3957.73
   },
   {
     "code": "DE",
@@ -52789,7 +52805,7 @@
     "psrType": "B16",
     "productionType": "Solar",
     "isRenewable": true,
-    "avgMW": 11912.62
+    "avgMW": 11975.68
   },
   {
     "code": "DE",
@@ -52829,7 +52845,7 @@
     "psrType": "B01",
     "productionType": "Biomass",
     "isRenewable": true,
-    "avgMW": 3916.03
+    "avgMW": 3940.55
   },
   {
     "code": "DE",
@@ -52837,7 +52853,7 @@
     "psrType": "B02",
     "productionType": "Lignite",
     "isRenewable": false,
-    "avgMW": 9041.52
+    "avgMW": 9126.27
   },
   {
     "code": "DE",
@@ -52845,7 +52861,7 @@
     "psrType": "B03",
     "productionType": "Fossil coal-derived gas",
     "isRenewable": false,
-    "avgMW": 343.21
+    "avgMW": 348.81
   },
   {
     "code": "DE",
@@ -52853,7 +52869,7 @@
     "psrType": "B04",
     "productionType": "Natural gas",
     "isRenewable": false,
-    "avgMW": 3416.49
+    "avgMW": 3440.26
   },
   {
     "code": "DE",
@@ -52861,7 +52877,7 @@
     "psrType": "B05",
     "productionType": "Hard coal",
     "isRenewable": false,
-    "avgMW": 2456.91
+    "avgMW": 2449.87
   },
   {
     "code": "DE",
@@ -52869,7 +52885,7 @@
     "psrType": "B06",
     "productionType": "Fossil oil",
     "isRenewable": false,
-    "avgMW": 314.69
+    "avgMW": 311.55
   },
   {
     "code": "DE",
@@ -52877,7 +52893,7 @@
     "psrType": "B11",
     "productionType": "Hydro run-of-river",
     "isRenewable": true,
-    "avgMW": 1179.85
+    "avgMW": 1163.99
   },
   {
     "code": "DE",
@@ -52885,7 +52901,7 @@
     "psrType": "B12",
     "productionType": "Hydro water reservoir",
     "isRenewable": true,
-    "avgMW": 92.18
+    "avgMW": 98.36
   },
   {
     "code": "DE",
@@ -52893,7 +52909,7 @@
     "psrType": "B16",
     "productionType": "Solar",
     "isRenewable": true,
-    "avgMW": 11507.5
+    "avgMW": 9915.85
   },
   {
     "code": "DE",
@@ -52901,7 +52917,7 @@
     "psrType": "B17",
     "productionType": "Waste",
     "isRenewable": false,
-    "avgMW": 802.24
+    "avgMW": 806.65
   },
   {
     "code": "DE",
@@ -52909,7 +52925,7 @@
     "psrType": "B18",
     "productionType": "Wind offshore",
     "isRenewable": true,
-    "avgMW": 4351.85
+    "avgMW": 4506.44
   },
   {
     "code": "DE",
@@ -52917,7 +52933,7 @@
     "psrType": "B19",
     "productionType": "Wind onshore",
     "isRenewable": true,
-    "avgMW": 16591.18
+    "avgMW": 16656.8
   },
   {
     "code": "DE",
@@ -52925,7 +52941,7 @@
     "psrType": "B20",
     "productionType": "Other",
     "isRenewable": false,
-    "avgMW": 161.22
+    "avgMW": 159.71
   },
   {
     "code": "NL",
@@ -69637,7 +69653,7 @@
     "psrType": "B01",
     "productionType": "Biomass",
     "isRenewable": true,
-    "avgMW": 479.1
+    "avgMW": 482.77
   },
   {
     "code": "NL",
@@ -69645,7 +69661,7 @@
     "psrType": "B04",
     "productionType": "Natural gas",
     "isRenewable": false,
-    "avgMW": 2477.51
+    "avgMW": 2477.98
   },
   {
     "code": "NL",
@@ -69653,7 +69669,7 @@
     "psrType": "B05",
     "productionType": "Hard coal",
     "isRenewable": false,
-    "avgMW": 1358.61
+    "avgMW": 1357.8
   },
   {
     "code": "NL",
@@ -69661,7 +69677,7 @@
     "psrType": "B14",
     "productionType": "Nuclear",
     "isRenewable": false,
-    "avgMW": 249.52
+    "avgMW": 232.7
   },
   {
     "code": "NL",
@@ -69669,7 +69685,7 @@
     "psrType": "B16",
     "productionType": "Solar",
     "isRenewable": true,
-    "avgMW": 37.38
+    "avgMW": 37.45
   },
   {
     "code": "NL",
@@ -69677,7 +69693,7 @@
     "psrType": "B17",
     "productionType": "Waste",
     "isRenewable": false,
-    "avgMW": 140.35
+    "avgMW": 160.92
   },
   {
     "code": "NL",
@@ -69685,7 +69701,7 @@
     "psrType": "B18",
     "productionType": "Wind offshore",
     "isRenewable": true,
-    "avgMW": 398.79
+    "avgMW": 398.93
   },
   {
     "code": "NL",
@@ -69693,7 +69709,7 @@
     "psrType": "B19",
     "productionType": "Wind onshore",
     "isRenewable": true,
-    "avgMW": 192.65
+    "avgMW": 205.81
   },
   {
     "code": "NL",
@@ -69701,7 +69717,7 @@
     "psrType": "B20",
     "productionType": "Other",
     "isRenewable": false,
-    "avgMW": 2411.84
+    "avgMW": 2582.58
   },
   {
     "code": "NL",
@@ -69709,7 +69725,7 @@
     "psrType": "B01",
     "productionType": "Biomass",
     "isRenewable": true,
-    "avgMW": 359.38
+    "avgMW": 369.26
   },
   {
     "code": "NL",
@@ -69717,7 +69733,7 @@
     "psrType": "B04",
     "productionType": "Natural gas",
     "isRenewable": false,
-    "avgMW": 889.59
+    "avgMW": 892.8
   },
   {
     "code": "NL",
@@ -69725,7 +69741,7 @@
     "psrType": "B05",
     "productionType": "Hard coal",
     "isRenewable": false,
-    "avgMW": 1022.26
+    "avgMW": 1022.51
   },
   {
     "code": "NL",
@@ -69733,7 +69749,7 @@
     "psrType": "B14",
     "productionType": "Nuclear",
     "isRenewable": false,
-    "avgMW": 464.93
+    "avgMW": 321.39
   },
   {
     "code": "NL",
@@ -69741,7 +69757,7 @@
     "psrType": "B16",
     "productionType": "Solar",
     "isRenewable": true,
-    "avgMW": 28.47
+    "avgMW": 30.33
   },
   {
     "code": "NL",
@@ -69749,7 +69765,7 @@
     "psrType": "B17",
     "productionType": "Waste",
     "isRenewable": false,
-    "avgMW": 23.9
+    "avgMW": 85.09
   },
   {
     "code": "NL",
@@ -69757,7 +69773,7 @@
     "psrType": "B18",
     "productionType": "Wind offshore",
     "isRenewable": true,
-    "avgMW": 797.55
+    "avgMW": 794.66
   },
   {
     "code": "NL",
@@ -69765,7 +69781,7 @@
     "psrType": "B19",
     "productionType": "Wind onshore",
     "isRenewable": true,
-    "avgMW": 171.1
+    "avgMW": 208.09
   },
   {
     "code": "NL",
@@ -69773,7 +69789,7 @@
     "psrType": "B20",
     "productionType": "Other",
     "isRenewable": false,
-    "avgMW": 135.33
+    "avgMW": 692.39
   },
   {
     "code": "NL",
@@ -71653,7 +71669,7 @@
     "psrType": "B01",
     "productionType": "Biomass",
     "isRenewable": true,
-    "avgMW": 1.93
+    "avgMW": 2.14
   },
   {
     "code": "NL",
@@ -71661,7 +71677,7 @@
     "psrType": "B04",
     "productionType": "Natural gas",
     "isRenewable": false,
-    "avgMW": 707.64
+    "avgMW": 750.25
   },
   {
     "code": "NL",
@@ -71669,7 +71685,7 @@
     "psrType": "B05",
     "productionType": "Hard coal",
     "isRenewable": false,
-    "avgMW": 856.76
+    "avgMW": 863.1
   },
   {
     "code": "NL",
@@ -71677,7 +71693,7 @@
     "psrType": "B14",
     "productionType": "Nuclear",
     "isRenewable": false,
-    "avgMW": 471.28
+    "avgMW": 471.14
   },
   {
     "code": "NL",
@@ -71685,7 +71701,7 @@
     "psrType": "B16",
     "productionType": "Solar",
     "isRenewable": true,
-    "avgMW": 20.96
+    "avgMW": 17.58
   },
   {
     "code": "NL",
@@ -71693,7 +71709,7 @@
     "psrType": "B17",
     "productionType": "Waste",
     "isRenewable": false,
-    "avgMW": 58.67
+    "avgMW": 60.15
   },
   {
     "code": "NL",
@@ -71701,7 +71717,7 @@
     "psrType": "B18",
     "productionType": "Wind offshore",
     "isRenewable": true,
-    "avgMW": 1493.51
+    "avgMW": 1559.89
   },
   {
     "code": "NL",
@@ -71709,7 +71725,7 @@
     "psrType": "B19",
     "productionType": "Wind onshore",
     "isRenewable": true,
-    "avgMW": 584.41
+    "avgMW": 606.47
   },
   {
     "code": "NL",
@@ -71717,6 +71733,46 @@
     "psrType": "B20",
     "productionType": "Other",
     "isRenewable": false,
-    "avgMW": 185.22
+    "avgMW": 188.72
+  },
+  {
+    "code": "NL",
+    "date": "2026-09-19",
+    "psrType": "B04",
+    "productionType": "Natural gas",
+    "isRenewable": false,
+    "avgMW": 377.83
+  },
+  {
+    "code": "NL",
+    "date": "2026-09-19",
+    "psrType": "B05",
+    "productionType": "Hard coal",
+    "isRenewable": false,
+    "avgMW": 197.26
+  },
+  {
+    "code": "NL",
+    "date": "2026-09-19",
+    "psrType": "B16",
+    "productionType": "Solar",
+    "isRenewable": true,
+    "avgMW": 3.72
+  },
+  {
+    "code": "NL",
+    "date": "2026-09-19",
+    "psrType": "B18",
+    "productionType": "Wind offshore",
+    "isRenewable": true,
+    "avgMW": 1916.96
+  },
+  {
+    "code": "NL",
+    "date": "2026-09-19",
+    "psrType": "B20",
+    "productionType": "Other",
+    "isRenewable": false,
+    "avgMW": 209.3
   }
 ]
