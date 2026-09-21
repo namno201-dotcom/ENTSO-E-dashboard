@@ -2632,7 +2632,7 @@
   {
     "origin": "Azerbaijan",
     "date": "2026-09-21",
-    "gwhPerDay": 70.495
+    "gwhPerDay": 228.42
   },
   {
     "origin": "Norway",
@@ -3937,16 +3937,16 @@
   {
     "origin": "Norway",
     "date": "2026-09-18",
-    "gwhPerDay": 1882.272
+    "gwhPerDay": 1945.54
   },
   {
     "origin": "Norway",
     "date": "2026-09-19",
-    "gwhPerDay": 1912.422
+    "gwhPerDay": 1988.561
   },
   {
     "origin": "Norway",
     "date": "2026-09-20",
-    "gwhPerDay": 752.052
+    "gwhPerDay": 1974.158
   }
 ]
