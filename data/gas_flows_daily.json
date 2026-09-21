@@ -1310,6 +1310,11 @@
     "gwhPerDay": 330.152
   },
   {
+    "origin": "Algeria",
+    "date": "2026-09-20",
+    "gwhPerDay": 343.454
+  },
+  {
     "origin": "Azerbaijan",
     "date": "2026-01-01",
     "gwhPerDay": 345.834
@@ -2622,7 +2627,12 @@
   {
     "origin": "Azerbaijan",
     "date": "2026-09-20",
-    "gwhPerDay": 197.425
+    "gwhPerDay": 338.54
+  },
+  {
+    "origin": "Azerbaijan",
+    "date": "2026-09-21",
+    "gwhPerDay": 70.495
   },
   {
     "origin": "Norway",
@@ -3687,157 +3697,157 @@
   {
     "origin": "Norway",
     "date": "2026-08-01",
-    "gwhPerDay": 2304.718
+    "gwhPerDay": 2304.754
   },
   {
     "origin": "Norway",
     "date": "2026-08-02",
-    "gwhPerDay": 2335.171
+    "gwhPerDay": 2335.177
   },
   {
     "origin": "Norway",
     "date": "2026-08-03",
-    "gwhPerDay": 2304.466
+    "gwhPerDay": 2304.505
   },
   {
     "origin": "Norway",
     "date": "2026-08-04",
-    "gwhPerDay": 2209.408
+    "gwhPerDay": 2209.375
   },
   {
     "origin": "Norway",
     "date": "2026-08-05",
-    "gwhPerDay": 2171.983
+    "gwhPerDay": 2171.918
   },
   {
     "origin": "Norway",
     "date": "2026-08-06",
-    "gwhPerDay": 2245.956
+    "gwhPerDay": 2246.029
   },
   {
     "origin": "Norway",
     "date": "2026-08-07",
-    "gwhPerDay": 2222.779
+    "gwhPerDay": 2222.668
   },
   {
     "origin": "Norway",
     "date": "2026-08-08",
-    "gwhPerDay": 2204.262
+    "gwhPerDay": 2204.395
   },
   {
     "origin": "Norway",
     "date": "2026-08-09",
-    "gwhPerDay": 2304.154
+    "gwhPerDay": 2304.168
   },
   {
     "origin": "Norway",
     "date": "2026-08-10",
-    "gwhPerDay": 2270.441
+    "gwhPerDay": 2270.478
   },
   {
     "origin": "Norway",
     "date": "2026-08-11",
-    "gwhPerDay": 2368.277
+    "gwhPerDay": 2368.252
   },
   {
     "origin": "Norway",
     "date": "2026-08-12",
-    "gwhPerDay": 2331.801
+    "gwhPerDay": 2331.911
   },
   {
     "origin": "Norway",
     "date": "2026-08-13",
-    "gwhPerDay": 2301.285
+    "gwhPerDay": 2301.201
   },
   {
     "origin": "Norway",
     "date": "2026-08-14",
-    "gwhPerDay": 2347.217
+    "gwhPerDay": 2347.331
   },
   {
     "origin": "Norway",
     "date": "2026-08-15",
-    "gwhPerDay": 2309.941
+    "gwhPerDay": 2310.031
   },
   {
     "origin": "Norway",
     "date": "2026-08-16",
-    "gwhPerDay": 2316.185
+    "gwhPerDay": 2316.179
   },
   {
     "origin": "Norway",
     "date": "2026-08-17",
-    "gwhPerDay": 2328.484
+    "gwhPerDay": 2328.506
   },
   {
     "origin": "Norway",
     "date": "2026-08-18",
-    "gwhPerDay": 2277.897
+    "gwhPerDay": 2277.946
   },
   {
     "origin": "Norway",
     "date": "2026-08-19",
-    "gwhPerDay": 2215.047
+    "gwhPerDay": 2215.183
   },
   {
     "origin": "Norway",
     "date": "2026-08-20",
-    "gwhPerDay": 2551.698
+    "gwhPerDay": 2551.639
   },
   {
     "origin": "Norway",
     "date": "2026-08-21",
-    "gwhPerDay": 2337.292
+    "gwhPerDay": 2337.414
   },
   {
     "origin": "Norway",
     "date": "2026-08-22",
-    "gwhPerDay": 2321.573
+    "gwhPerDay": 2321.517
   },
   {
     "origin": "Norway",
     "date": "2026-08-23",
-    "gwhPerDay": 2464.924
+    "gwhPerDay": 2464.97
   },
   {
     "origin": "Norway",
     "date": "2026-08-24",
-    "gwhPerDay": 2623.62
+    "gwhPerDay": 2623.693
   },
   {
     "origin": "Norway",
     "date": "2026-08-25",
-    "gwhPerDay": 2513.148
+    "gwhPerDay": 2513.242
   },
   {
     "origin": "Norway",
     "date": "2026-08-26",
-    "gwhPerDay": 2449.259
+    "gwhPerDay": 2449.324
   },
   {
     "origin": "Norway",
     "date": "2026-08-27",
-    "gwhPerDay": 2504.088
+    "gwhPerDay": 2504.127
   },
   {
     "origin": "Norway",
     "date": "2026-08-28",
-    "gwhPerDay": 2326.236
+    "gwhPerDay": 2326.204
   },
   {
     "origin": "Norway",
     "date": "2026-08-29",
-    "gwhPerDay": 1970.385
+    "gwhPerDay": 1970.494
   },
   {
     "origin": "Norway",
     "date": "2026-08-30",
-    "gwhPerDay": 1951.842
+    "gwhPerDay": 1951.868
   },
   {
     "origin": "Norway",
     "date": "2026-08-31",
-    "gwhPerDay": 2009.607
+    "gwhPerDay": 2009.675
   },
   {
     "origin": "Norway",
@@ -3933,5 +3943,10 @@
     "origin": "Norway",
     "date": "2026-09-19",
     "gwhPerDay": 1912.422
+  },
+  {
+    "origin": "Norway",
+    "date": "2026-09-20",
+    "gwhPerDay": 752.052
   }
 ]
