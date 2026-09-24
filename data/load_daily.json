@@ -2106,26 +2106,26 @@
   {
     "code": "BE",
     "date": "2026-09-21",
-    "avgMW": 9084.37,
-    "peakMW": 11182.74,
-    "minMW": 6849.18,
+    "avgMW": 8968.63,
+    "peakMW": 11084.34,
+    "minMW": 6684.73,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-09-22",
-    "avgMW": 8873.71,
-    "peakMW": 10754.15,
-    "minMW": 7080.05,
+    "avgMW": 8890.85,
+    "peakMW": 10757.73,
+    "minMW": 7102.47,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-09-23",
-    "avgMW": 9106.28,
+    "avgMW": 9032.75,
     "peakMW": 11071.45,
     "minMW": 7019.51,
-    "readings": 86
+    "readings": 96
   },
   {
     "code": "DE",
@@ -4242,18 +4242,18 @@
   {
     "code": "DE",
     "date": "2026-09-22",
-    "avgMW": 53394.74,
-    "peakMW": 62248.82,
-    "minMW": 43083.49,
+    "avgMW": 53381.71,
+    "peakMW": 62234.82,
+    "minMW": 43074.49,
     "readings": 96
   },
   {
     "code": "DE",
     "date": "2026-09-23",
-    "avgMW": 54744.12,
-    "peakMW": 62885.05,
-    "minMW": 43829.01,
-    "readings": 85
+    "avgMW": 54414.46,
+    "peakMW": 62886.15,
+    "minMW": 43831.71,
+    "readings": 96
   },
   {
     "code": "LU",
@@ -6378,10 +6378,10 @@
   {
     "code": "LU",
     "date": "2026-09-23",
-    "avgMW": 543.15,
+    "avgMW": 540.45,
     "peakMW": 669.94,
     "minMW": 430.17,
-    "readings": 85
+    "readings": 96
   },
   {
     "code": "NL",
@@ -8282,7 +8282,7 @@
   {
     "code": "NL",
     "date": "2026-08-26",
-    "avgMW": 13031.55,
+    "avgMW": 13336.33,
     "peakMW": 14896.77,
     "minMW": 10973.67,
     "readings": 96
@@ -8290,8 +8290,8 @@
   {
     "code": "NL",
     "date": "2026-08-27",
-    "avgMW": 9561.02,
-    "peakMW": 12444.76,
+    "avgMW": 10412.32,
+    "peakMW": 14588.91,
     "minMW": 5103.75,
     "readings": 96
   },
@@ -8506,9 +8506,9 @@
   {
     "code": "NL",
     "date": "2026-09-23",
-    "avgMW": 9458.76,
-    "peakMW": 11221.44,
+    "avgMW": 9636.63,
+    "peakMW": 11428.06,
     "minMW": 5593.98,
-    "readings": 85
+    "readings": 96
   }
 ]
