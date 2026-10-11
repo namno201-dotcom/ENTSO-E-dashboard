@@ -2242,26 +2242,26 @@
   {
     "code": "BE",
     "date": "2026-10-08",
-    "avgMW": 9518.8,
-    "peakMW": 11517.29,
-    "minMW": 7476.84,
+    "avgMW": 9565.33,
+    "peakMW": 11535.48,
+    "minMW": 7536.33,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-10-09",
-    "avgMW": 9323.96,
-    "peakMW": 10872.94,
-    "minMW": 7418.58,
+    "avgMW": 9333.76,
+    "peakMW": 10884.95,
+    "minMW": 7421.52,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-10-10",
-    "avgMW": 8471.97,
+    "avgMW": 8430.26,
     "peakMW": 9842.62,
     "minMW": 7004.41,
-    "readings": 88
+    "readings": 96
   },
   {
     "code": "DE",
@@ -4514,18 +4514,18 @@
   {
     "code": "DE",
     "date": "2026-10-09",
-    "avgMW": 55067.2,
-    "peakMW": 64545.04,
-    "minMW": 40964.76,
+    "avgMW": 55065.13,
+    "peakMW": 64536.04,
+    "minMW": 40962.76,
     "readings": 96
   },
   {
     "code": "DE",
     "date": "2026-10-10",
-    "avgMW": 47858.3,
-    "peakMW": 55652.65,
-    "minMW": 40176.33,
-    "readings": 87
+    "avgMW": 47384.71,
+    "peakMW": 55651.45,
+    "minMW": 39865.36,
+    "readings": 96
   },
   {
     "code": "LU",
@@ -6786,10 +6786,10 @@
   {
     "code": "LU",
     "date": "2026-10-10",
-    "avgMW": 516.65,
+    "avgMW": 516.06,
     "peakMW": 632.79,
     "minMW": 200.06,
-    "readings": 87
+    "readings": 96
   },
   {
     "code": "NL",
@@ -8826,16 +8826,16 @@
   {
     "code": "NL",
     "date": "2026-09-12",
-    "avgMW": 12124.31,
+    "avgMW": 12378.03,
     "peakMW": 14130.06,
-    "minMW": 9359.91,
+    "minMW": 10811.56,
     "readings": 96
   },
   {
     "code": "NL",
     "date": "2026-09-13",
-    "avgMW": 9574.12,
-    "peakMW": 10755.34,
+    "avgMW": 10588.59,
+    "peakMW": 13254.99,
     "minMW": 6810.28,
     "readings": 96
   },
@@ -9050,9 +9050,9 @@
   {
     "code": "NL",
     "date": "2026-10-10",
-    "avgMW": 8672.77,
+    "avgMW": 8716.87,
     "peakMW": 10750.3,
     "minMW": 5753.83,
-    "readings": 87
+    "readings": 96
   }
 ]
