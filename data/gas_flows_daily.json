@@ -1412,7 +1412,7 @@
   {
     "origin": "Algeria",
     "date": "2026-10-10",
-    "gwhPerDay": 627.333
+    "gwhPerDay": 836.09
   },
   {
     "origin": "Azerbaijan",
@@ -2832,7 +2832,7 @@
   {
     "origin": "Azerbaijan",
     "date": "2026-10-11",
-    "gwhPerDay": 86.393
+    "gwhPerDay": 230.514
   },
   {
     "origin": "Norway",
@@ -4242,11 +4242,11 @@
   {
     "origin": "Norway",
     "date": "2026-10-09",
-    "gwhPerDay": 2511.233
+    "gwhPerDay": 2444.648
   },
   {
     "origin": "Norway",
     "date": "2026-10-10",
-    "gwhPerDay": 770.188
+    "gwhPerDay": 2559.536
   }
 ]
