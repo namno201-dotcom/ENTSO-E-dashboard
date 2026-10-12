@@ -1693,6 +1693,12 @@
   },
   {
     "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-11",
+    "gwhPerDay": 202.337
+  },
+  {
+    "origin": "Algeria",
     "label": "Mazara del Vallo (IT) - Transmed",
     "date": "2026-01-01",
     "gwhPerDay": 617.188
@@ -5103,7 +5109,7 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-10-12",
-    "gwhPerDay": 129.5
+    "gwhPerDay": 273.6
   },
   {
     "origin": "Norway",
@@ -8509,6 +8515,12 @@
   },
   {
     "origin": "Norway",
+    "label": "Easington (UK)",
+    "date": "2026-10-11",
+    "gwhPerDay": 792.847
+  },
+  {
+    "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-01-01",
     "gwhPerDay": 327.146
@@ -11901,13 +11913,19 @@
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-10-09",
-    "gwhPerDay": 348.634
+    "gwhPerDay": 348.638
   },
   {
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-10-10",
-    "gwhPerDay": 462.744
+    "gwhPerDay": 462.746
+  },
+  {
+    "origin": "Norway",
+    "label": "St Fergus (UK)",
+    "date": "2026-10-11",
+    "gwhPerDay": 418.692
   },
   {
     "origin": "Norway",
