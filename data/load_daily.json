@@ -2274,26 +2274,26 @@
   {
     "code": "BE",
     "date": "2026-10-12",
-    "avgMW": 9459.67,
-    "peakMW": 11692.92,
-    "minMW": 7031.56,
+    "avgMW": 9393.0,
+    "peakMW": 11658.85,
+    "minMW": 7038.78,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-10-13",
-    "avgMW": 9596.68,
-    "peakMW": 11647.96,
-    "minMW": 7328.92,
+    "avgMW": 9591.53,
+    "peakMW": 11641.46,
+    "minMW": 7323.85,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-10-14",
-    "avgMW": 9803.67,
+    "avgMW": 9713.06,
     "peakMW": 11923.05,
     "minMW": 7364.96,
-    "readings": 88
+    "readings": 96
   },
   {
     "code": "DE",
@@ -4578,18 +4578,18 @@
   {
     "code": "DE",
     "date": "2026-10-13",
-    "avgMW": 57976.92,
-    "peakMW": 65710.31,
-    "minMW": 45637.82,
+    "avgMW": 57959.28,
+    "peakMW": 65692.42,
+    "minMW": 45621.82,
     "readings": 96
   },
   {
     "code": "DE",
     "date": "2026-10-14",
-    "avgMW": 57255.55,
-    "peakMW": 65113.41,
-    "minMW": 45679.05,
-    "readings": 86
+    "avgMW": 56968.78,
+    "peakMW": 65037.89,
+    "minMW": 45623.43,
+    "readings": 96
   },
   {
     "code": "LU",
@@ -6882,10 +6882,10 @@
   {
     "code": "LU",
     "date": "2026-10-14",
-    "avgMW": 617.64,
-    "peakMW": 795.71,
-    "minMW": 215.37,
-    "readings": 87
+    "avgMW": 584.52,
+    "peakMW": 684.32,
+    "minMW": 448.5,
+    "readings": 96
   },
   {
     "code": "NL",
@@ -8954,16 +8954,16 @@
   {
     "code": "NL",
     "date": "2026-09-16",
-    "avgMW": 13591.16,
+    "avgMW": 13791.83,
     "peakMW": 15200.87,
-    "minMW": 10965.15,
+    "minMW": 11444.85,
     "readings": 96
   },
   {
     "code": "NL",
     "date": "2026-09-17",
-    "avgMW": 10547.14,
-    "peakMW": 11950.42,
+    "avgMW": 11800.73,
+    "peakMW": 15170.0,
     "minMW": 8050.65,
     "readings": 96
   },
@@ -9178,9 +9178,9 @@
   {
     "code": "NL",
     "date": "2026-10-14",
-    "avgMW": 9566.76,
+    "avgMW": 9646.37,
     "peakMW": 11708.8,
     "minMW": 6335.08,
-    "readings": 87
+    "readings": 96
   }
 ]
