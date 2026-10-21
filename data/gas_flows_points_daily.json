@@ -1125,43 +1125,43 @@
     "origin": "Algeria",
     "label": "Almeria (ES) - Medgaz",
     "date": "2026-07-07",
-    "gwhPerDay": 332.292
+    "gwhPerDay": 324.601
   },
   {
     "origin": "Algeria",
     "label": "Almeria (ES) - Medgaz",
     "date": "2026-07-08",
-    "gwhPerDay": 333.802
+    "gwhPerDay": 323.742
   },
   {
     "origin": "Algeria",
     "label": "Almeria (ES) - Medgaz",
     "date": "2026-07-09",
-    "gwhPerDay": 336.855
+    "gwhPerDay": 327.354
   },
   {
     "origin": "Algeria",
     "label": "Almeria (ES) - Medgaz",
     "date": "2026-07-10",
-    "gwhPerDay": 337.463
+    "gwhPerDay": 328.212
   },
   {
     "origin": "Algeria",
     "label": "Almeria (ES) - Medgaz",
     "date": "2026-07-11",
-    "gwhPerDay": 315.961
+    "gwhPerDay": 314.065
   },
   {
     "origin": "Algeria",
     "label": "Almeria (ES) - Medgaz",
     "date": "2026-07-12",
-    "gwhPerDay": 315.743
+    "gwhPerDay": 307.718
   },
   {
     "origin": "Algeria",
     "label": "Almeria (ES) - Medgaz",
     "date": "2026-07-13",
-    "gwhPerDay": 344.096
+    "gwhPerDay": 327.471
   },
   {
     "origin": "Algeria",
@@ -3492,6 +3492,12 @@
     "gwhPerDay": 653.48
   },
   {
+    "origin": "Algeria",
+    "label": "Mazara del Vallo (IT) - Transmed",
+    "date": "2026-10-20",
+    "gwhPerDay": 657.987
+  },
+  {
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-01-01",
@@ -5247,7 +5253,13 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-10-20",
-    "gwhPerDay": 245.314
+    "gwhPerDay": 367.552
+  },
+  {
+    "origin": "Azerbaijan",
+    "label": "Kipoi (GR) - TAP/TANAP",
+    "date": "2026-10-21",
+    "gwhPerDay": 80.356
   },
   {
     "origin": "Norway",
@@ -10215,181 +10227,181 @@
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-01",
-    "gwhPerDay": 328.864
+    "gwhPerDay": 328.796
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-02",
-    "gwhPerDay": 328.134
+    "gwhPerDay": 328.246
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-03",
-    "gwhPerDay": 325.123
+    "gwhPerDay": 325.162
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-04",
-    "gwhPerDay": 326.022
+    "gwhPerDay": 326.076
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-05",
-    "gwhPerDay": 314.842
+    "gwhPerDay": 314.874
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-06",
-    "gwhPerDay": 329.4
+    "gwhPerDay": 329.448
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-07",
-    "gwhPerDay": 252.538
+    "gwhPerDay": 252.572
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-08",
-    "gwhPerDay": 322.832
+    "gwhPerDay": 322.72
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-09",
-    "gwhPerDay": 294.283
+    "gwhPerDay": 294.303
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-10",
-    "gwhPerDay": 264.303
+    "gwhPerDay": 264.347
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-11",
-    "gwhPerDay": 281.7
+    "gwhPerDay": 281.707
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-12",
-    "gwhPerDay": 230.121
+    "gwhPerDay": 230.161
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-13",
-    "gwhPerDay": 287.297
+    "gwhPerDay": 287.175
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-14",
-    "gwhPerDay": 288.672
+    "gwhPerDay": 288.694
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-15",
-    "gwhPerDay": 272.546
+    "gwhPerDay": 272.611
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-16",
-    "gwhPerDay": 264.493
+    "gwhPerDay": 264.484
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-17",
-    "gwhPerDay": 264.438
-  },
-  {
-    "origin": "Norway",
-    "label": "Emden EPT1 (DE)",
-    "date": "2026-09-18",
     "gwhPerDay": 264.442
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
+    "date": "2026-09-18",
+    "gwhPerDay": 264.433
+  },
+  {
+    "origin": "Norway",
+    "label": "Emden EPT1 (DE)",
     "date": "2026-09-19",
-    "gwhPerDay": 274.072
+    "gwhPerDay": 274.063
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-20",
-    "gwhPerDay": 272.878
+    "gwhPerDay": 272.917
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-21",
-    "gwhPerDay": 264.405
+    "gwhPerDay": 264.417
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-22",
-    "gwhPerDay": 273.663
+    "gwhPerDay": 273.656
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-23",
-    "gwhPerDay": 329.053
+    "gwhPerDay": 329.022
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-24",
-    "gwhPerDay": 328.585
+    "gwhPerDay": 328.602
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-25",
-    "gwhPerDay": 231.028
+    "gwhPerDay": 231.177
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-26",
-    "gwhPerDay": 290.298
+    "gwhPerDay": 290.231
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-27",
-    "gwhPerDay": 288.143
+    "gwhPerDay": 288.181
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-28",
-    "gwhPerDay": 329.697
+    "gwhPerDay": 329.725
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-29",
-    "gwhPerDay": 214.679
+    "gwhPerDay": 214.717
   },
   {
     "origin": "Norway",
     "label": "Emden EPT1 (DE)",
     "date": "2026-09-30",
-    "gwhPerDay": 278.004
+    "gwhPerDay": 278.031
   },
   {
     "origin": "Norway",
@@ -10504,6 +10516,12 @@
     "label": "Emden EPT1 (DE)",
     "date": "2026-10-19",
     "gwhPerDay": 324.534
+  },
+  {
+    "origin": "Norway",
+    "label": "Emden EPT1 (DE)",
+    "date": "2026-10-20",
+    "gwhPerDay": 320.322
   },
   {
     "origin": "Norway",
@@ -14008,5 +14026,11 @@
     "label": "Zeebrugge (BE)",
     "date": "2026-10-19",
     "gwhPerDay": 465.879
+  },
+  {
+    "origin": "Norway",
+    "label": "Zeebrugge (BE)",
+    "date": "2026-10-20",
+    "gwhPerDay": 465.642
   }
 ]
