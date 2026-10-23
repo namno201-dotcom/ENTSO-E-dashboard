@@ -1299,7 +1299,7 @@
     "origin": "Algeria",
     "label": "Almeria (ES) - Medgaz",
     "date": "2026-08-05",
-    "gwhPerDay": 339.892
+    "gwhPerDay": 331.58
   },
   {
     "origin": "Algeria",
@@ -1311,7 +1311,7 @@
     "origin": "Algeria",
     "label": "Almeria (ES) - Medgaz",
     "date": "2026-08-07",
-    "gwhPerDay": 337.656
+    "gwhPerDay": 333.554
   },
   {
     "origin": "Algeria",
@@ -1738,6 +1738,12 @@
     "label": "Almeria (ES) - Medgaz",
     "date": "2026-10-18",
     "gwhPerDay": 197.568
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-19",
+    "gwhPerDay": 205.023
   },
   {
     "origin": "Algeria",
@@ -3516,6 +3522,12 @@
     "gwhPerDay": 668.028
   },
   {
+    "origin": "Algeria",
+    "label": "Mazara del Vallo (IT) - Transmed",
+    "date": "2026-10-22",
+    "gwhPerDay": 681.947
+  },
+  {
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-01-01",
@@ -5283,7 +5295,13 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-10-22",
-    "gwhPerDay": 254.271
+    "gwhPerDay": 385.935
+  },
+  {
+    "origin": "Azerbaijan",
+    "label": "Kipoi (GR) - TAP/TANAP",
+    "date": "2026-10-23",
+    "gwhPerDay": 81.018
   },
   {
     "origin": "Norway",
@@ -10579,6 +10597,12 @@
   },
   {
     "origin": "Norway",
+    "label": "Emden EPT1 (DE)",
+    "date": "2026-10-22",
+    "gwhPerDay": 329.448
+  },
+  {
+    "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-01-01",
     "gwhPerDay": 800.132
@@ -14104,5 +14128,11 @@
     "label": "Zeebrugge (BE)",
     "date": "2026-10-21",
     "gwhPerDay": 466.545
+  },
+  {
+    "origin": "Norway",
+    "label": "Zeebrugge (BE)",
+    "date": "2026-10-22",
+    "gwhPerDay": 462.269
   }
 ]
