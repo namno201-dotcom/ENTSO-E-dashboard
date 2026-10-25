@@ -2346,34 +2346,34 @@
   {
     "code": "BE",
     "date": "2026-10-21",
-    "avgMW": 9840.84,
-    "peakMW": 11468.97,
-    "minMW": 7698.24,
+    "avgMW": 9839.74,
+    "peakMW": 11467.79,
+    "minMW": 7697.38,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-10-22",
-    "avgMW": 10140.61,
-    "peakMW": 12254.18,
-    "minMW": 7970.92,
+    "avgMW": 10126.1,
+    "peakMW": 12309.68,
+    "minMW": 7942.75,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-10-23",
-    "avgMW": 9950.03,
-    "peakMW": 11652.25,
-    "minMW": 7859.28,
+    "avgMW": 9955.02,
+    "peakMW": 11645.42,
+    "minMW": 7851.64,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-10-24",
-    "avgMW": 8878.04,
+    "avgMW": 8852.18,
     "peakMW": 10758.43,
     "minMW": 7323.94,
-    "readings": 83
+    "readings": 96
   },
   {
     "code": "DE",
@@ -4738,10 +4738,10 @@
   {
     "code": "DE",
     "date": "2026-10-24",
-    "avgMW": 50455.78,
-    "peakMW": 57394.21,
-    "minMW": 43961.77,
-    "readings": 82
+    "avgMW": 50323.44,
+    "peakMW": 57395.21,
+    "minMW": 43964.07,
+    "readings": 96
   },
   {
     "code": "LU",
@@ -7106,10 +7106,10 @@
   {
     "code": "LU",
     "date": "2026-10-24",
-    "avgMW": 561.33,
+    "avgMW": 560.45,
     "peakMW": 643.17,
     "minMW": 472.07,
-    "readings": 82
+    "readings": 96
   },
   {
     "code": "NL",
@@ -9258,16 +9258,16 @@
   {
     "code": "NL",
     "date": "2026-09-26",
-    "avgMW": 11892.71,
+    "avgMW": 12238.04,
     "peakMW": 13787.71,
-    "minMW": 9917.65,
+    "minMW": 10830.18,
     "readings": 96
   },
   {
     "code": "NL",
     "date": "2026-09-27",
-    "avgMW": 8898.5,
-    "peakMW": 11354.05,
+    "avgMW": 9478.75,
+    "peakMW": 11931.78,
     "minMW": 4742.79,
     "readings": 96
   },
@@ -9482,9 +9482,9 @@
   {
     "code": "NL",
     "date": "2026-10-24",
-    "avgMW": 9420.2,
+    "avgMW": 9544.04,
     "peakMW": 11265.5,
     "minMW": 6408.45,
-    "readings": 82
+    "readings": 96
   }
 ]
