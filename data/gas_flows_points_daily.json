@@ -1,6 +1,1788 @@
 [
   {
     "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-01",
+    "gwhPerDay": 328.361
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-02",
+    "gwhPerDay": 327.701
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-03",
+    "gwhPerDay": 327.752
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-04",
+    "gwhPerDay": 328.11
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-05",
+    "gwhPerDay": 327.887
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-06",
+    "gwhPerDay": 328.411
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-07",
+    "gwhPerDay": 328.685
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-08",
+    "gwhPerDay": 326.3
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-09",
+    "gwhPerDay": 330.824
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-10",
+    "gwhPerDay": 330.413
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-11",
+    "gwhPerDay": 330.22
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-12",
+    "gwhPerDay": 330.115
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-13",
+    "gwhPerDay": 329.289
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-14",
+    "gwhPerDay": 330.408
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-15",
+    "gwhPerDay": 328.492
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-16",
+    "gwhPerDay": 330.524
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-17",
+    "gwhPerDay": 330.204
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-18",
+    "gwhPerDay": 331.501
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-19",
+    "gwhPerDay": 330.565
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-20",
+    "gwhPerDay": 330.751
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-21",
+    "gwhPerDay": 329.581
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-22",
+    "gwhPerDay": 329.343
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-23",
+    "gwhPerDay": 331.161
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-24",
+    "gwhPerDay": 330.743
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-25",
+    "gwhPerDay": 320.193
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-26",
+    "gwhPerDay": 324.109
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-27",
+    "gwhPerDay": 324.225
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-28",
+    "gwhPerDay": 325.128
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-29",
+    "gwhPerDay": 322.769
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-30",
+    "gwhPerDay": 325.92
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-01-31",
+    "gwhPerDay": 313.401
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-01",
+    "gwhPerDay": 325.828
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-02",
+    "gwhPerDay": 326.084
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-03",
+    "gwhPerDay": 333.659
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-04",
+    "gwhPerDay": 332.756
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-05",
+    "gwhPerDay": 322.764
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-06",
+    "gwhPerDay": 327.313
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-07",
+    "gwhPerDay": 332.646
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-08",
+    "gwhPerDay": 331.73
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-09",
+    "gwhPerDay": 330.448
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-10",
+    "gwhPerDay": 325.961
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-11",
+    "gwhPerDay": 327.869
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-12",
+    "gwhPerDay": 329.724
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-13",
+    "gwhPerDay": 329.128
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-14",
+    "gwhPerDay": 328.787
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-15",
+    "gwhPerDay": 329.075
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-16",
+    "gwhPerDay": 328.864
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-17",
+    "gwhPerDay": 328.885
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-18",
+    "gwhPerDay": 329.345
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-19",
+    "gwhPerDay": 314.372
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-20",
+    "gwhPerDay": 328.61
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-21",
+    "gwhPerDay": 332.238
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-22",
+    "gwhPerDay": 331.751
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-23",
+    "gwhPerDay": 332.332
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-24",
+    "gwhPerDay": 331.165
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-25",
+    "gwhPerDay": 330.838
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-26",
+    "gwhPerDay": 332.597
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-27",
+    "gwhPerDay": 333.165
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-02-28",
+    "gwhPerDay": 334.066
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-01",
+    "gwhPerDay": 336.047
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-02",
+    "gwhPerDay": 336.911
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-03",
+    "gwhPerDay": 327.569
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-04",
+    "gwhPerDay": 325.247
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-05",
+    "gwhPerDay": 326.481
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-06",
+    "gwhPerDay": 329.183
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-07",
+    "gwhPerDay": 340.427
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-08",
+    "gwhPerDay": 341.238
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-09",
+    "gwhPerDay": 341.99
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-10",
+    "gwhPerDay": 342.393
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-11",
+    "gwhPerDay": 333.415
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-12",
+    "gwhPerDay": 331.013
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-13",
+    "gwhPerDay": 334.511
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-14",
+    "gwhPerDay": 334.548
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-15",
+    "gwhPerDay": 333.65
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-16",
+    "gwhPerDay": 333.316
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-17",
+    "gwhPerDay": 319.378
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-18",
+    "gwhPerDay": 332.932
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-19",
+    "gwhPerDay": 340.161
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-20",
+    "gwhPerDay": 338.34
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-21",
+    "gwhPerDay": 335.963
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-22",
+    "gwhPerDay": 333.648
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-23",
+    "gwhPerDay": 331.264
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-24",
+    "gwhPerDay": 333.998
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-25",
+    "gwhPerDay": 333.432
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-26",
+    "gwhPerDay": 332.936
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-27",
+    "gwhPerDay": 332.495
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-28",
+    "gwhPerDay": 321.375
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-29",
+    "gwhPerDay": 324.413
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-30",
+    "gwhPerDay": 336.398
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-03-31",
+    "gwhPerDay": 325.213
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-01",
+    "gwhPerDay": 324.897
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-02",
+    "gwhPerDay": 323.26
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-03",
+    "gwhPerDay": 323.301
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-04",
+    "gwhPerDay": 322.612
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-05",
+    "gwhPerDay": 321.996
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-06",
+    "gwhPerDay": 322.531
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-07",
+    "gwhPerDay": 321.488
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-08",
+    "gwhPerDay": 316.99
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-09",
+    "gwhPerDay": 313.638
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-10",
+    "gwhPerDay": 319.676
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-11",
+    "gwhPerDay": 319.874
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-12",
+    "gwhPerDay": 318.833
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-13",
+    "gwhPerDay": 316.96
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-14",
+    "gwhPerDay": 314.898
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-15",
+    "gwhPerDay": 311.695
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-16",
+    "gwhPerDay": 339.798
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-17",
+    "gwhPerDay": 341.636
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-18",
+    "gwhPerDay": 335.955
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-19",
+    "gwhPerDay": 337.395
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-20",
+    "gwhPerDay": 342.248
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-21",
+    "gwhPerDay": 342.262
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-22",
+    "gwhPerDay": 339.333
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-23",
+    "gwhPerDay": 339.303
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-24",
+    "gwhPerDay": 340.118
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-25",
+    "gwhPerDay": 336.992
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-26",
+    "gwhPerDay": 338.159
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-27",
+    "gwhPerDay": 338.651
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-28",
+    "gwhPerDay": 339.38
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-29",
+    "gwhPerDay": 340.671
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-04-30",
+    "gwhPerDay": 338.51
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-01",
+    "gwhPerDay": 339.394
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-02",
+    "gwhPerDay": 339.337
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-03",
+    "gwhPerDay": 339.237
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-04",
+    "gwhPerDay": 339.029
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-05",
+    "gwhPerDay": 339.029
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-06",
+    "gwhPerDay": 337.838
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-07",
+    "gwhPerDay": 334.194
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-08",
+    "gwhPerDay": 341.003
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-09",
+    "gwhPerDay": 338.954
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-10",
+    "gwhPerDay": 340.782
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-11",
+    "gwhPerDay": 340.436
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-12",
+    "gwhPerDay": 341.559
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-13",
+    "gwhPerDay": 341.027
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-14",
+    "gwhPerDay": 341.785
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-15",
+    "gwhPerDay": 340.438
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-16",
+    "gwhPerDay": 342.214
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-17",
+    "gwhPerDay": 341.141
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-18",
+    "gwhPerDay": 341.76
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-19",
+    "gwhPerDay": 342.502
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-20",
+    "gwhPerDay": 342.094
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-21",
+    "gwhPerDay": 342.506
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-22",
+    "gwhPerDay": 342.068
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-23",
+    "gwhPerDay": 342.48
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-24",
+    "gwhPerDay": 338.033
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-25",
+    "gwhPerDay": 343.031
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-26",
+    "gwhPerDay": 342.056
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-27",
+    "gwhPerDay": 342.498
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-28",
+    "gwhPerDay": 341.595
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-29",
+    "gwhPerDay": 342.612
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-30",
+    "gwhPerDay": 341.859
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-05-31",
+    "gwhPerDay": 342.787
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-01",
+    "gwhPerDay": 341.755
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-02",
+    "gwhPerDay": 338.623
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-03",
+    "gwhPerDay": 337.758
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-04",
+    "gwhPerDay": 338.765
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-05",
+    "gwhPerDay": 337.769
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-06",
+    "gwhPerDay": 337.878
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-07",
+    "gwhPerDay": 337.684
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-08",
+    "gwhPerDay": 337.744
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-09",
+    "gwhPerDay": 336.564
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-10",
+    "gwhPerDay": 336.489
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-11",
+    "gwhPerDay": 336.385
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-12",
+    "gwhPerDay": 336.961
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-13",
+    "gwhPerDay": 336.538
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-14",
+    "gwhPerDay": 336.351
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-15",
+    "gwhPerDay": 336.463
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-16",
+    "gwhPerDay": 334.424
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-17",
+    "gwhPerDay": 333.885
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-18",
+    "gwhPerDay": 336.813
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-19",
+    "gwhPerDay": 335.979
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-20",
+    "gwhPerDay": 337.47
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-21",
+    "gwhPerDay": 337.5
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-22",
+    "gwhPerDay": 336.448
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-23",
+    "gwhPerDay": 334.312
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-24",
+    "gwhPerDay": 334.964
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-25",
+    "gwhPerDay": 338.132
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-26",
+    "gwhPerDay": 339.232
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-27",
+    "gwhPerDay": 338.156
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-28",
+    "gwhPerDay": 337.665
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-29",
+    "gwhPerDay": 331.398
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-06-30",
+    "gwhPerDay": 331.849
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-01",
+    "gwhPerDay": 308.223
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-02",
+    "gwhPerDay": 299.295
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-03",
+    "gwhPerDay": 317.252
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-04",
+    "gwhPerDay": 322.334
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-05",
+    "gwhPerDay": 319.764
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-06",
+    "gwhPerDay": 321.204
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-07",
+    "gwhPerDay": 324.601
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-08",
+    "gwhPerDay": 323.742
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-09",
+    "gwhPerDay": 327.354
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-10",
+    "gwhPerDay": 328.212
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-11",
+    "gwhPerDay": 314.065
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-12",
+    "gwhPerDay": 307.718
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-13",
+    "gwhPerDay": 327.471
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-14",
+    "gwhPerDay": 338.006
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-15",
+    "gwhPerDay": 336.309
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-16",
+    "gwhPerDay": 336.177
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-17",
+    "gwhPerDay": 337.13
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-18",
+    "gwhPerDay": 330.757
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-19",
+    "gwhPerDay": 328.851
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-20",
+    "gwhPerDay": 334.071
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-21",
+    "gwhPerDay": 336.925
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-22",
+    "gwhPerDay": 336.544
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-23",
+    "gwhPerDay": 336.241
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-24",
+    "gwhPerDay": 338.693
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-25",
+    "gwhPerDay": 334.347
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-26",
+    "gwhPerDay": 330.591
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-27",
+    "gwhPerDay": 333.045
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-28",
+    "gwhPerDay": 337.145
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-29",
+    "gwhPerDay": 335.656
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-30",
+    "gwhPerDay": 336.98
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-07-31",
+    "gwhPerDay": 336.625
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-01",
+    "gwhPerDay": 315.54
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-02",
+    "gwhPerDay": 300.172
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-03",
+    "gwhPerDay": 296.101
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-04",
+    "gwhPerDay": 315.141
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-05",
+    "gwhPerDay": 331.58
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-06",
+    "gwhPerDay": 334.83
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-07",
+    "gwhPerDay": 333.554
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-08",
+    "gwhPerDay": 309.01
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-09",
+    "gwhPerDay": 300.037
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-10",
+    "gwhPerDay": 324.977
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-11",
+    "gwhPerDay": 335.655
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-12",
+    "gwhPerDay": 331.212
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-13",
+    "gwhPerDay": 326.486
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-14",
+    "gwhPerDay": 324.477
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-15",
+    "gwhPerDay": 320.414
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-16",
+    "gwhPerDay": 312.97
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-17",
+    "gwhPerDay": 317.646
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-18",
+    "gwhPerDay": 326.438
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-19",
+    "gwhPerDay": 326.48
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-20",
+    "gwhPerDay": 326.582
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-21",
+    "gwhPerDay": 327.809
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-22",
+    "gwhPerDay": 315.448
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-23",
+    "gwhPerDay": 309.541
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-24",
+    "gwhPerDay": 320.891
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-25",
+    "gwhPerDay": 327.596
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-26",
+    "gwhPerDay": 303.674
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-27",
+    "gwhPerDay": 317.717
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-28",
+    "gwhPerDay": 327.247
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-29",
+    "gwhPerDay": 314.471
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-30",
+    "gwhPerDay": 309.008
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-08-31",
+    "gwhPerDay": 319.154
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-01",
+    "gwhPerDay": 317.91
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-02",
+    "gwhPerDay": 325.746
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-03",
+    "gwhPerDay": 330.629
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-04",
+    "gwhPerDay": 332.059
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-05",
+    "gwhPerDay": 329.755
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-06",
+    "gwhPerDay": 331.993
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-07",
+    "gwhPerDay": 331.595
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-08",
+    "gwhPerDay": 331.007
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-09",
+    "gwhPerDay": 332.013
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-10",
+    "gwhPerDay": 328.314
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-11",
+    "gwhPerDay": 331.655
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-12",
+    "gwhPerDay": 331.123
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-13",
+    "gwhPerDay": 331.782
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-14",
+    "gwhPerDay": 333.801
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-15",
+    "gwhPerDay": 334.377
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-16",
+    "gwhPerDay": 324.166
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-17",
+    "gwhPerDay": 251.617
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-18",
+    "gwhPerDay": 0.0
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-19",
+    "gwhPerDay": 0.0
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-20",
+    "gwhPerDay": 0.0
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-21",
+    "gwhPerDay": 0.0
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-22",
+    "gwhPerDay": 56.96
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-23",
+    "gwhPerDay": 334.327
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-24",
+    "gwhPerDay": 333.965
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-25",
+    "gwhPerDay": 338.152
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-26",
+    "gwhPerDay": 318.676
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-27",
+    "gwhPerDay": 311.066
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-28",
+    "gwhPerDay": 311.597
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-29",
+    "gwhPerDay": 316.041
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-09-30",
+    "gwhPerDay": 315.539
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-01",
+    "gwhPerDay": 308.932
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-02",
+    "gwhPerDay": 239.441
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-03",
+    "gwhPerDay": 196.386
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-04",
+    "gwhPerDay": 188.718
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-05",
+    "gwhPerDay": 199.636
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-06",
+    "gwhPerDay": 204.663
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-07",
+    "gwhPerDay": 202.871
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-08",
+    "gwhPerDay": 205.903
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-09",
+    "gwhPerDay": 215.797
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-10",
+    "gwhPerDay": 208.757
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-11",
+    "gwhPerDay": 202.337
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-12",
+    "gwhPerDay": 203.825
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-13",
+    "gwhPerDay": 214.162
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-14",
+    "gwhPerDay": 217.756
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-15",
+    "gwhPerDay": 218.924
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-16",
+    "gwhPerDay": 214.321
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-17",
+    "gwhPerDay": 203.065
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-18",
+    "gwhPerDay": 197.568
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-19",
+    "gwhPerDay": 205.023
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-20",
+    "gwhPerDay": 195.385
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-21",
+    "gwhPerDay": 207.89
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-22",
+    "gwhPerDay": 217.007
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-23",
+    "gwhPerDay": 219.66
+  },
+  {
+    "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-10-26",
+    "gwhPerDay": 222.154
+  },
+  {
+    "origin": "Algeria",
     "label": "Mazara del Vallo (IT) - Transmed",
     "date": "2026-01-01",
     "gwhPerDay": 617.188
@@ -3591,7 +5373,7 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-10-27",
-    "gwhPerDay": 65.163
+    "gwhPerDay": 244.085
   },
   {
     "origin": "Norway",
@@ -5383,6 +7165,12 @@
   },
   {
     "origin": "Norway",
+    "label": "Dunkerque (FR)",
+    "date": "2026-10-26",
+    "gwhPerDay": 488.687
+  },
+  {
+    "origin": "Norway",
     "label": "Easington (UK)",
     "date": "2026-01-01",
     "gwhPerDay": 849.04
@@ -7168,6 +8956,12 @@
     "label": "Easington (UK)",
     "date": "2026-10-25",
     "gwhPerDay": 732.03
+  },
+  {
+    "origin": "Norway",
+    "label": "Easington (UK)",
+    "date": "2026-10-26",
+    "gwhPerDay": 751.599
   },
   {
     "origin": "Norway",
@@ -8959,6 +10753,12 @@
   },
   {
     "origin": "Norway",
+    "label": "Emden EPT1 (DE)",
+    "date": "2026-10-26",
+    "gwhPerDay": 318.202
+  },
+  {
+    "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-01-01",
     "gwhPerDay": 800.132
@@ -10744,6 +12544,12 @@
     "label": "St Fergus (UK)",
     "date": "2026-10-25",
     "gwhPerDay": 439.715
+  },
+  {
+    "origin": "Norway",
+    "label": "St Fergus (UK)",
+    "date": "2026-10-26",
+    "gwhPerDay": 419.49
   },
   {
     "origin": "Norway",
