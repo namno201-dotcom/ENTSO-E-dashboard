@@ -2378,26 +2378,26 @@
   {
     "code": "BE",
     "date": "2026-10-25",
-    "avgMW": 8380.78,
-    "peakMW": 9851.49,
-    "minMW": 6906.25,
+    "avgMW": 8545.85,
+    "peakMW": 10120.43,
+    "minMW": 6958.7,
     "readings": 100
   },
   {
     "code": "BE",
     "date": "2026-10-26",
-    "avgMW": 9773.97,
-    "peakMW": 11731.71,
-    "minMW": 7592.88,
+    "avgMW": 9776.49,
+    "peakMW": 11732.05,
+    "minMW": 7598.51,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-10-27",
-    "avgMW": 9910.79,
+    "avgMW": 9816.96,
     "peakMW": 11513.57,
     "minMW": 7871.65,
-    "readings": 87
+    "readings": 96
   },
   {
     "code": "DE",
@@ -4786,18 +4786,18 @@
   {
     "code": "DE",
     "date": "2026-10-26",
-    "avgMW": 56529.44,
-    "peakMW": 65654.11,
-    "minMW": 42851.6,
+    "avgMW": 56555.3,
+    "peakMW": 65679.11,
+    "minMW": 42882.6,
     "readings": 96
   },
   {
     "code": "DE",
     "date": "2026-10-27",
-    "avgMW": 57712.84,
-    "peakMW": 66397.45,
-    "minMW": 44845.11,
-    "readings": 82
+    "avgMW": 56842.82,
+    "peakMW": 66516.97,
+    "minMW": 44804.93,
+    "readings": 96
   },
   {
     "code": "LU",
@@ -7194,10 +7194,10 @@
   {
     "code": "LU",
     "date": "2026-10-27",
-    "avgMW": 614.75,
-    "peakMW": 745.19,
-    "minMW": 217.54,
-    "readings": 82
+    "avgMW": 583.82,
+    "peakMW": 681.07,
+    "minMW": 445.95,
+    "readings": 96
   },
   {
     "code": "NL",
@@ -9370,17 +9370,17 @@
   {
     "code": "NL",
     "date": "2026-09-29",
-    "avgMW": 13586.74,
+    "avgMW": 13796.13,
     "peakMW": 15937.02,
-    "minMW": 6227.01,
+    "minMW": 11312.34,
     "readings": 96
   },
   {
     "code": "NL",
     "date": "2026-09-30",
-    "avgMW": 10826.81,
-    "peakMW": 12430.99,
-    "minMW": 8789.6,
+    "avgMW": 12226.42,
+    "peakMW": 15604.17,
+    "minMW": 9092.61,
     "readings": 96
   },
   {
@@ -9594,9 +9594,9 @@
   {
     "code": "NL",
     "date": "2026-10-27",
-    "avgMW": 10990.04,
+    "avgMW": 11025.47,
     "peakMW": 12780.41,
     "minMW": 9541.7,
-    "readings": 85
+    "readings": 96
   }
 ]
