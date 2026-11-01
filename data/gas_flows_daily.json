@@ -1517,7 +1517,7 @@
   {
     "origin": "Algeria",
     "date": "2026-10-31",
-    "gwhPerDay": 692.952
+    "gwhPerDay": 939.089
   },
   {
     "origin": "Azerbaijan",
@@ -3042,7 +3042,7 @@
   {
     "origin": "Azerbaijan",
     "date": "2026-11-01",
-    "gwhPerDay": 97.471
+    "gwhPerDay": 259.899
   },
   {
     "origin": "Norway",
@@ -4562,6 +4562,6 @@
   {
     "origin": "Norway",
     "date": "2026-10-31",
-    "gwhPerDay": 771.029
+    "gwhPerDay": 2562.116
   }
 ]
