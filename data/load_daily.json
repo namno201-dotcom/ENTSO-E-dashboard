@@ -2448,6 +2448,14 @@
     "readings": 96
   },
   {
+    "code": "BE",
+    "date": "2026-11-03",
+    "avgMW": 10230.4,
+    "peakMW": 11667.93,
+    "minMW": 8094.92,
+    "readings": 91
+  },
+  {
     "code": "DE",
     "date": "2026-01-01",
     "avgMW": 49371.08,
@@ -4890,10 +4898,18 @@
   {
     "code": "DE",
     "date": "2026-11-02",
-    "avgMW": 59047.79,
-    "peakMW": 69696.73,
-    "minMW": 44134.31,
+    "avgMW": 58978.43,
+    "peakMW": 69623.22,
+    "minMW": 44079.05,
     "readings": 96
+  },
+  {
+    "code": "DE",
+    "date": "2026-11-03",
+    "avgMW": 61001.09,
+    "peakMW": 69791.12,
+    "minMW": 48297.27,
+    "readings": 86
   },
   {
     "code": "LU",
@@ -7338,10 +7354,18 @@
   {
     "code": "LU",
     "date": "2026-11-02",
-    "avgMW": 643.26,
-    "peakMW": 782.19,
-    "minMW": 465.0,
+    "avgMW": 599.04,
+    "peakMW": 710.95,
+    "minMW": 430.78,
     "readings": 96
+  },
+  {
+    "code": "LU",
+    "date": "2026-11-03",
+    "avgMW": 664.7,
+    "peakMW": 796.84,
+    "minMW": 500.3,
+    "readings": 87
   },
   {
     "code": "NL",
@@ -9570,9 +9594,9 @@
   {
     "code": "NL",
     "date": "2026-10-06",
-    "avgMW": 12155.16,
-    "peakMW": 15529.14,
-    "minMW": 7608.34,
+    "avgMW": 13932.87,
+    "peakMW": 15940.76,
+    "minMW": 10547.68,
     "readings": 96
   },
   {
@@ -9790,5 +9814,13 @@
     "peakMW": 14176.43,
     "minMW": 9702.78,
     "readings": 96
+  },
+  {
+    "code": "NL",
+    "date": "2026-11-03",
+    "avgMW": 11836.42,
+    "peakMW": 14107.53,
+    "minMW": 9897.83,
+    "readings": 90
   }
 ]
