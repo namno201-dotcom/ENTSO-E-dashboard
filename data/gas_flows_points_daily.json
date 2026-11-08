@@ -3708,6 +3708,12 @@
     "gwhPerDay": 627.482
   },
   {
+    "origin": "Algeria",
+    "label": "Mazara del Vallo (IT) - Transmed",
+    "date": "2026-11-07",
+    "gwhPerDay": 632.643
+  },
+  {
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-01-01",
@@ -5571,7 +5577,13 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-11-07",
-    "gwhPerDay": 260.678
+    "gwhPerDay": 390.079
+  },
+  {
+    "origin": "Azerbaijan",
+    "label": "Kipoi (GR) - TAP/TANAP",
+    "date": "2026-11-08",
+    "gwhPerDay": 97.506
   },
   {
     "origin": "Norway",
@@ -11155,6 +11167,12 @@
   },
   {
     "origin": "Norway",
+    "label": "Emden EPT1 (DE)",
+    "date": "2026-11-07",
+    "gwhPerDay": 329.265
+  },
+  {
+    "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-01-01",
     "gwhPerDay": 800.132
@@ -14655,19 +14673,19 @@
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-01",
-    "gwhPerDay": 463.774
+    "gwhPerDay": 463.697
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-02",
-    "gwhPerDay": 469.104
+    "gwhPerDay": 469.018
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-03",
-    "gwhPerDay": 468.567
+    "gwhPerDay": 468.399
   },
   {
     "origin": "Norway",
@@ -14679,19 +14697,19 @@
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-05",
-    "gwhPerDay": 464.148
+    "gwhPerDay": 464.058
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-06",
-    "gwhPerDay": 465.298
+    "gwhPerDay": 464.553
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-07",
-    "gwhPerDay": 460.217
+    "gwhPerDay": 460.122
   },
   {
     "origin": "Norway",
@@ -14703,55 +14721,55 @@
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-09",
-    "gwhPerDay": 458.204
+    "gwhPerDay": 458.112
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-10",
-    "gwhPerDay": 465.223
+    "gwhPerDay": 465.133
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-11",
-    "gwhPerDay": 456.35
+    "gwhPerDay": 456.27
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-12",
-    "gwhPerDay": 464.354
+    "gwhPerDay": 464.261
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-13",
-    "gwhPerDay": 464.306
+    "gwhPerDay": 464.207
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-14",
-    "gwhPerDay": 465.318
+    "gwhPerDay": 465.225
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-15",
-    "gwhPerDay": 465.75
+    "gwhPerDay": 465.656
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-16",
-    "gwhPerDay": 464.094
+    "gwhPerDay": 464.019
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-17",
-    "gwhPerDay": 467.893
+    "gwhPerDay": 467.818
   },
   {
     "origin": "Norway",
@@ -14775,7 +14793,7 @@
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-21",
-    "gwhPerDay": 466.545
+    "gwhPerDay": 466.472
   },
   {
     "origin": "Norway",
@@ -14787,37 +14805,37 @@
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-23",
-    "gwhPerDay": 465.693
+    "gwhPerDay": 465.62
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-24",
-    "gwhPerDay": 483.956
+    "gwhPerDay": 483.863
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-25",
-    "gwhPerDay": 470.464
+    "gwhPerDay": 470.391
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-26",
-    "gwhPerDay": 473.216
+    "gwhPerDay": 473.164
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-27",
-    "gwhPerDay": 476.24
+    "gwhPerDay": 476.155
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-28",
-    "gwhPerDay": 471.751
+    "gwhPerDay": 471.658
   },
   {
     "origin": "Norway",
@@ -14829,13 +14847,13 @@
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-30",
-    "gwhPerDay": 475.234
+    "gwhPerDay": 475.15
   },
   {
     "origin": "Norway",
     "label": "Zeebrugge (BE)",
     "date": "2026-10-31",
-    "gwhPerDay": 472.801
+    "gwhPerDay": 472.731
   },
   {
     "origin": "Norway",
@@ -14872,5 +14890,11 @@
     "label": "Zeebrugge (BE)",
     "date": "2026-11-06",
     "gwhPerDay": 474.173
+  },
+  {
+    "origin": "Norway",
+    "label": "Zeebrugge (BE)",
+    "date": "2026-11-07",
+    "gwhPerDay": 476.67
   }
 ]

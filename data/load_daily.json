@@ -2466,26 +2466,26 @@
   {
     "code": "BE",
     "date": "2026-11-05",
-    "avgMW": 10564.81,
-    "peakMW": 12742.44,
-    "minMW": 8531.98,
+    "avgMW": 10557.43,
+    "peakMW": 12848.81,
+    "minMW": 8509.25,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-11-06",
-    "avgMW": 10376.79,
-    "peakMW": 12100.44,
-    "minMW": 8513.28,
+    "avgMW": 10387.53,
+    "peakMW": 12106.36,
+    "minMW": 8524.6,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-11-07",
-    "avgMW": 9212.68,
+    "avgMW": 9152.05,
     "peakMW": 10420.21,
     "minMW": 7775.18,
-    "readings": 85
+    "readings": 96
   },
   {
     "code": "DE",
@@ -4962,18 +4962,18 @@
   {
     "code": "DE",
     "date": "2026-11-06",
-    "avgMW": 59425.66,
-    "peakMW": 67551.65,
-    "minMW": 49909.77,
+    "avgMW": 61573.43,
+    "peakMW": 69635.49,
+    "minMW": 49901.77,
     "readings": 96
   },
   {
     "code": "DE",
     "date": "2026-11-07",
-    "avgMW": 54221.25,
-    "peakMW": 60502.01,
-    "minMW": 47504.59,
-    "readings": 80
+    "avgMW": 54340.24,
+    "peakMW": 61296.08,
+    "minMW": 47505.71,
+    "readings": 96
   },
   {
     "code": "LU",
@@ -7458,10 +7458,10 @@
   {
     "code": "LU",
     "date": "2026-11-07",
-    "avgMW": 598.41,
+    "avgMW": 599.72,
     "peakMW": 681.97,
     "minMW": 497.39,
-    "readings": 81
+    "readings": 96
   },
   {
     "code": "NL",
@@ -9722,16 +9722,16 @@
   {
     "code": "NL",
     "date": "2026-10-10",
-    "avgMW": 12810.94,
+    "avgMW": 13119.11,
     "peakMW": 14744.46,
-    "minMW": 8854.88,
+    "minMW": 11537.23,
     "readings": 96
   },
   {
     "code": "NL",
     "date": "2026-10-11",
-    "avgMW": 8662.8,
-    "peakMW": 10696.36,
+    "avgMW": 10560.96,
+    "peakMW": 13540.39,
     "minMW": 5701.39,
     "readings": 96
   },
@@ -9946,9 +9946,9 @@
   {
     "code": "NL",
     "date": "2026-11-07",
-    "avgMW": 11893.99,
+    "avgMW": 11890.88,
     "peakMW": 13615.04,
     "minMW": 10933.95,
-    "readings": 84
+    "readings": 96
   }
 ]
