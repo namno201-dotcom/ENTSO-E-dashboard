@@ -3804,6 +3804,12 @@
     "gwhPerDay": 653.184
   },
   {
+    "origin": "Algeria",
+    "label": "Mazara del Vallo (IT) - Transmed",
+    "date": "2026-11-15",
+    "gwhPerDay": 649.505
+  },
+  {
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-01-01",
@@ -5715,7 +5721,13 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-11-15",
-    "gwhPerDay": 267.197
+    "gwhPerDay": 395.907
+  },
+  {
+    "origin": "Azerbaijan",
+    "label": "Kipoi (GR) - TAP/TANAP",
+    "date": "2026-11-16",
+    "gwhPerDay": 149.028
   },
   {
     "origin": "Norway",
@@ -7627,6 +7639,12 @@
   },
   {
     "origin": "Norway",
+    "label": "Dunkerque (FR)",
+    "date": "2026-11-15",
+    "gwhPerDay": 95.816
+  },
+  {
+    "origin": "Norway",
     "label": "Easington (UK)",
     "date": "2026-01-01",
     "gwhPerDay": 849.04
@@ -9532,6 +9550,12 @@
     "label": "Easington (UK)",
     "date": "2026-11-14",
     "gwhPerDay": 838.61
+  },
+  {
+    "origin": "Norway",
+    "label": "Easington (UK)",
+    "date": "2026-11-15",
+    "gwhPerDay": 844.149
   },
   {
     "origin": "Norway",
@@ -11443,6 +11467,12 @@
   },
   {
     "origin": "Norway",
+    "label": "Emden EPT1 (DE)",
+    "date": "2026-11-15",
+    "gwhPerDay": 303.704
+  },
+  {
+    "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-01-01",
     "gwhPerDay": 800.132
@@ -13341,13 +13371,19 @@
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-11-13",
-    "gwhPerDay": 805.242
+    "gwhPerDay": 805.7
   },
   {
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-11-14",
-    "gwhPerDay": 829.404
+    "gwhPerDay": 829.368
+  },
+  {
+    "origin": "Norway",
+    "label": "St Fergus (UK)",
+    "date": "2026-11-15",
+    "gwhPerDay": 799.32
   },
   {
     "origin": "Norway",
@@ -15256,5 +15292,11 @@
     "label": "Zeebrugge (BE)",
     "date": "2026-11-14",
     "gwhPerDay": 480.768
+  },
+  {
+    "origin": "Norway",
+    "label": "Zeebrugge (BE)",
+    "date": "2026-11-15",
+    "gwhPerDay": 471.34
   }
 ]
