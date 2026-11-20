@@ -1921,6 +1921,12 @@
   },
   {
     "origin": "Algeria",
+    "label": "Almeria (ES) - Medgaz",
+    "date": "2026-11-19",
+    "gwhPerDay": 214.89
+  },
+  {
+    "origin": "Algeria",
     "label": "Mazara del Vallo (IT) - Transmed",
     "date": "2026-01-01",
     "gwhPerDay": 617.188
@@ -5799,7 +5805,7 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-11-20",
-    "gwhPerDay": 149.811
+    "gwhPerDay": 299.476
   },
   {
     "origin": "Norway",
