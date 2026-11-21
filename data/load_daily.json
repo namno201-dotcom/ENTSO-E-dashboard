@@ -2562,34 +2562,34 @@
   {
     "code": "BE",
     "date": "2026-11-17",
-    "avgMW": 10268.99,
-    "peakMW": 11876.03,
-    "minMW": 8210.91,
+    "avgMW": 10268.78,
+    "peakMW": 11875.72,
+    "minMW": 8210.73,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-11-18",
-    "avgMW": 10174.91,
-    "peakMW": 11933.16,
-    "minMW": 8011.74,
+    "avgMW": 10132.53,
+    "peakMW": 11964.15,
+    "minMW": 8004.5,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-11-19",
-    "avgMW": 10195.55,
-    "peakMW": 11845.56,
-    "minMW": 7812.82,
+    "avgMW": 10196.73,
+    "peakMW": 11841.12,
+    "minMW": 7817.16,
     "readings": 96
   },
   {
     "code": "BE",
     "date": "2026-11-20",
-    "avgMW": 10340.4,
+    "avgMW": 10318.89,
     "peakMW": 11998.0,
     "minMW": 7936.78,
-    "readings": 94
+    "readings": 96
   },
   {
     "code": "DE",
@@ -5170,7 +5170,7 @@
   {
     "code": "DE",
     "date": "2026-11-19",
-    "avgMW": 61366.46,
+    "avgMW": 61366.54,
     "peakMW": 71345.06,
     "minMW": 45136.41,
     "readings": 96
@@ -5178,10 +5178,10 @@
   {
     "code": "DE",
     "date": "2026-11-20",
-    "avgMW": 61931.02,
-    "peakMW": 71550.96,
-    "minMW": 48627.71,
-    "readings": 89
+    "avgMW": 61482.56,
+    "peakMW": 71557.16,
+    "minMW": 48621.79,
+    "readings": 96
   },
   {
     "code": "LU",
@@ -7770,10 +7770,10 @@
   {
     "code": "LU",
     "date": "2026-11-20",
-    "avgMW": 675.96,
+    "avgMW": 673.81,
     "peakMW": 811.12,
     "minMW": 225.73,
-    "readings": 90
+    "readings": 96
   },
   {
     "code": "NL",
@@ -10146,9 +10146,9 @@
   {
     "code": "NL",
     "date": "2026-10-24",
-    "avgMW": 9570.57,
-    "peakMW": 13260.77,
-    "minMW": 6408.45,
+    "avgMW": 12153.43,
+    "peakMW": 14706.11,
+    "minMW": 6561.77,
     "readings": 96
   },
   {
@@ -10362,9 +10362,9 @@
   {
     "code": "NL",
     "date": "2026-11-20",
-    "avgMW": 12734.74,
+    "avgMW": 12700.97,
     "peakMW": 14309.53,
     "minMW": 11400.84,
-    "readings": 93
+    "readings": 96
   }
 ]
