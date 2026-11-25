@@ -1965,7 +1965,13 @@
     "from": "BE",
     "to": "FR",
     "date": "2026-11-24",
-    "netMW": 45.22
+    "netMW": -316.44
+  },
+  {
+    "from": "BE",
+    "to": "FR",
+    "date": "2026-11-25",
+    "netMW": 203.15
   },
   {
     "from": "BE",
@@ -3927,13 +3933,19 @@
     "from": "BE",
     "to": "GB",
     "date": "2026-11-23",
-    "netMW": 487.68
+    "netMW": 426.46
   },
   {
     "from": "BE",
     "to": "GB",
     "date": "2026-11-24",
-    "netMW": -576.06
+    "netMW": -525.9
+  },
+  {
+    "from": "BE",
+    "to": "GB",
+    "date": "2026-11-25",
+    "netMW": -180.35
   },
   {
     "from": "DE",
@@ -4125,175 +4137,175 @@
     "from": "DE",
     "to": "AT",
     "date": "2026-02-01",
-    "netMW": 2361.01
+    "netMW": 2233.33
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-02",
-    "netMW": 2473.65
+    "netMW": 1982.83
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-03",
-    "netMW": 2317.42
+    "netMW": 1970.76
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-04",
-    "netMW": 2275.39
+    "netMW": 1750.57
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-05",
-    "netMW": 2158.29
+    "netMW": 1673.53
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-06",
-    "netMW": 1952.18
+    "netMW": 1374.76
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-07",
-    "netMW": 2439.4
+    "netMW": 2030.56
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-08",
-    "netMW": 2249.85
+    "netMW": 1990.6
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-09",
-    "netMW": 1555.77
+    "netMW": 894.3
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-10",
-    "netMW": 1934.41
+    "netMW": 1626.03
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-11",
-    "netMW": 1940.86
+    "netMW": 1532.31
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-12",
-    "netMW": 1634.64
+    "netMW": 1385.11
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-13",
-    "netMW": 1259.97
+    "netMW": 822.28
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-14",
-    "netMW": 1013.21
+    "netMW": 553.78
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-15",
-    "netMW": 1159.25
+    "netMW": 206.01
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-16",
-    "netMW": 2313.45
+    "netMW": 1837.38
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-17",
-    "netMW": 1720.58
+    "netMW": 1273.39
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-18",
-    "netMW": 1213.23
+    "netMW": 649.21
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-19",
-    "netMW": 1785.66
+    "netMW": 1273.8
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-20",
-    "netMW": 1919.04
+    "netMW": 1593.66
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-21",
-    "netMW": 2505.96
+    "netMW": 2071.78
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-22",
-    "netMW": 2390.6
+    "netMW": 1908.68
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-23",
-    "netMW": 1625.4
+    "netMW": 1336.79
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-24",
-    "netMW": 597.42
+    "netMW": -810.23
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-25",
-    "netMW": 846.45
+    "netMW": 157.78
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-26",
-    "netMW": 1175.79
+    "netMW": 796.21
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-27",
-    "netMW": 1384.98
+    "netMW": 1148.0
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-02-28",
-    "netMW": 1291.68
+    "netMW": 912.62
   },
   {
     "from": "DE",
     "to": "AT",
     "date": "2026-03-01",
-    "netMW": 940.66
+    "netMW": 951.97
   },
   {
     "from": "DE",
@@ -5853,7 +5865,7 @@
     "from": "DE",
     "to": "AT",
     "date": "2026-11-16",
-    "netMW": 1331.13
+    "netMW": 1354.08
   },
   {
     "from": "DE",
@@ -5901,7 +5913,13 @@
     "from": "DE",
     "to": "AT",
     "date": "2026-11-24",
-    "netMW": 351.92
+    "netMW": 357.86
+  },
+  {
+    "from": "DE",
+    "to": "AT",
+    "date": "2026-11-25",
+    "netMW": 1673.28
   },
   {
     "from": "DE",
@@ -7869,7 +7887,13 @@
     "from": "DE",
     "to": "BE",
     "date": "2026-11-24",
-    "netMW": -371.54
+    "netMW": -432.16
+  },
+  {
+    "from": "DE",
+    "to": "BE",
+    "date": "2026-11-25",
+    "netMW": -403.76
   },
   {
     "from": "DE",
@@ -9837,7 +9861,13 @@
     "from": "DE",
     "to": "CH",
     "date": "2026-11-24",
-    "netMW": -64.85
+    "netMW": -433.41
+  },
+  {
+    "from": "DE",
+    "to": "CH",
+    "date": "2026-11-25",
+    "netMW": 584.09
   },
   {
     "from": "DE",
@@ -11757,7 +11787,7 @@
     "from": "DE",
     "to": "CZ",
     "date": "2026-11-16",
-    "netMW": 1124.58
+    "netMW": 1124.38
   },
   {
     "from": "DE",
@@ -11805,7 +11835,13 @@
     "from": "DE",
     "to": "CZ",
     "date": "2026-11-24",
-    "netMW": -1330.87
+    "netMW": -791.13
+  },
+  {
+    "from": "DE",
+    "to": "CZ",
+    "date": "2026-11-25",
+    "netMW": -20.67
   },
   {
     "from": "DE",
@@ -13725,7 +13761,7 @@
     "from": "DE",
     "to": "DK1",
     "date": "2026-11-16",
-    "netMW": 1541.72
+    "netMW": 1544.11
   },
   {
     "from": "DE",
@@ -13773,7 +13809,13 @@
     "from": "DE",
     "to": "DK1",
     "date": "2026-11-24",
-    "netMW": 674.79
+    "netMW": 749.13
+  },
+  {
+    "from": "DE",
+    "to": "DK1",
+    "date": "2026-11-25",
+    "netMW": 788.79
   },
   {
     "from": "DE",
@@ -15741,7 +15783,13 @@
     "from": "DE",
     "to": "FR",
     "date": "2026-11-24",
-    "netMW": -1858.31
+    "netMW": -2207.83
+  },
+  {
+    "from": "DE",
+    "to": "FR",
+    "date": "2026-11-25",
+    "netMW": -1774.28
   },
   {
     "from": "DE",
@@ -17661,7 +17709,7 @@
     "from": "DE",
     "to": "NL",
     "date": "2026-11-16",
-    "netMW": 1261.98
+    "netMW": 1259.7
   },
   {
     "from": "DE",
@@ -17709,7 +17757,13 @@
     "from": "DE",
     "to": "NL",
     "date": "2026-11-24",
-    "netMW": -2363.23
+    "netMW": -2988.03
+  },
+  {
+    "from": "DE",
+    "to": "NL",
+    "date": "2026-11-25",
+    "netMW": -3844.18
   },
   {
     "from": "DE",
@@ -19677,7 +19731,13 @@
     "from": "DE",
     "to": "PL",
     "date": "2026-11-24",
-    "netMW": 20.52
+    "netMW": 371.84
+  },
+  {
+    "from": "DE",
+    "to": "PL",
+    "date": "2026-11-25",
+    "netMW": 1555.92
   },
   {
     "from": "NL",
@@ -20223,187 +20283,187 @@
     "from": "NL",
     "to": "BE",
     "date": "2026-04-01",
-    "netMW": 1745.22
+    "netMW": 1586.27
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-02",
-    "netMW": 0.0
+    "netMW": 2446.51
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-03",
-    "netMW": 0.0
+    "netMW": 1538.14
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-04",
-    "netMW": 0.0
+    "netMW": 2427.94
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-05",
-    "netMW": -16.0
+    "netMW": 1459.5
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-06",
-    "netMW": 0.0
+    "netMW": 2342.77
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-07",
-    "netMW": 0.0
+    "netMW": 2393.08
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-08",
-    "netMW": 0.0
+    "netMW": 2440.45
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-09",
-    "netMW": 0.0
+    "netMW": 2445.67
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-10",
-    "netMW": 0.0
+    "netMW": 2882.89
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-11",
-    "netMW": 0.0
+    "netMW": 2249.59
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-12",
-    "netMW": 0.0
+    "netMW": 1810.08
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-13",
-    "netMW": 0.0
+    "netMW": 1850.14
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-14",
-    "netMW": -155.48
+    "netMW": 1357.39
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-15",
-    "netMW": -144.44
+    "netMW": 455.23
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-16",
-    "netMW": -247.35
+    "netMW": 526.48
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-17",
-    "netMW": -2.32
+    "netMW": 805.28
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-18",
-    "netMW": -83.01
+    "netMW": 740.31
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-19",
-    "netMW": -61.66
+    "netMW": 784.9
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-20",
-    "netMW": 0.0
+    "netMW": 1576.84
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-21",
-    "netMW": 0.0
+    "netMW": 2284.9
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-22",
-    "netMW": -39.48
+    "netMW": 1099.15
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-23",
-    "netMW": 0.0
+    "netMW": 2343.98
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-24",
-    "netMW": 0.0
+    "netMW": 2162.12
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-25",
-    "netMW": 0.0
+    "netMW": 2162.41
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-26",
-    "netMW": -291.3
+    "netMW": -15.73
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-27",
-    "netMW": 0.0
+    "netMW": 1525.28
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-28",
-    "netMW": 0.0
+    "netMW": 2126.8
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-29",
-    "netMW": -62.32
+    "netMW": 644.94
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-04-30",
-    "netMW": -7.62
+    "netMW": 921.09
   },
   {
     "from": "NL",
     "to": "BE",
     "date": "2026-05-01",
-    "netMW": 77.9
+    "netMW": 209.48
   },
   {
     "from": "NL",
@@ -21645,7 +21705,13 @@
     "from": "NL",
     "to": "BE",
     "date": "2026-11-24",
-    "netMW": 1027.29
+    "netMW": 777.84
+  },
+  {
+    "from": "NL",
+    "to": "BE",
+    "date": "2026-11-25",
+    "netMW": 2377.51
   },
   {
     "from": "NL",
@@ -23613,7 +23679,13 @@
     "from": "NL",
     "to": "GB",
     "date": "2026-11-24",
-    "netMW": -375.82
+    "netMW": -382.62
+  },
+  {
+    "from": "NL",
+    "to": "GB",
+    "date": "2026-11-25",
+    "netMW": 137.54
   },
   {
     "from": "NL",
@@ -25173,6 +25245,12 @@
     "from": "NL",
     "to": "NO2",
     "date": "2026-11-24",
-    "netMW": -168.37
+    "netMW": -33.44
+  },
+  {
+    "from": "NL",
+    "to": "NO2",
+    "date": "2026-11-25",
+    "netMW": 575.43
   }
 ]
