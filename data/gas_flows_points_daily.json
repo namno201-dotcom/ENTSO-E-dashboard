@@ -5913,7 +5913,7 @@
     "origin": "Azerbaijan",
     "label": "Kipoi (GR) - TAP/TANAP",
     "date": "2026-11-26",
-    "gwhPerDay": 179.94
+    "gwhPerDay": 310.776
   },
   {
     "origin": "Norway",
@@ -13803,13 +13803,13 @@
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-11-24",
-    "gwhPerDay": 830.283
+    "gwhPerDay": 830.28
   },
   {
     "origin": "Norway",
     "label": "St Fergus (UK)",
     "date": "2026-11-25",
-    "gwhPerDay": 825.882
+    "gwhPerDay": 825.879
   },
   {
     "origin": "Norway",
